@@ -140,6 +140,7 @@
   whitelist:
     components:
     - Vocal
+    - Slime # Imp edit
   blacklist:
     tags:
     - SiliconEmotes
