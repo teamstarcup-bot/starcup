@@ -314,7 +314,7 @@
   id: Crack
   name: chat-emote-name-crack
   category: Hands
-  icon: Interface/Emotes/chirp.png
+  icon: _Impstation/Interface/Emotes/crack.png
   whitelist:
     components:
     - Hands
