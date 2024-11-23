@@ -246,6 +246,10 @@
       path: /Audio/Voice/Vox/shriek1.ogg
     Laugh:
       path: /Audio/Voice/Vox/vox_laugh.ogg
+    VoxHiss:
+      collection: VoxHisses # Imp edit
+    VoxChirp:
+      collection: VoxChirps # Imp edit
     Honk:
       collection: BikeHorn
     Weh:
