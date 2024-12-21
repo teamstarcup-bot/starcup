@@ -82,6 +82,10 @@
     weight: 8
     reoccurrenceDelay: 5 # starcup: prevents anomaly event spamming on lowpop survival
     duration: 35
+    conditions: # Floof - at least one epi member
+    - !type:DepartmentCountCondition
+      department: Epistemics
+      range: {min: 1}
   - type: AnomalySpawnRule
 
 - type: entity
@@ -157,7 +161,7 @@
     prototype: MobSkeletonCloset
 
 - type: entity
-  parent: BaseGameRule
+  parent: BaseGameRuleSecurityRequirement # Floof - changed parent
   id: DragonSpawn
   components:
   - type: StationEvent
@@ -186,7 +190,7 @@
       - MindRoleDragon
 
 - type: entity
-  parent: BaseGameRule
+  parent: BaseGameRuleSecurityRequirement # Floof - changed parent
   id: NinjaSpawn
   components:
   - type: StationEvent
@@ -357,6 +361,70 @@
   - type: KudzuGrowthRule
 
 - type: entity
+<<<<<<< HEAD
+=======
+  id: MeteorSwarm
+  parent: BaseGameRule
+  noSpawn: true
+  components:
+  - type: StationEvent
+    earliestStart: 30
+    weight: 7.5
+    minimumPlayers: 20 # Floof
+    startAnnouncement: true
+    endAnnouncement: true
+    duration: null #ending is handled by MeteorSwarmRule
+    startDelay: 30
+    conditions: # Floof
+    - !type:DepartmentCountCondition
+      department: Engineering
+      range: {min: 2}
+  - type: MeteorSwarmRule
+
+- type: entity
+  id: MouseMigration
+  parent: BaseGameRule
+  noSpawn: true
+  components:
+  - type: StationEvent
+    startAnnouncement: true
+    startDelay: 10
+    earliestStart: 15
+    weight: 6
+    duration: 50
+  - type: VentCrittersRule
+    entries:
+    - id: MobMouse
+      prob: 0.02
+    - id: MobMouse1
+      prob: 0.02
+    - id: MobMouse2
+      prob: 0.02
+    - id: MobMouseCancer
+      prob: 0.001
+    specialEntries:
+    - id: SpawnPointGhostRatKing
+      prob: 0.001
+
+- type: entity
+  id: CockroachMigration
+  parent: BaseGameRule
+  noSpawn: true
+  components:
+  - type: StationEvent
+    startAnnouncement: true
+    startDelay: 10
+    weight: 6
+    duration: 50
+  - type: VentCrittersRule
+    entries:
+    - id: MobCockroach
+      prob: 0.03
+    - id: MobMothroach
+      prob: 0.008
+
+- type: entity
+>>>>>>> 45849fb3da7 (Merge pull request #418 from Mnemotechnician/floof/feat/event-conditions)
   id: PowerGridCheck
   parent: BaseStationEventShortDelay
   components:
@@ -492,8 +560,14 @@
       prob: 0.025 # starcup: 0.05 -> 0.025 to reduce the number of hostile creatures spawned
 
 - type: entity
+<<<<<<< HEAD
   id: ZombieOutbreak
   parent: BaseGameRule
+=======
+  id: LoneOpsSpawn
+  parent: BaseGameRuleSecurityRequirement # Floof - changed parent
+  noSpawn: true
+>>>>>>> 45849fb3da7 (Merge pull request #418 from Mnemotechnician/floof/feat/event-conditions)
   components:
   - type: StationEvent
     earliestStart: 90
