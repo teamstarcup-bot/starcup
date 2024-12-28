@@ -309,7 +309,11 @@
   - SingularityTeslaEngine
   - TEG
   - RTG
+<<<<<<< HEAD
   - SolarPanels
+=======
+  - Supermatter
+>>>>>>> 990fce44441 (Merge pull request #1138 from honeyed-lemons/supermatter)
 
 - type: guideEntry
   id: AME
@@ -350,6 +354,12 @@
   text: "/ServerInfo/Guidebook/Engineering/PortableGenerator.xml"
 
 - type: guideEntry
+<<<<<<< HEAD
   id: SolarPanels
   name: guide-entry-solarpanels
   text: "/ServerInfo/Guidebook/Engineering/SolarPanels.xml"
+=======
+  id: Supermatter
+  name: guide-entry-sm
+  text: "/ServerInfo/Guidebook/Engineering/Supermatter.xml"
+>>>>>>> 990fce44441 (Merge pull request #1138 from honeyed-lemons/supermatter)
