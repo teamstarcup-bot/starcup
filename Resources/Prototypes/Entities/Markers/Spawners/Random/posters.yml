@@ -92,9 +92,20 @@
       - PosterContrabandInterdyne
       - PosterContrabandWaffleCorp
       - PosterContrabandMissingSpacepen
+<<<<<<< HEAD
       - PosterContrabandExoAcid
       - PosterContrabandExoRun
       - PosterContrabandExoChomp
+||||||| parent of 7f70d1e6695 (Ported Starlight Signs (#2741))
+      - PosterContrabandWork # DeltaV Poster, see Resources/Prototypes/_DV/Entities/Structures/Wallmount/Signs/posters.yml
+      - PosterContrabandL6 # DeltaV Poster, see Resources/Prototypes/_DV/Entities/Structures/Wallmount/Signs/posters.yml
+      - PosterContrabandRoid # DeltaV Poster, see Resources/Prototypes/_DV/Entities/Structures/Wallmount/Signs/posters.yml
+=======
+      - PosterContrabandWork # DeltaV Poster, see Resources/Prototypes/_DV/Entities/Structures/Wallmount/Signs/posters.yml
+      - PosterContrabandL6 # DeltaV Poster, see Resources/Prototypes/_DV/Entities/Structures/Wallmount/Signs/posters.yml
+      - PosterContrabandRoid # DeltaV Poster, see Resources/Prototypes/_DV/Entities/Structures/Wallmount/Signs/posters.yml
+      - PosterContrabandYoutoolpia # Starlight Poster, see Resources/Prototypes/_Starlight/Entities/Structures/Wallmount/Signs/signs.yml
+>>>>>>> 7f70d1e6695 (Ported Starlight Signs (#2741))
     chance: 1
 
 - type: entity
@@ -159,7 +170,58 @@
       - PosterLegitSafetyMothHardhat
       - PosterLegitSafetyMothSSD
       - PosterLegitOppenhopper
+<<<<<<< HEAD
       - PosterLegitTyrone
       - PosterLegitMail # DeltaV Poster, see Resources/Prototypes/_DV/Entities/Structures/Wallmount/Signs/posters.yml
       - PosterLegitHelio
+||||||| parent of 7f70d1e6695 (Ported Starlight Signs (#2741))
+      # Begin DeltaV/Nyano Additions
+      - PosterLegitDejaVu # Nyanotrasen Poster, see Resources/Prototypes/Nyanotrasen/Entities/Structures/Wallmount/Signs/posters.yml
+      - PosterLegitDontPanic # Nyanotrasen Poster, see Resources/Prototypes/Nyanotrasen/Entities/Structures/Wallmount/Signs/posters.yml
+      - PosterLegitBarDrinks # Nyanotrasen Poster, see Resources/Prototypes/Nyanotrasen/Entities/Structures/Wallmount/Signs/posters.yml
+      - PosterLegitBotanyFood # Nyanotrasen Poster, see Resources/Prototypes/Nyanotrasen/Entities/Structures/Wallmount/Signs/posters.yml
+      - PosterLegitHotDonkExplosion # Nyanotrasen Poster, see Resources/Prototypes/Nyanotrasen/Entities/Structures/Wallmount/Signs/posters.yml
+      - PosterLegitEatMeat # Nyanotrasen Poster, see Resources/Prototypes/Nyanotrasen/Entities/Structures/Wallmount/Signs/posters.yml
+      - PosterLegitMoreBread # Nyanotrasen Poster, see Resources/Prototypes/Nyanotrasen/Entities/Structures/Wallmount/Signs/posters.yml
+      - PosterLegitPieSlice # Nyanotrasen Poster, see Resources/Prototypes/Nyanotrasen/Entities/Structures/Wallmount/Signs/posters.yml
+      - PosterLegitPizzaHope # Nyanotrasen Poster, see Resources/Prototypes/Nyanotrasen/Entities/Structures/Wallmount/Signs/posters.yml
+      - PosterLegitMedicate # Nyanotrasen Poster, see Resources/Prototypes/Nyanotrasen/Entities/Structures/Wallmount/Signs/posters.yml
+      - PosterLegitNoTouching # Nyanotrasen Poster, see Resources/Prototypes/Nyanotrasen/Entities/Structures/Wallmount/Signs/posters.yml
+      - PosterLegitChknDnnr # Nyanotrasen Poster, see Resources/Prototypes/Nyanotrasen/Entities/Structures/Wallmount/Signs/posters.yml
+      - PosterLegitShoukou # Nyanotrasen Poster, see Resources/Prototypes/Nyanotrasen/Entities/Structures/Wallmount/Signs/posters.yml
+      - PosterLegitCornzza # Nyanotrasen Poster, see Resources/Prototypes/Nyanotrasen/Entities/Structures/Wallmount/Signs/posters.yml
+      - PosterLegitFuckAround
+      - PosterLegitMail
+      - PosterLegitWork
+      - PosterLegitEarth
+      - PosterLegitGetToWork
+      - PosterLegitBananaWarning
+      # End DeltaV/Nyano Additions
+=======
+      # Begin DeltaV/Nyano Additions
+      - PosterLegitDejaVu # Nyanotrasen Poster, see Resources/Prototypes/Nyanotrasen/Entities/Structures/Wallmount/Signs/posters.yml
+      - PosterLegitDontPanic # Nyanotrasen Poster, see Resources/Prototypes/Nyanotrasen/Entities/Structures/Wallmount/Signs/posters.yml
+      - PosterLegitBarDrinks # Nyanotrasen Poster, see Resources/Prototypes/Nyanotrasen/Entities/Structures/Wallmount/Signs/posters.yml
+      - PosterLegitBotanyFood # Nyanotrasen Poster, see Resources/Prototypes/Nyanotrasen/Entities/Structures/Wallmount/Signs/posters.yml
+      - PosterLegitHotDonkExplosion # Nyanotrasen Poster, see Resources/Prototypes/Nyanotrasen/Entities/Structures/Wallmount/Signs/posters.yml
+      - PosterLegitEatMeat # Nyanotrasen Poster, see Resources/Prototypes/Nyanotrasen/Entities/Structures/Wallmount/Signs/posters.yml
+      - PosterLegitMoreBread # Nyanotrasen Poster, see Resources/Prototypes/Nyanotrasen/Entities/Structures/Wallmount/Signs/posters.yml
+      - PosterLegitPieSlice # Nyanotrasen Poster, see Resources/Prototypes/Nyanotrasen/Entities/Structures/Wallmount/Signs/posters.yml
+      - PosterLegitPizzaHope # Nyanotrasen Poster, see Resources/Prototypes/Nyanotrasen/Entities/Structures/Wallmount/Signs/posters.yml
+      - PosterLegitMedicate # Nyanotrasen Poster, see Resources/Prototypes/Nyanotrasen/Entities/Structures/Wallmount/Signs/posters.yml
+      - PosterLegitNoTouching # Nyanotrasen Poster, see Resources/Prototypes/Nyanotrasen/Entities/Structures/Wallmount/Signs/posters.yml
+      - PosterLegitChknDnnr # Nyanotrasen Poster, see Resources/Prototypes/Nyanotrasen/Entities/Structures/Wallmount/Signs/posters.yml
+      - PosterLegitShoukou # Nyanotrasen Poster, see Resources/Prototypes/Nyanotrasen/Entities/Structures/Wallmount/Signs/posters.yml
+      - PosterLegitCornzza # Nyanotrasen Poster, see Resources/Prototypes/Nyanotrasen/Entities/Structures/Wallmount/Signs/posters.yml
+      - PosterLegitFuckAround
+      - PosterLegitMail
+      - PosterLegitWork
+      - PosterLegitEarth
+      - PosterLegitGetToWork
+      - PosterLegitBananaWarning
+      # End DeltaV/Nyano Additions
+      - PosterLegitCalendar # Starlight, see Resources/Prototypes/_Starlight/Entities/Structures/Wallmount/Signs/posters.yml
+      - PosterLegitCleanHands # Starlight, see Resources/Prototypes/_Starlight/Entities/Structures/Wallmount/Signs/posters.yml
+      - PosterLegitEyeChart # Starlight, see Resources/Prototypes/_Starlight/Entities/Structures/Wallmount/Signs/posters.yml
+>>>>>>> 7f70d1e6695 (Ported Starlight Signs (#2741))
     chance: 1
