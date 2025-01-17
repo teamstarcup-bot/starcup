@@ -79,7 +79,7 @@ namespace Content.Client.Crayon.UI
 
         public void TogglePreviewMode(bool previewMode)
         {
-            SendPredictedMessage(new CrayonPreviewModeMessage(previewMode));
+            SendMessage(new CrayonPreviewModeMessage(previewMode));
         }
     }
 }
