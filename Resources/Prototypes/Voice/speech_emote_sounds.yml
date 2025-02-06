@@ -498,6 +498,8 @@
         volume: -6
     Salute:
       collection: Salutes
+    Blink: # Imp addition
+      collection: Blinks
 
 - type: emoteSounds
   id: DionaBodyEmotes
@@ -515,6 +517,8 @@
       path: /Audio/Voice/Diona/diona_salute.ogg
       params:
        volume: -5
+    Blink: # Imp addition
+      collection: Blinks
 
 - type: emoteSounds
   id: ReptilianBodyEmotes
@@ -533,6 +537,10 @@
         volume: -6
     Salute:
       collection: Salutes
+
+# mobs
+    Blink: # Imp addition
+      collection: Blinks
 
 # mobs
 - type: emoteSounds
