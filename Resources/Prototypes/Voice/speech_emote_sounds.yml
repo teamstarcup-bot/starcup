@@ -521,6 +521,8 @@
        volume: -5
     Blink: # Imp addition
       collection: Blinks
+      params:
+        volume: -3
 
 - type: emoteSounds
   id: ReptilianBodyEmotes
@@ -543,6 +545,8 @@
 # mobs
     Blink: # Imp addition
       collection: Blinks
+      params:
+        volume: -3
 
 # mobs
 - type: emoteSounds
