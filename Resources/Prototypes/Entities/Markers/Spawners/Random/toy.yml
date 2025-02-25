@@ -6,8 +6,8 @@
     - type: Sprite
       layers:
         - state: red
-        - sprite: Objects/Fun/Plushies/bee.rsi
-          state: icon
+        - sprite: Objects/Fun/toys.rsi
+          state: plushie_h
     - type: RandomSpawner
       rarePrototypes:
         - FoamBlade
@@ -33,7 +33,11 @@
         - ToyAmongPequeno
         - ToyMouse
         - PlushieDiona
+        - PlushieMoth
+        - PlushieMothRandom # Nyanotrasen Random Moth Plushies
         - PlushieArachind
+        - PlushieMort # DeltaV Toy, see Resources/Prototypes/_DV/Entities/Objects/Fun/toys.yml
+        - PlushieIPC # DeltaV Toy, see Resources/Prototypes/_DV/Entities/Objects/Fun/toys.yml
       chance: 0.5
       offset: 0.2
 
@@ -69,6 +73,9 @@
         - ToyDurand
         - ToySkeleton
         - MysteryFigureBox
+        - ToyZero # DeltaV Toy, see Resources/Prototypes/_DV/Entities/Objects/Fun/toys.yml
+        - ToyRenault # DeltaV Toy, see Resources/Prototypes/_DV/Entities/Objects/Fun/toys.yml
+        - ToySiobhan # DeltaV Toy, see Resources/Prototypes/_DV/Entities/Objects/Fun/toys.yml
       chance: 0.5
       offset: 0.2
 
@@ -93,7 +100,7 @@
       - ToyFigurineMime
       - ToyFigurineMusician
       - ToyFigurineBoxer
-      - ToyFigurineCaptainSyndie # starcup: command recolors
+      - ToyFigurineCaptain
       - ToyFigurineHeadOfSecurity
       - ToyFigurineWarden
       - ToyFigurineDetective
@@ -111,7 +118,7 @@
       - ToyFigurineChemist
       - ToyFigurineParamedic
       - ToyFigurineMedicalDoctor
-      - ToyFigurineHeadOfPersonnelSyndie # starcup: command recolors
+      - ToyFigurineHeadOfPersonnel
       - ToyFigurineLibrarian
       - ToyFigurineChaplain
       - ToyFigurineChef
