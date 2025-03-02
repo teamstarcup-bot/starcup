@@ -109,6 +109,17 @@
   - type: StationAiWhitelist
 
 - type: entity
+  id: FireAlarmAutoLink
+  parent: FireAlarm
+  suffix: Autolink
+  components:
+    - type: AlarmAutoLink
+      autoLinkPrototypes:
+        - AirSensor
+        - Firelock
+        - FirelockGlass
+
+- type: entity
   parent: BaseWallmountMetallic
   id: FireAlarmAssembly
   name: fire alarm assembly
@@ -164,3 +175,4 @@
   components:
   - type: Sprite
     sprite: Structures/Wallmounts/air_monitors_xeno.rsi
+
