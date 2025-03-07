@@ -115,15 +115,15 @@
   parent: AirAlarm
   suffix: Autolink
   components:
-    - type: AlarmAutoLink
-      autoLinkPrototypes:
-        - GasVentScrubber
-        - GasVentPump
-        - GasDualPortVentPump
-        - AirSensor
-        - Firelock
-        - FirelockGlass
-        - FirelockEdge
+  - type: AlarmAutoLink
+    autoLinkPrototypes:
+    - GasVentScrubber
+    - GasVentPump
+    - GasDualPortVentPump
+    - AirSensor
+    - Firelock
+    - FirelockGlass
+    - FirelockEdge
 
 - type: entity
   parent: BaseWallmountMetallic
@@ -188,4 +188,3 @@
   components:
   - type: Sprite
     sprite: Structures/Wallmounts/air_monitors_xeno.rsi
-
