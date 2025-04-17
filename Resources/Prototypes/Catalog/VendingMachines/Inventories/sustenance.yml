@@ -7,6 +7,10 @@
     FoodCondimentPacketKetchup: 5
     # Begin DeltaV Additions
     ReagentTinPowderedMilk: 2
+    FoodPSB: 5
+    FoodTinMRE: 3
+    FoodTinPeaches: 3
+    BoxMRE: 3
     ReagentTinPowderedMilkSoy: 2
     ReagentTinPowderedJuiceOrange: 1
     ReagentTinPowderedJuiceLime: 1

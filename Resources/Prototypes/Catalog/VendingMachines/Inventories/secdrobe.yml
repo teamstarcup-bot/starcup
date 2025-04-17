@@ -19,6 +19,9 @@
     ClothingHeadsetSecurity: 3
     ClothingOuterWinterSec: 2
     ClothingOuterArmorBasic: 2
+    ClothingUniformJumpsuitPrisoner: 3 # DeltaV - added prison jumpsuits
+    ClothingUniformJumpskirtPrisoner: 3 # DeltaV - added prison jumpskirts
+    ClothingHeadsetPrison: 3 # DeltaV - prison headsets in secdrobe
     ClothingNeckScarfStripedRed: 3
     ClothingOuterArmorBasicSlim: 2
     ClothingEyesBlindfold: 1

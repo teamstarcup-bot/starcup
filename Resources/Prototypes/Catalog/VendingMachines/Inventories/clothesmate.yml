@@ -56,6 +56,29 @@
     ClothingUniformJumpskirtCasualRed: 2
     ClothingUniformJumpsuitCasualGreen: 2
     ClothingUniformJumpskirtCasualGreen: 2
+<<<<<<< HEAD
+||||||| parent of 2898d502a28 (Added stuff to vending machine stocks (#3455))
+    # Begin Nyano Additions
+    ClothingUniformJumpsuitTshirtJeans: 2
+    ClothingUniformJumpsuitTshirtJeansGray: 2
+    ClothingUniformJumpsuitTshirtJeansPeach: 2
+    ClothingUniformJumpsuitJeansGreen: 2
+    ClothingUniformJumpsuitJeansRed: 2
+    ClothingUniformJumpsuitJeansBrown: 2
+    ClothingUniformJumpsuitLostTourist: 2
+    # End Nyano Additions
+=======
+    # Begin Nyano Additions
+    ClothingUniformJumpsuitTshirtJeans: 2
+    ClothingUniformJumpsuitTshirtJeansGray: 2
+    ClothingUniformJumpsuitTshirtJeansPeach: 2
+    ClothingUniformJumpsuitJeansGreen: 2
+    ClothingUniformJumpsuitJeansRed: 2
+    ClothingUniformJumpsuitJeansBrown: 2
+    ClothingUniformJumpsuitLostTourist: 2
+    # End Nyano Additions
+    ClothingShoesTourist: 2 # DeltaV - add tourist shoes
+>>>>>>> 2898d502a28 (Added stuff to vending machine stocks (#3455))
     # DO NOT ADD MORE, USE UNIFORM DYING
     ClothingShoesColorBlack: 8
     ClothingShoesColorBrown: 4
@@ -99,6 +122,7 @@
     ClothingHandsGlovesColorPurple: 2
     ClothingEyesGlassesCheapSunglasses: 3
     # DO NOT ADD MORE, USE UNIFORM DYING
+<<<<<<< HEAD
     # begin imp
     ClothingShoesHeelsRed: 4
     ClothingShoesHeelsBlack: 4
@@ -106,6 +130,22 @@
     ClothingShoesHeelsGreen: 2
     ClothingShoesHeelsBrown: 2
     # end imp
+||||||| parent of 2898d502a28 (Added stuff to vending machine stocks (#3455))
+=======
+    # Begin DeltaV additions
+    ClothingUniformJumpsuitSuitBlackAlt: 2
+    ClothingUniformJumpsuitSuitBlack: 2
+    ClothingUniformJumpsuitSuitWhiteAlt: 2
+    ClothingUniformJumpsuitSuitBrown: 2
+    ClothingUniformJumpsuitSuitBrownMob: 2
+    ClothingUniformJumpsuitSuitBlackMob: 2
+    ClothingUniformJumpsuitSuitWhiteMob: 2
+    ClothingUniformBrownSuit: 2
+    ClothingUniformBrownSuitSkirt: 2
+    ClothingShoesLeather: 2
+    ClothingShoesBootsLaceup: 2
+    # End DeltaV additions
+>>>>>>> 2898d502a28 (Added stuff to vending machine stocks (#3455))
   contrabandInventory:
     ClothingMaskNeckGaiter: 2
     ClothingUniformJumpsuitTacticool: 1

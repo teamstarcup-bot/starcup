@@ -32,7 +32,13 @@
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockClothesFilled
+<<<<<<< HEAD
   cost: 3300 # starcup: this changes almost every time more clothes are added; it should generally only increase
+||||||| parent of 2898d502a28 (Added stuff to vending machine stocks (#3455))
+  cost: 3650 # starcup: this changes almost every time more clothes are added; it should generally only increase
+=======
+  cost: 3875 # starcup: this changes almost every time more clothes are added; it should generally only increase
+>>>>>>> 2898d502a28 (Added stuff to vending machine stocks (#3455))
   category: cargoproduct-category-name-service
   group: market
 
@@ -42,7 +48,13 @@
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockAutoDrobeFilled
+<<<<<<< HEAD
   cost: 2500
+||||||| parent of 2898d502a28 (Added stuff to vending machine stocks (#3455))
+  cost: 2250
+=======
+  cost: 2450
+>>>>>>> 2898d502a28 (Added stuff to vending machine stocks (#3455))
   category: cargoproduct-category-name-service
   group: market
 
