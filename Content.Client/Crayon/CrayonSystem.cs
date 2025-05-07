@@ -38,10 +38,19 @@ public sealed class CrayonSystem : SharedCrayonSystem
         SubscribeLocalEvent<CrayonComponent, ComponentShutdown>(OnShutdown);
     }
 
-    private void OnAfterHandleState(Entity<CrayonComponent> crayon, ref AfterAutoHandleStateEvent args)
+    private static void OnCrayonHandleState(EntityUid uid, CrayonComponent component, ref ComponentHandleState args)
     {
-        crayon.Comp.UIUpdateNeeded = true;
-        UpdateOverlayInternal(crayon.Comp.State, crayon.Comp.Rotation, crayon.Comp.Color, crayon.Comp.PreviewMode);
+        if (args.Current is not CrayonComponentState state) return;
+
+        component.Color = state.Color;
+        component.SelectedState = state.State;
+        component.Charges = state.Charges;
+        component.Capacity = state.Capacity;
+        component.SelectedState = state.State;
+        component.Rotation = state.Rotation;
+        component.PreviewMode = state.PreviewMode;
+
+        component.UIUpdateNeeded = true;
     }
 
     private sealed class StatusControl : Control
