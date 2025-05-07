@@ -24,5 +24,17 @@ namespace Content.Server.Crayon
         [ViewVariables(VVAccess.ReadWrite)]
         [DataField("deleteEmpty")]
         public bool DeleteEmpty = true;
+
+        /// <summary>
+        /// The stored rotation for this crayon's decal, in degrees.
+        /// </summary>
+        [DataField]
+        public float Rotation;
+
+        /// <summary>
+        /// The active/unactive status of the preview mode overlay for this crayon.
+        /// </summary>
+        [DataField]
+        public bool PreviewMode;
     }
 }
