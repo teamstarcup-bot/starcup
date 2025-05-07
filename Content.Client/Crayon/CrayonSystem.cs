@@ -11,6 +11,7 @@ using Robust.Client.GameObjects;
 using Robust.Client.Graphics;
 using Robust.Client.UserInterface;
 using Robust.Client.UserInterface.Controls;
+using Robust.Shared.GameStates;
 using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Timing;
@@ -36,6 +37,11 @@ public sealed class CrayonSystem : SharedCrayonSystem
         SubscribeLocalEvent<LocalPlayerDetachedEvent>(OnPlayerDetached);
         SubscribeLocalEvent<RoundRestartCleanupEvent>(OnRoundRestart);
         SubscribeLocalEvent<CrayonComponent, ComponentShutdown>(OnShutdown);
+    }
+
+    public override void Shutdown()
+    {
+        base.Shutdown();
     }
 
     private static void OnCrayonHandleState(EntityUid uid, CrayonComponent component, ref ComponentHandleState args)
@@ -78,8 +84,8 @@ public sealed class CrayonSystem : SharedCrayonSystem
 
             _parent.UIUpdateNeeded = false;
             _label.SetMarkup(Robust.Shared.Localization.Loc.GetString("crayon-drawing-label",
-                ("color", _parent.Color),
-                ("state", _parent.State),
+                ("color",_parent.Color),
+                ("state",_parent.SelectedState),
                 ("charges", _parent.Charges),
                 ("capacity", _parent.Capacity),
                 ("rotation", _parent.Rotation)));
@@ -99,6 +105,26 @@ public sealed class CrayonSystem : SharedCrayonSystem
         {
             _overlay.AddOverlay(new CrayonDecalPlacementOverlay(_placement, _transform, _sprite, _interaction, GetDecal(state), Angle.FromDegrees(rotation), color));
         }
+    }
+
+    private void OnCrayonOverlayUpdate(CrayonOverlayUpdateEvent args)
+    {
+        UpdateOverlayInternal(args.State, args.Rotation, args.Color, args.PreviewMode);
+    }
+
+    private void OnCrayonSelectMessage(EntityUid uid, CrayonComponent component, ref CrayonSelectMessage args)
+    {
+        UpdateOverlayInternal(args.State, component.Rotation, component.Color, component.PreviewMode);
+    }
+
+    private void OnCrayonColorMessage(EntityUid uid, CrayonComponent component, ref CrayonColorMessage args)
+    {
+        UpdateOverlayInternal(component.SelectedState, component.Rotation, args.Color, component.PreviewMode);
+    }
+
+    private void OnCrayonRotationMessage(EntityUid uid, CrayonComponent component, ref CrayonRotationMessage args)
+    {
+        UpdateOverlayInternal(component.SelectedState, args.Rotation, component.Color, component.PreviewMode);
     }
 
     private void OnPlayerDetached(LocalPlayerDetachedEvent args)

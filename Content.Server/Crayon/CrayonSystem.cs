@@ -160,12 +160,18 @@ public sealed class CrayonSystem : SharedCrayonSystem
 
     private void OnBuiClosed(EntityUid uid, CrayonComponent component, BoundUIClosedEvent args)
     {
-        DisablePreviewMode(uid, component);
+        component.PreviewMode = false;
+        Dirty(uid, component);
+        _uiSystem.SetUiState(uid, SharedCrayonComponent.CrayonUiKey.Key, new CrayonBoundUserInterfaceState(component.SelectedState, component.SelectableColor, component.Color, component.Rotation, component.PreviewMode));
+        RaiseNetworkEvent(new CrayonOverlayUpdateEvent(component.SelectedState, component.Rotation, component.Color, component.PreviewMode));
     }
 
     private void OnHandDeselected(EntityUid uid, CrayonComponent component, ref HandDeselectedEvent args)
     {
-        DisablePreviewMode(uid, component);
+        component.PreviewMode = false;
+        Dirty(uid, component);
+        _uiSystem.SetUiState(uid, SharedCrayonComponent.CrayonUiKey.Key, new CrayonBoundUserInterfaceState(component.SelectedState, component.SelectableColor, component.Color, component.Rotation, component.PreviewMode));
+        RaiseNetworkEvent(new CrayonOverlayUpdateEvent(component.SelectedState, component.Rotation, component.Color, component.PreviewMode));
     }
 
     private void OnGotUnequipped(EntityUid uid, CrayonComponent component, ref GotUnequippedEvent args)
