@@ -125,6 +125,52 @@ public sealed class CrayonSystem : SharedCrayonSystem
 
     }
 
+    private void OnCrayonBoundUIRotation(EntityUid uid, CrayonComponent component, CrayonRotationMessage args)
+    {
+        component.Rotation = args.Rotation;
+        Dirty(uid, component);
+    }
+
+    private void OnCrayonBoundUIPreviewMode(EntityUid uid, CrayonComponent component, CrayonPreviewModeMessage args)
+    {
+        if (TryComp<HandsComponent>(args.Actor, out var hands) &&
+            TryComp<CrayonComponent>(hands.ActiveHandEntity, out var crayon) &&
+            hands.ActiveHandEntity == uid)
+        {
+            // Only toggle the overlay if the user is holding a crayon in their active hand
+            // and check if it is the same crayon that sent the request
+            component.PreviewMode = args.PreviewMode;
+            Dirty(uid, component);
+        }
+        else
+        {
+            // failed to enable, reset button toggle
+            _uiSystem.SetUiState(uid, CrayonComponent.CrayonUiKey.Key, new CrayonBoundUserInterfaceState(component.State, component.SelectableColor, component.Color, component.Rotation, component.PreviewMode));
+        }
+    }
+
+    private void OnBuiClosed(Entity<CrayonComponent> ent, ref BoundUIClosedEvent args)
+    {
+        DisablePreviewMode(ent);
+    }
+
+    private void OnHandDeselected(Entity<CrayonComponent> ent, ref HandDeselectedEvent args)
+    {
+        DisablePreviewMode(ent);
+    }
+
+    private void OnGotUnequipped(Entity<CrayonComponent> ent, ref GotUnequippedEvent args)
+    {
+        DisablePreviewMode(ent);
+    }
+
+    private void DisablePreviewMode(Entity<CrayonComponent> ent)
+    {
+        ent.Comp.PreviewMode = false;
+        Dirty(ent);
+        _uiSystem.SetUiState(ent.Owner, CrayonComponent.CrayonUiKey.Key, new CrayonBoundUserInterfaceState(ent.Comp.State, ent.Comp.SelectableColor, ent.Comp.Color, ent.Comp.Rotation, ent.Comp.PreviewMode));
+    }
+
     private void OnCrayonInit(EntityUid uid, CrayonComponent component, ComponentInit args)
     {
         // Get the first one from the catalog and set it as default
