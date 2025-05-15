@@ -3,6 +3,7 @@ using System.Linq;
 using System.Text;
 using Content.Server.Administration.Logs;
 using Content.Server.Administration.Managers;
+using Content.Server.Atmos.EntitySystems;
 using Content.Server.Chat.Managers;
 using Content.Server.GameTicking;
 using Content.Server.Speech.EntitySystems;
@@ -34,6 +35,14 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using Robust.Shared.Replays;
 using Robust.Shared.Utility;
+using Content.Server.Shuttles.Components;
+using Content.Shared.Actions;
+using Robust.Shared.Map;
+using Robust.Shared.Physics.Components;
+using Robust.Shared.Physics.Dynamics.Joints;
+using Content.Server.Effects;
+using Content.Shared._L5.CCVar;
+using Content.Shared.Coordinates;
 
 namespace Content.Server.Chat.Systems;
 
@@ -54,12 +63,34 @@ public sealed partial class ChatSystem : SharedChatSystem
     [Dependency] private readonly IRobustRandom _random = default!;
     [Dependency] private readonly IAdminLogManager _adminLogger = default!;
     [Dependency] private readonly ActionBlockerSystem _actionBlocker = default!;
+    [Dependency] private readonly AtmosphereSystem _atmosphere = default!;
     [Dependency] private readonly StationSystem _stationSystem = default!;
     [Dependency] private readonly MobStateSystem _mobStateSystem = default!;
     [Dependency] private readonly SharedAudioSystem _audio = default!;
     [Dependency] private readonly ReplacementAccentSystem _wordreplacement = default!;
     [Dependency] private readonly EntityWhitelistSystem _whitelistSystem = default!;
     [Dependency] private readonly ExamineSystemShared _examineSystem = default!;
+<<<<<<< HEAD
+||||||| parent of 967e6d93c72 (Limit chat by occlusion and pressure (#213))
+
+    //Nyano - Summary: pulls in the nyano chat system for psionics.
+    [Dependency] private readonly NyanoChatSystem _nyanoChatSystem = default!;
+
+    public const int VoiceRange = 10; // how far voice goes in world units
+    public const int WhisperClearRange = 2; // how far whisper goes while still being understandable, in world units
+    public const int WhisperMuffledRange = 5; // how far whisper goes at all, in world units
+    public const string DefaultAnnouncementSound = "/Audio/Announcements/announce.ogg";
+=======
+    [Dependency] private readonly SharedMapSystem _mapSystem = default!;
+
+    //Nyano - Summary: pulls in the nyano chat system for psionics.
+    [Dependency] private readonly NyanoChatSystem _nyanoChatSystem = default!;
+
+    public const int VoiceRange = 10; // how far voice goes in world units
+    public const int WhisperClearRange = 2; // how far whisper goes while still being understandable, in world units
+    public const int WhisperMuffledRange = 5; // how far whisper goes at all, in world units
+    public const string DefaultAnnouncementSound = "/Audio/Announcements/announce.ogg";
+>>>>>>> 967e6d93c72 (Limit chat by occlusion and pressure (#213))
 
     private bool _loocEnabled = true;
     private bool _deadLoocEnabled;
@@ -251,13 +282,81 @@ public sealed partial class ChatSystem : SharedChatSystem
         switch (desiredType)
         {
             case InGameICChatType.Speak:
-                SendEntitySpeak(source, message, range, nameOverride, hideLog, ignoreActionBlocker);
+                SendEntitySpeak(
+                    source,
+                    message,
+                    range,
+                    nameOverride,
+                    hideLog,
+                    ignoreActionBlocker
+                    );
                 break;
             case InGameICChatType.Whisper:
-                SendEntityWhisper(source, message, range, null, nameOverride, hideLog, ignoreActionBlocker);
+                SendEntityWhisper(
+                    source,
+                    message,
+                    range,
+                    null,
+                    nameOverride,
+                    hideLog,
+                    ignoreActionBlocker
+                    );
                 break;
             case InGameICChatType.Emote:
+<<<<<<< HEAD
                 SendEntityEmote(source, message, range, nameOverride, hideLog: hideLog, ignoreActionBlocker: ignoreActionBlocker);
+||||||| parent of 967e6d93c72 (Limit chat by occlusion and pressure (#213))
+                SendEntityEmote(source, message, range, nameOverride, hideLog: hideLog, ignoreActionBlocker: ignoreActionBlocker);
+                break;
+            case InGameICChatType.Subtle:
+                SendEntitySubtle(source, message, range, nameOverride, hideLog: hideLog, ignoreActionBlocker: ignoreActionBlocker, color: color);
+                break;
+            case InGameICChatType.SubtleOOC:
+                SendEntitySubtle(source, $"ooc: {message}", range, nameOverride, hideLog: hideLog, ignoreActionBlocker: ignoreActionBlocker, color: color);
+                break;
+            //Nyano - Summary: case adds the telepathic chat sending ability.
+            case InGameICChatType.Telepathic:
+                _nyanoChatSystem.SendTelepathicChat(source, message, range == ChatTransmitRange.HideChat);
+=======
+                SendEntityEmote(
+                    source,
+                    message,
+                    range,
+                    nameOverride,
+                    hideLog: hideLog,
+                    ignoreActionBlocker: ignoreActionBlocker
+                    );
+                break;
+            case InGameICChatType.Subtle:
+                SendEntitySubtle(
+                    source,
+                    message,
+                    range,
+                    nameOverride,
+                    hideLog: hideLog,
+                    ignoreActionBlocker: ignoreActionBlocker,
+                    color: color
+                    );
+                break;
+            case InGameICChatType.SubtleOOC:
+                SendEntitySubtle(
+                    source,
+                    $"ooc: {message}",
+                    range,
+                    nameOverride,
+                    hideLog: hideLog,
+                    ignoreActionBlocker: ignoreActionBlocker,
+                    color: color
+                    );
+                break;
+            //Nyano - Summary: case adds the telepathic chat sending ability.
+            case InGameICChatType.Telepathic:
+                _nyanoChatSystem.SendTelepathicChat(
+                    source,
+                    message,
+                    range == ChatTransmitRange.HideChat
+                    );
+>>>>>>> 967e6d93c72 (Limit chat by occlusion and pressure (#213))
                 break;
         }
     }
@@ -304,7 +403,7 @@ public sealed partial class ChatSystem : SharedChatSystem
                 SendDeadChat(source, player, message, hideChat);
                 break;
             case InGameOOCChatType.Looc:
-                SendLOOC(source, player, message, hideChat);
+                SendLOOC(source, player, message, hideChat, checkLOS: _configurationManager.GetCVar(L5CCVars.LOOCRespectsLOS));
                 break;
         }
     }
@@ -431,6 +530,10 @@ public sealed partial class ChatSystem : SharedChatSystem
 
         var speech = GetSpeechVerb(source, message);
 
+        var obfuscatedMessage = ObfuscateMessageReadability(message, 0.2f);
+
+        // get the entity's name by visual identity (if no override provided).
+        string nameIdentity = FormattedMessage.EscapeText(nameOverride ?? Identity.Name(source, EntityManager));
         // get the entity's apparent name (if no override provided).
         string name;
         if (nameOverride != null)
@@ -456,7 +559,20 @@ public sealed partial class ChatSystem : SharedChatSystem
             ("fontSize", speech.FontSize),
             ("message", FormattedMessage.EscapeText(message)));
 
-        SendInVoiceRange(ChatChannel.Local, message, wrappedMessage, source, range);
+        var wrappedObfuscatedMessage = Loc.GetString("chat-manager-entity-whisper-wrap-message",
+            ("entityName", nameIdentity), ("message", FormattedMessage.EscapeText(obfuscatedMessage)));
+
+        SendInVoiceRange(
+            ChatChannel.Local,
+            name,
+            message,
+            wrappedMessage,
+            obfuscatedMessage,
+            wrappedObfuscatedMessage,
+            source,
+            range,
+            checkLOS: _configurationManager.GetCVar(L5CCVars.SpeechRespectsLOS)
+            );
 
         var ev = new EntitySpokeEvent(source, message, null, null);
         RaiseLocalEvent(source, ev, true);
@@ -604,11 +720,32 @@ public sealed partial class ChatSystem : SharedChatSystem
             ("message", formattedMessage),  // starcup: possessive case emotes
             ("space", space));  // starcup: possessive case emotes
 
+<<<<<<< HEAD
         if (checkEmote &&
             !TryEmoteChatInput(source, action))
             return;
 
         SendInVoiceRange(ChatChannel.Emotes, action, wrappedMessage, source, range, author);
+||||||| parent of 967e6d93c72 (Limit chat by occlusion and pressure (#213))
+        if (checkEmote)
+            TryEmoteChatInput(source, action);
+        SendInVoiceRange(ChatChannel.Emotes, action, wrappedMessage, source, range, author);
+=======
+        if (checkEmote)
+            TryEmoteChatInput(source, action);
+        SendInVoiceRange(
+            ChatChannel.Emotes,
+            name,
+            action,
+            wrappedMessage,
+            obfuscated: "",
+            obfuscatedWrappedMessage: "",
+            source,
+            range,
+            author,
+            checkLOS: _configurationManager.GetCVar(L5CCVars.EmoteRespectsLOS) // Floofstation: some things don't go through walls (but they go through windows!)
+            );
+>>>>>>> 967e6d93c72 (Limit chat by occlusion and pressure (#213))
         if (!hideLog)
             if (name != Name(source))
                 _adminLogger.Add(LogType.Chat, LogImpact.Low, $"Emote from {ToPrettyString(source):user} as {name}: {action}");
@@ -617,7 +754,7 @@ public sealed partial class ChatSystem : SharedChatSystem
     }
 
     // ReSharper disable once InconsistentNaming
-    private void SendLOOC(EntityUid source, ICommonSession player, string message, bool hideChat)
+    private void SendLOOC(EntityUid source, ICommonSession player, string message, bool hideChat, bool checkLOS)
     {
         var name = FormattedMessage.EscapeText(Identity.Name(source, EntityManager));
 
@@ -635,7 +772,14 @@ public sealed partial class ChatSystem : SharedChatSystem
             ("entityName", name),
             ("message", FormattedMessage.EscapeText(message)));
 
-        SendInVoiceRange(ChatChannel.LOOC, message, wrappedMessage, source, hideChat ? ChatTransmitRange.HideChat : ChatTransmitRange.Normal, player.UserId);
+        SendInVoiceRange(ChatChannel.LOOC, name, message, wrappedMessage,
+            obfuscated: string.Empty,
+            obfuscatedWrappedMessage: string.Empty, // will be skipped anyway
+            source,
+            hideChat ? ChatTransmitRange.HideChat : ChatTransmitRange.Normal,
+            player.UserId,
+            checkLOS: checkLOS
+            );
         _adminLogger.Add(LogType.Chat, LogImpact.Low, $"LOOC from {player:Player}: {message}");
     }
 
@@ -716,14 +860,53 @@ public sealed partial class ChatSystem : SharedChatSystem
     /// <summary>
     ///     Sends a chat message to the given players in range of the source entity.
     /// </summary>
-    private void SendInVoiceRange(ChatChannel channel, string message, string wrappedMessage, EntityUid source, ChatTransmitRange range, NetUserId? author = null)
+    private void SendInVoiceRange(
+        ChatChannel channel,
+        string name,
+        string message,
+        string wrappedMessage,
+        string obfuscated,
+        string obfuscatedWrappedMessage,
+        EntityUid source,
+        ChatTransmitRange range,
+        NetUserId? author = null,
+        bool checkLOS = false
+        )
     {
+        // Get the current pressure at the point of the voice source.
+        var currentSourcePressure = 0f;
+        var sourceTileMixture = _atmosphere.GetContainingMixture(source, true);
+        if (sourceTileMixture != null)
+            currentSourcePressure = sourceTileMixture.Pressure;
+
+        var minPresure = _configurationManager.GetCVar(L5CCVars.MinSoundTransmitPressure);
+        var inSpaceRange = _configurationManager.GetCVar(L5CCVars.InSpaceRange);
+
         foreach (var (session, data) in GetRecipients(source, VoiceRange))
         {
+            if (channel != ChatChannel.LOOC && channel != ChatChannel.Emotes && session.AttachedEntity != null)
+            {
+                // Get the current pressure at the point of the recipient
+                var currentRecipientPressure = 0f;
+                var recipientTileMixture = _atmosphere.GetContainingMixture(session.AttachedEntity.Value, true);
+                if (recipientTileMixture != null)
+                    currentRecipientPressure = recipientTileMixture.Pressure;
+
+                // If the pressure at the source or recipient is too low, set the transmit range to ~touch distance.
+                float transmitRange = VoiceRange;
+                if (currentSourcePressure < minPresure || currentRecipientPressure < minPresure)
+                    transmitRange = inSpaceRange;
+
+                if (!data.Observer && Transform(source).Coordinates.TryDistance(EntityManager, Transform(session.AttachedEntity.Value).Coordinates, out var distance) && distance > transmitRange)
+                    continue;
+            }
             var entRange = MessageRangeCheck(session, data, range);
             if (entRange == MessageRangeCheckResult.Disallowed)
                 continue;
             var entHideChat = entRange == MessageRangeCheckResult.HideChat;
+            if (checkLOS && !data.Observer && !data.InLOS)
+                continue; // Floofstation: some things dont go through walls (but they go through windows!)
+
             _chatManager.ChatMessageToOne(channel, message, wrappedMessage, source, entHideChat, session.Channel, author: author);
         }
 
@@ -862,22 +1045,35 @@ public sealed partial class ChatSystem : SharedChatSystem
 
             var observer = ghostHearing.HasComponent(playerEntity);
 
+            sourceCoords.TryDistance(EntityManager, transformEntity.Coordinates, out var distance);
+
+            // InRangeUnOccluded does this check, but it also checks for occlusion
+            // which doesn't really work for modes that are supposed to go through walls, like Speak
+            var inRange = distance <= voiceGetRange;
+
+            var isVisible = observer || (inRange && _examineSystem.InRangeUnOccluded(source, playerEntity, voiceGetRange));
+
             // even if they are a ghost hearer, in some situations we still need the range
-            if (sourceCoords.TryDistance(EntityManager, transformEntity.Coordinates, out var distance) && distance < voiceGetRange)
+            if (inRange)
             {
-                recipients.Add(player, new ICChatRecipientData(distance, observer));
+                recipients.Add(player, new ICChatRecipientData(distance, observer, InLOS: isVisible));
                 continue;
             }
 
             if (observer)
-                recipients.Add(player, new ICChatRecipientData(-1, true));
+                recipients.Add(player, new ICChatRecipientData(-1, true, InLOS: isVisible));
         }
 
         RaiseLocalEvent(new ExpandICChatRecipientsEvent(source, voiceGetRange, recipients));
         return recipients;
     }
 
-    public readonly record struct ICChatRecipientData(float Range, bool Observer, bool? HideChatOverride = null)
+    public readonly record struct ICChatRecipientData(
+        float Range,
+        bool Observer,
+        bool? HideChatOverride = null,
+        bool InLOS = true // Floofstation: Detects if the player can see the entity speaking (for emotes, etc.)
+        )
     {
     }
 
