@@ -13,7 +13,13 @@
 - type: startingGear
   id: CargoAssistantGear
   equipment:
+<<<<<<< HEAD
     id: CargoAssistantPDA
+=======
+    shoes: ClothingShoesColorBlack
+    neck: ClothingNeckNoviceMark # imp
+    id: SupplyAssistantPDA
+>>>>>>> b52027648a (Novice's mark (#2626))
     ears: ClothingHeadsetCargo
 
 # begin starcup: add chameleon outfit

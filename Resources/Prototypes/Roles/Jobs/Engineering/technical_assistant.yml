@@ -26,9 +26,11 @@
   equipment:
 #    shoes: ClothingShoesBootsWork # starcup: replaced by loadout
     id: TechnicalAssistantPDA
+    neck: ClothingNeckNoviceMark # imp
     belt: ClothingBeltUtilityEngineering
     ears: ClothingHeadsetEngineering
     pocket2: BookEngineersHandbook
+<<<<<<< HEAD
   #storage:
     #back:
     #- Stuff
@@ -43,3 +45,8 @@
     neck: ClothingNeckScarfStripedOrange
     outerClothing: ClothingOuterVestHazard
     gloves: ClothingHandsGlovesColorYellow
+=======
+  # storage:
+  #   back:
+  #   - Stuff
+>>>>>>> b52027648a (Novice's mark (#2626))

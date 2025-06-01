@@ -19,7 +19,12 @@
 - type: startingGear
   id: ResearchAssistantGear
   equipment:
+<<<<<<< HEAD
 #    shoes: ClothingShoesColorWhite # starcup: replaced by loadout
+=======
+    shoes: ClothingShoesColorWhite
+    neck: ClothingNeckNoviceMark # imp
+>>>>>>> b52027648a (Novice's mark (#2626))
     id: ResearchAssistantPDA
     ears: ClothingHeadsetScience
     pocket2: BookScientistsGuidebook

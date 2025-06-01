@@ -7,6 +7,7 @@
   minLimit: 0
   maxLimit: 3
   loadouts:
+<<<<<<< HEAD
   # Head Cosmetics
   - FlowerWreath
   - Hairflower
@@ -32,6 +33,12 @@
   - AACTablet # Delta-V
   - HandheldStationMap # starcup
   - TapeRecorder # Delta-V
+=======
+  - NoviceMark # imp
+  - BarFlask
+  - CardBoxBlack
+  - CDDogtags #_CD
+>>>>>>> b52027648a (Novice's mark (#2626))
   - ThreeCandles
   # Lighters
   - Lighter

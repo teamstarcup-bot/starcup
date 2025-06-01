@@ -30,8 +30,15 @@
 - type: startingGear
   id: SecurityCadetGear
   equipment:
+<<<<<<< HEAD
 #    shoes: ClothingShoesBootsJackFilled # starcup, moved to loadout
 #    outerClothing: ClothingOuterArmorBasic # starcup, moved to loadout
+=======
+    eyes: ClothingEyesGlassesSunglasses # imp
+    shoes: ClothingShoesBootsJackFilled
+    neck: ClothingNeckNoviceMark # imp
+    outerClothing: ClothingOuterArmorDuraVest # DeltaV - ClothingOuterArmorBasic replaced in favour of stab vest. Sucks to suck, cadets
+>>>>>>> b52027648a (Novice's mark (#2626))
     id: SecurityCadetPDA
     ears: ClothingHeadsetSecurity
     belt: ClothingBeltSecurityFilled

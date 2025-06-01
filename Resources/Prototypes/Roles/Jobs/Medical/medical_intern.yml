@@ -19,8 +19,14 @@
 - type: startingGear
   id: MedicalInternGear
   equipment:
+<<<<<<< HEAD
 #    shoes: ClothingShoesColorWhite # starcup: replaced with loadout
 #    id: MedicalInternPDA # DeltaV: different PDAs in loadouts
+=======
+    shoes: ClothingShoesColorWhite
+    id: MedicalInternPDA
+    neck: ClothingNeckNoviceMark # imp
+>>>>>>> b52027648a (Novice's mark (#2626))
     ears: ClothingHeadsetMedical
     belt: ClothingBeltMedicalFilled
     pocket2: BookMedicalReferenceBook
