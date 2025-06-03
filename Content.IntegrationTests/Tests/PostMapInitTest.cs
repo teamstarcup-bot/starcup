@@ -88,6 +88,7 @@ namespace Content.IntegrationTests.Tests
             "Glacier",  // starcup
             "Omegastarcup", // starcup
             "Salternstarcup", // starcup
+            "Byoin",  // starcup
         };
 
         /// <summary>
