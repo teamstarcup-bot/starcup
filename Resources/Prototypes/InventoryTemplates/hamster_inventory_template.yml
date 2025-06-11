@@ -49,3 +49,14 @@
     whitelist:
       tags:
         - HamsterWearable
+
+  - name: outerClothing # starcup - giving pets winter outfits
+    slotTexture: suit # starcup
+    slotFlags: OUTERCLOTHING # starcup
+    stripTime: 6 # starcup
+    uiWindowPos: 1,1 # starcup
+    strippingWindowPos: 1,2 # starcup
+    displayName: Suit # starcup
+    whitelist: # starcup
+      tags: # starcup
+      - HamsterWearable # starcup
