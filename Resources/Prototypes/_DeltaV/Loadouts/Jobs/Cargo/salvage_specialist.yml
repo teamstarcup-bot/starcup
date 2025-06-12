@@ -3,3 +3,19 @@
   id: SalvageWinterBoots
   equipment:
     shoes: ClothingShoesBootsWinterMiner
+
+# ID
+- type: loadout
+  id: SalvagePDA
+  equipment:
+    id: SalvagePDA
+
+- type: loadout
+  id: ProspectorPDA
+  equipment:
+    id: ProspectorPDA
+
+- type: loadout
+  id: ExcavatorPDA
+  equipment:
+    id: ExcavatorPDA
