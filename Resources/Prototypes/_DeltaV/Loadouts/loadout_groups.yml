@@ -188,6 +188,7 @@
   - SkullBandana
   - ScientificBeret
   - CardborgHelmet
+  - NeuroroboticistHelmet # starcup
 
 - type: loadoutGroup
   id: RoboticistJumpsuit
@@ -195,6 +196,8 @@
   loadouts:
   - RoboticistJumpsuit
   - RoboticistJumpskirt
+  - NeuroroboticistJumpsuit # starcup
+  - NeuroroboticistJumpskirt # starcup
   - ScientistJumpsuit
   - ScientistJumpskirt
 
@@ -208,6 +211,7 @@
   - RegularLabCoat
   - ScienceLabCoat
   - CardborgCostume
+  - NeuroroboticistSuit # starcup
 
 - type: loadoutGroup
   id: RoboticistGloves

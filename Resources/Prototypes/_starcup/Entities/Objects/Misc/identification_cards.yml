@@ -140,6 +140,22 @@
   - type: IdCard
     jobTitle: job-alt-title-toymaker
 
+- type: entity
+  parent: RoboticistIDCard
+  id: NeuroroboticistIDCard
+  name: neuroroboticist ID card
+  components:
+  - type: IdCard
+    jobTitle: job-alt-title-neuroroboticist
+
+- type: entity
+  parent: RoboticistIDCard
+  id: MechatronicsIDCard
+  name: mechatronics ID card
+  components:
+  - type: IdCard
+    jobTitle: job-alt-title-mechatronics
+
 # Scientist
 - type: entity
   parent: ResearchIDCard

@@ -40,6 +40,8 @@
   loadouts:
   - RoboticistPDA
   - ToymakerPDA
+  - NeuroroboticistPDA
+  - MechatronicsPDA
 
 # Security
 ## Security Cadet

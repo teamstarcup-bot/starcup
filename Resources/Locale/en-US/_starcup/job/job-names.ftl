@@ -33,6 +33,8 @@ job-alt-title-volunteer = Volunteer
 
 # Roboticist
 job-alt-title-toymaker = Toymaker
+job-alt-title-neuroroboticist = Neuroroboticist
+job-alt-title-mechatronics = Mechatronics Specialist
 
 # Scientist
 job-alt-title-necrocosmicist = Necrocosmicist

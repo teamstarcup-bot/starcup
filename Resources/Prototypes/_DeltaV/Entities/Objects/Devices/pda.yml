@@ -41,6 +41,9 @@
         pda-roboticist
   - type: Icon
     state: pda-roboticist
+  - type: PdaBorderColor # starcup: make roboticist a hybrid role
+    borderColor: "#262626"
+    accentVColor: "#a92323"
 
 - type: entity
   parent: CargoPDA

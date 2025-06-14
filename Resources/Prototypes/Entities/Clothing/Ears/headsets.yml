@@ -206,6 +206,7 @@
     containers:
       key_slots:
       - EncryptionKeyRobo
+      - EncryptionKeyEngineering # starcup: make roboticist a hybrid role
       - EncryptionKeyCommon
   - type: Sprite
     sprite: Clothing/Ears/Headsets/robotics.rsi

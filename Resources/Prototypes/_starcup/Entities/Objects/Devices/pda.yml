@@ -160,6 +160,46 @@
   components:
   - type: Pda
     id: ToymakerIDCard
+  - type: Appearance
+    appearanceDataInit:
+      enum.PdaVisuals.PdaType: !type:String
+        pda-toymaker
+  - type: PdaBorderColor
+    borderColor: "#d33725"
+    accentVColor: "#ffdf4d"
+
+- type: entity
+  parent: RoboticistPDA
+  id: NeuroroboticistPDA
+  name: neuroroboticist PDA
+  description: The PDA of someone who knows how to best dissect you.
+  components:
+  - type: Pda
+    id: NeuroroboticistIDCard
+  - type: Appearance
+    appearanceDataInit:
+      enum.PdaVisuals.PdaType: !type:String
+        pda-neuroroboticist
+  - type: PdaBorderColor
+    borderColor: "#262626"
+    accentVColor: "#447987"
+    accentHColor: "#a92323"
+
+- type: entity
+  parent: RoboticistPDA
+  id: MechatronicsPDA
+  name: mechatronics PDA
+  description: Somehow, it's analog.
+  components:
+  - type: Pda
+    id: MechatronicsIDCard
+  - type: Appearance
+    appearanceDataInit:
+      enum.PdaVisuals.PdaType: !type:String
+        pda-mechatronics
+  - type: PdaBorderColor
+    borderColor: "#c38f2b"
+    accentVColor: "#a92323"
 
 # Scientist
 
