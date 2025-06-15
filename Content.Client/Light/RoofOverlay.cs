@@ -62,6 +62,8 @@ public sealed class RoofOverlay : Overlay
         worldHandle.RenderInRenderTarget(target,
             () =>
             {
+                var invMatrix = target.GetWorldToLocalMatrix(eye, scale);  // starcup: #38276 early merge
+
                 for (var i = 0; i < _grids.Count; i++)
                 {
                     var grid = _grids[i];
@@ -69,7 +71,7 @@ public sealed class RoofOverlay : Overlay
                     if (!_entManager.TryGetComponent(grid.Owner, out ImplicitRoofComponent? roof))
                         continue;
 
-                    var invMatrix = target.GetWorldToLocalMatrix(eye, scale);
+                    // var invMatrix = target.GetWorldToLocalMatrix(eye, scale);  // starcup: #38276 early merge
 
                     var gridMatrix = _xformSystem.GetWorldMatrix(grid.Owner);
                     var matty = Matrix3x2.Multiply(gridMatrix, invMatrix);
@@ -94,12 +96,14 @@ public sealed class RoofOverlay : Overlay
         worldHandle.RenderInRenderTarget(target,
             () =>
             {
+                var invMatrix = target.GetWorldToLocalMatrix(eye, scale);  // starcup: #38276 early merge
+
                 foreach (var grid in _grids)
                 {
                     if (!_entManager.TryGetComponent(grid.Owner, out RoofComponent? roof))
                         continue;
 
-                    var invMatrix = target.GetWorldToLocalMatrix(eye, scale);
+                    // var invMatrix = target.GetWorldToLocalMatrix(eye, scale);  // starcup: #38276 early merge
 
                     var gridMatrix = _xformSystem.GetWorldMatrix(grid.Owner);
                     var matty = Matrix3x2.Multiply(gridMatrix, invMatrix);
