@@ -1,12 +1,4 @@
 ﻿Entries:
-- author: Boaz1111, Ktyria
-  changes:
-  - message: 'Added five new scars for humans and dwarves: Three for the face, two
-      for the chest.'
-    type: Add
-  id: 8039
-  time: '2025-03-05T10:26:31.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/35644
 - author: ScarKy0, MilonPL
   changes:
   - message: Added deliveries! Cargo now has access to mail teleporters, which periodically
@@ -3911,3 +3903,11 @@
   id: 8541
   time: '2025-06-17T20:54:03.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/145
+- author: mqole, foxcurl
+  changes:
+  - message: Angel and devil costumes have been ported from Impstation, available
+      in the autodrobe.
+    type: Add
+  id: 8542
+  time: '2025-06-17T21:12:32.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/144
