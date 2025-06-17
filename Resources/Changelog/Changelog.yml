@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: Velken
-  changes:
-  - message: Wizards now have their own unique magical pen.
-    type: Add
-  id: 8035
-  time: '2025-03-03T15:54:43.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/35623
 - author: rokudara-sen
   changes:
   - message: Particle decelerators now drain an additional percentage of a singularity's
@@ -3915,5 +3908,12 @@
   - message: ported the spin, jump, and flip emotes from Impstation
     type: Add
   id: 8537
+  time: '2025-06-16T23:31:55.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/141
+- author: little-meow-meow
+  changes:
+  - message: ported the spin, jump, and flip emotes from Impstation
+    type: Add
+  id: 8538
   time: '2025-06-16T23:31:55.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/141
