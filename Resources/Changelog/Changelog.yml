@@ -1,12 +1,4 @@
 ﻿Entries:
-- author: Coolsurf6
-  changes:
-  - message: Pain from Burn damage is now calculated when displaying the red damage
-      overlay
-    type: Tweak
-  id: 8034
-  time: '2025-03-03T11:11:58.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34535
 - author: Velken
   changes:
   - message: Wizards now have their own unique magical pen.
@@ -3916,5 +3908,12 @@
   - message: ported the spin, jump, and flip emotes from Impstation
     type: Add
   id: 8536
+  time: '2025-06-16T23:31:55.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/141
+- author: little-meow-meow
+  changes:
+  - message: ported the spin, jump, and flip emotes from Impstation
+    type: Add
+  id: 8537
   time: '2025-06-16T23:31:55.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/141
