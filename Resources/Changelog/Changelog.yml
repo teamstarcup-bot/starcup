@@ -1,12 +1,4 @@
 ﻿Entries:
-- author: rokudara-sen
-  changes:
-  - message: Particle decelerators now drain an additional percentage of a singularity's
-      current energy.
-    type: Tweak
-  id: 8036
-  time: '2025-03-03T16:37:28.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/35643
 - author: DuckManZach
   changes:
   - message: Butter is now cheaper to produce!
@@ -3917,3 +3909,10 @@
   id: 8538
   time: '2025-06-16T23:31:55.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/141
+- author: KoboldCatgirl
+  changes:
+  - message: added a trait so normal Mail Teleporters won't spawn priority mail randomly.
+    type: Tweak
+  id: 8539
+  time: '2025-06-17T02:25:58.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/142
