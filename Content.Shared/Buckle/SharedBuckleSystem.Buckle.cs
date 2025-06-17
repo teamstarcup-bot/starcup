@@ -362,7 +362,7 @@ public abstract partial class SharedBuckleSystem
 
         _audio.PlayPredicted(strap.Comp.BuckleSound, strap, user);
 
-        SetBuckledTo(buckle, strap!);
+        // SetBuckledTo(buckle, strap!);  // DeltaV - Moved elsewhere to allow standing system to handle Down/Stand before buckling
         Appearance.SetData(strap, StrapVisuals.State, true);
         Appearance.SetData(buckle, BuckleVisuals.Buckled, true);
 
@@ -383,6 +383,8 @@ public abstract partial class SharedBuckleSystem
                 _standing.Down(buckle, false, false);  // starcup: removed `force: true`
                 break;
         }
+
+        SetBuckledTo(buckle, strap!); // DeltaV - Allow standing system to handle Down/Stand before buckling
 
         var ev = new StrappedEvent(strap, buckle);
         RaiseLocalEvent(strap, ref ev);
