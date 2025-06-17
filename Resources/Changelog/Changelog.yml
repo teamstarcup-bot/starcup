@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: DuckManZach
-  changes:
-  - message: Butter is now cheaper to produce!
-    type: Tweak
-  id: 8037
-  time: '2025-03-03T22:04:26.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/35650
 - author: SlamBamActionman
   changes:
   - message: Top and bottom undergarments can now be found in the Markings tab of
@@ -3916,3 +3909,10 @@
   id: 8539
   time: '2025-06-17T02:25:58.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/142
+- author: little-meow-meow
+  changes:
+  - message: Fix the up/down when entities are buckled.
+    type: Fix
+  id: 8540
+  time: '2025-06-17T04:06:26.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/143
