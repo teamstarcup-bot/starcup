@@ -11,7 +11,14 @@
       state: any
   - type: RandomSpawner
     prototypes:
+<<<<<<< HEAD
     #- VendingMachineChang # starcup: removed for tone
+||||||| parent of a492c42c8d3 (Reduce asterade availability and rebrand (#2623))
+    - VendingMachineChang
+=======
+    - VendingMachineArticSeltz # imp
+    - VendingMachineChang
+>>>>>>> a492c42c8d3 (Reduce asterade availability and rebrand (#2623))
     - VendingMachineCigs
     - VendingMachineCoffee
     - VendingMachineCola #Robust Sofdrinks
