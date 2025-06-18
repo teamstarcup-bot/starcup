@@ -6,11 +6,12 @@ concurrency:
 
 on:
   workflow_dispatch:
-  # schedule:
-   # - cron: '0 10 * * *'
+  schedule:
+   - cron: '0 10 * * *'
 
 jobs:
   build:
+    if: github.repository == 'teamstarcup/starcup'
     runs-on: ubuntu-latest
 
     steps:
