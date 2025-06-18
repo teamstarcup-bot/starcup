@@ -11,6 +11,7 @@
 ## Media
 <!-- Attach media if the PR makes ingame changes (clothing, items, features, etc). 
 Small fixes/refactors are exempt. Media may be used in SS14 progress reports with credit. -->
+<!-- Delete this section if there's nothing to be shown. -->
 
 **Changelog**
 <!-- Add a Changelog entry to make players aware of new features or changes that could affect gameplay.
