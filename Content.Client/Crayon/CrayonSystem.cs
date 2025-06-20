@@ -1,22 +1,36 @@
+using Content.Client.Crayon.Overlays; // Funky-Station
 using Content.Client.Items;
 using Content.Client.Message;
 using Content.Client.Stylesheets;
 using Content.Shared.Crayon;
+// start Funky-Station
+using Content.Shared.Decals;
+using Robust.Client.GameObjects;
+using Robust.Client.Graphics;
+// end Funky-Station
 using Robust.Client.UserInterface;
 using Robust.Client.UserInterface.Controls;
-using Robust.Shared.GameObjects;
+// using Robust.Shared.GameObjects; // Funky-Station
 using Robust.Shared.GameStates;
-using Robust.Shared.Localization;
+// using Robust.Shared.Localization; // Funky-Station
+using Robust.Shared.Prototypes; // Funky-Station
 using Robust.Shared.Timing;
 
 namespace Content.Client.Crayon;
 
 public sealed class CrayonSystem : SharedCrayonSystem
 {
+    [Dependency] private readonly IOverlayManager _overlayManager = default!; // Funky-Station
+    [Dependency] private readonly SharedTransformSystem _transform = default!; // Funky-Station
+    [Dependency] private readonly SpriteSystem _sprite = default!; // Funky-Station
+
     // Didn't do in shared because I don't think most of the server stuff can be predicted.
     public override void Initialize()
     {
         base.Initialize();
+
+        _overlayManager.AddOverlay(new CrayonPlacementOverlay(_transform, _sprite)); // Funky Station
+
         SubscribeLocalEvent<CrayonComponent, ComponentHandleState>(OnCrayonHandleState);
         Subs.ItemStatus<CrayonComponent>(ent => new StatusControl(ent));
     }
