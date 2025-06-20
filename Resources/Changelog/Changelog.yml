@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: slarticodefast
-  changes:
-  - message: Added a mail stealing objective for thieves.
-    type: Add
-  id: 8045
-  time: '2025-03-09T19:41:53.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/35746
 - author: metalgearsloth
   changes:
   - message: Fix sun shadows not rendering when ANGLE is used.
@@ -3916,3 +3909,14 @@
   id: 8547
   time: '2025-06-20T18:14:33.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/150
+- author: SeaborneProto
+  changes:
+  - message: Captain's locker texture
+    type: Tweak
+  - message: Antique Laser Pistol's texture
+    type: Tweak
+  - message: Nuke Disk's texture
+    type: Tweak
+  id: 8548
+  time: '2025-06-20T21:40:03.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/152
