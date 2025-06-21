@@ -1,13 +1,6 @@
 ﻿Entries:
 - author: metalgearsloth
   changes:
-  - message: Fix sun shadows not rendering when ANGLE is used.
-    type: Fix
-  id: 8046
-  time: '2025-03-10T04:17:53.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/35757
-- author: metalgearsloth
-  changes:
   - message: Fix sun shadow rotations not always being accurate.
     type: Fix
   id: 8047
@@ -3920,3 +3913,11 @@
   id: 8548
   time: '2025-06-20T21:40:03.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/152
+- author: little-meow-meow
+  changes:
+  - message: New customization options (felinid fluffy tails, felinid striped tails,
+      and general makeup) ported from Delta-v
+    type: Add
+  id: 8549
+  time: '2025-06-21T16:19:00.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/156
