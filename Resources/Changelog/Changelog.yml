@@ -1,12 +1,4 @@
 ﻿Entries:
-- author: RedBookcase
-  changes:
-  - message: Added about a dozen new cocktails for the Bartender to mix up, and polished
-      some of the sprites for older drinks.
-    type: Add
-  id: 8048
-  time: '2025-03-10T23:08:24.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/33570
 - author: Velken
   changes:
   - message: Performers can now find that their clothing set is more complete!
@@ -3921,3 +3913,15 @@
   id: 8550
   time: '2025-06-21T17:01:55.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/157
+- author: KoboldCatgirl
+  changes:
+  - message: Disablers are now available for pacifist use.
+    type: Tweak
+  - message: Non-cadet security can now choose between various or no firearms in their
+      loadouts.
+    type: Add
+  - message: Re-added rubber bullets (which were removed upstream.)
+    type: Add
+  id: 8551
+  time: '2025-06-22T02:06:31.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/109
