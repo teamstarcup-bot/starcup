@@ -171,7 +171,7 @@
 - type: marking
   id: LargeComb
   bodyPart: Hair
-  markingCategory: HeadSide
+  markingCategory: Hair # starcup
   speciesRestriction: [ Vox ]
   followSkinColor: false
   sprites:

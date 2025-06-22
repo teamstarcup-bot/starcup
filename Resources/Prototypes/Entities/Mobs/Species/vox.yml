@@ -16,7 +16,14 @@
     hideLayersOnEquip: #imp
     - HeadSide
     - Hair
-    #- type: VoxAccent # Not yet coded
+    undergarmentTop: UndergarmentTopTanktopVox
+    undergarmentBottom: UndergarmentBottomBoxersVox
+    markingsDisplacement:
+      Hair:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Vox/displacement.rsi
+            state: hair
   - type: Speech
     speechVerb: Vox
     speechSounds: Vox
@@ -109,16 +116,7 @@
       sprite: "Effects/creampie.rsi"
       state: "creampie_vox" # Not default
       visible: false
-  - type: HumanoidAppearance
-    species: Vox
-    undergarmentTop: UndergarmentTopTanktopVox
-    undergarmentBottom: UndergarmentBottomBoxersVox
-    markingsDisplacement:
-      Hair:
-        sizeMaps:
-          32:
-            sprite: Mobs/Species/Vox/displacement.rsi
-            state: hair
+    #- type: VoxAccent # Not yet coded
   - type: Inventory
     speciesId: vox
     displacements:
