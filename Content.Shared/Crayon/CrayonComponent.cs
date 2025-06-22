@@ -4,14 +4,6 @@ using Robust.Shared.Serialization;
 
 namespace Content.Shared.Crayon
 {
-<<<<<<<< HEAD:Content.Shared/Crayon/SharedCrayonComponent.cs
-    [NetworkedComponent, ComponentProtoName("Crayon"), Access(typeof(SharedCrayonSystem))]
-    public abstract partial class SharedCrayonComponent : Component
-    {
-        public string SelectedState { get; set; } = string.Empty;
-
-        [DataField("color")] public Color Color;
-========
 
     /// <summary>
     /// Component holding the state of a crayon-like component
@@ -24,7 +16,6 @@ namespace Content.Shared.Crayon
         /// </summary>
         [DataField, AutoNetworkedField]
         public Color Color;
->>>>>>>> c8e9e5fa36 (review comments; also added rotation to item status panel):Content.Shared/Crayon/CrayonComponent.cs
 
         /// <summary>
         /// The ID of currently selected decal prototype that will be placed when the crayon is used
@@ -84,6 +75,9 @@ namespace Content.Shared.Crayon
         }
     }
 
+    /// <summary>
+    /// Used by the client to notify the server about the selected decal ID
+    /// </summary>
     [Serializable, NetSerializable]
     public sealed class CrayonSelectMessage : BoundUserInterfaceMessage
     {
@@ -94,6 +88,9 @@ namespace Content.Shared.Crayon
         }
     }
 
+    /// <summary>
+    /// Sets the color of the crayon, used by Rainbow Crayon
+    /// </summary>
     [Serializable, NetSerializable]
     public sealed class CrayonColorMessage : BoundUserInterfaceMessage
     {
@@ -104,8 +101,6 @@ namespace Content.Shared.Crayon
         }
     }
 
-<<<<<<<< HEAD:Content.Shared/Crayon/SharedCrayonComponent.cs
-========
     /// <summary>
     /// Server to CLIENT. Notifies the BUI that a decal with given ID has been drawn.
     /// Allows the client UI to advance forward in the client-only ephemeral queue,
@@ -126,7 +121,6 @@ namespace Content.Shared.Crayon
     /// Client to server message. The user has updated the rotation in the UI,
     /// and the component needs to be updated.
     /// </summary>
->>>>>>>> c8e9e5fa36 (review comments; also added rotation to item status panel):Content.Shared/Crayon/CrayonComponent.cs
     [Serializable, NetSerializable]
     public sealed class CrayonRotationMessage(float rotation) : BoundUserInterfaceMessage
     {
@@ -151,36 +145,16 @@ namespace Content.Shared.Crayon
         Color
     }
 
-<<<<<<<< HEAD:Content.Shared/Crayon/SharedCrayonComponent.cs
-    [Serializable, NetSerializable]
-    public sealed class CrayonComponentState : ComponentState
-    {
-        public readonly Color Color;
-        public readonly string State;
-        public readonly int Charges;
-        public readonly int Capacity;
-        public readonly float Rotation;
-        public readonly bool PreviewMode;
-
-        public CrayonComponentState(Color color, string state, int charges, int capacity, float rotation, bool previewMode)
-        {
-            Color = color;
-            State = state;
-            Charges = charges;
-            Capacity = capacity;
-            Rotation = rotation;
-            PreviewMode = previewMode;
-        }
-    }
-========
     /// <summary>
     /// The state of the crayon UI as sent by the server
     /// </summary>
->>>>>>>> c8e9e5fa36 (review comments; also added rotation to item status panel):Content.Shared/Crayon/CrayonComponent.cs
     [Serializable, NetSerializable]
     public sealed class CrayonBoundUserInterfaceState : BoundUserInterfaceState
     {
         public string Selected;
+        /// <summary>
+        /// Whether or not the color can be selected
+        /// </summary>
         public bool SelectableColor;
         public Color Color;
         public float Rotation;
