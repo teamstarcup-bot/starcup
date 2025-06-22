@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: Velken
-  changes:
-  - message: Performers can now find that their clothing set is more complete!
-    type: Add
-  id: 8049
-  time: '2025-03-10T23:17:24.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/35764
 - author: ScarKy0
   changes:
   - message: Mindshield implants can now be removed using an empty implanter.
@@ -3925,3 +3918,10 @@
   id: 8551
   time: '2025-06-22T02:06:31.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/109
+- author: little-meow-meow
+  changes:
+  - message: Ported furred limb felinid markings from Delta-v.
+    type: Add
+  id: 8552
+  time: '2025-06-22T03:04:14.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/158
