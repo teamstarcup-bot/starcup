@@ -136,11 +136,12 @@ marking-FadingStars-fadingstars2 = Middling
 marking-FadingStars-fadingstars3 = Darkest
 
 # vox
-marking-VoxCocktail = Cocktail
-marking-VoxCocktail-voxcocktail1 = Feathers
-marking-VoxCocktail-voxcocktail2 = Feathers
-marking-VoxCocktail-voxcocktail3 = Feathers
-marking-VoxCocktail-voxcocktail4 = Tail
+# starcup rename of Cocktail to Tendrils
+marking-VoxCocktail = Tendrils
+marking-VoxCocktail-voxcocktail1 = Tendril
+marking-VoxCocktail-voxcocktail2 = Tendril
+marking-VoxCocktail-voxcocktail3 = Tendril
+marking-VoxCocktail-voxcocktail4 = Tendril
 marking-VoxTailStripes = Tail Stripes
 marking-VoxTailStripes-voxtailstripes = Tail Stripes
 marking-VoxLArmProsthetic = Prosthetic (Left)

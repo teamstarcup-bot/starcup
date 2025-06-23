@@ -88,15 +88,15 @@
   - sprite: _Impstation/Mobs/Customization/voxbundle1.rsi
     state: vchest3
 
-- type: marking
-  id: VoxBald
-  bodyPart: Hair
-  markingCategory: Hair
-  speciesRestriction: [ Vox ]
-  followSkinColor: false
-  sprites:
-  - sprite: _Impstation/Mobs/Customization/voxbundle1.rsi
-    state: balding
+#- type: marking # starcup removal - too much like hair. just go bald.
+#  id: VoxBald
+#  bodyPart: Hair
+#  markingCategory: Hair
+#  speciesRestriction: [ Vox ]
+#  followSkinColor: false
+#  sprites:
+#  - sprite: _Impstation/Mobs/Customization/voxbundle1.rsi
+#    state: balding
 
 - type: marking
   id: LargeWattle
@@ -108,15 +108,15 @@
   - sprite: _Impstation/Mobs/Customization/voxbundle1.rsi
     state: beardlargewattle
 
-- type: marking
-  id: BeardPadovana
-  bodyPart: FacialHair
-  markingCategory: FacialHair
-  speciesRestriction: [ Vox ]
-  followSkinColor: false
-  sprites:
-  - sprite: _Impstation/Mobs/Customization/voxbundle1.rsi
-    state: beardpadovana
+#- type: marking # starcup removal
+#  id: BeardPadovana
+#  bodyPart: FacialHair
+#  markingCategory: FacialHair
+#  speciesRestriction: [ Vox ]
+#  followSkinColor: false
+#  sprites:
+#  - sprite: _Impstation/Mobs/Customization/voxbundle1.rsi
+#    state: beardpadovana
 
 - type: marking
   id: HairPadovana
@@ -137,46 +137,46 @@
   sprites:
   - sprite: _Impstation/Mobs/Customization/voxbundle1.rsi
     state: beardsmallwattle
+# begin starcup removals
+#- type: marking
+#  id: VoxEmover
+#  bodyPart: Hair
+#  markingCategory: Hair
+#  speciesRestriction: [ Vox ]
+#  followSkinColor: false
+#  sprites:
+#  - sprite: _Impstation/Mobs/Customization/voxbundle1.rsi
+#    state: hairemover
 
-- type: marking
-  id: VoxEmover
-  bodyPart: Hair
-  markingCategory: Hair
-  speciesRestriction: [ Vox ]
-  followSkinColor: false
-  sprites:
-  - sprite: _Impstation/Mobs/Customization/voxbundle1.rsi
-    state: hairemover
+#- type: marking
+#  id: VoxPolish
+#  bodyPart: Hair
+#  markingCategory: Hair
+#  speciesRestriction: [ Vox ]
+#  followSkinColor: false
+#  sprites:
+#  - sprite: _Impstation/Mobs/Customization/voxbundle1.rsi
+#    state: hairpolish
 
-- type: marking
-  id: VoxPolish
-  bodyPart: Hair
-  markingCategory: Hair
-  speciesRestriction: [ Vox ]
-  followSkinColor: false
-  sprites:
-  - sprite: _Impstation/Mobs/Customization/voxbundle1.rsi
-    state: hairpolish
+#- type: marking
+#  id: VoxWindswept
+#  bodyPart: Hair
+#  markingCategory: Hair
+#  speciesRestriction: [ Vox ]
+#  followSkinColor: false
+#  sprites:
+#  - sprite: _Impstation/Mobs/Customization/voxbundle1.rsi
+#    state: hairwindswept
 
-- type: marking
-  id: VoxWindswept
-  bodyPart: Hair
-  markingCategory: Hair
-  speciesRestriction: [ Vox ]
-  followSkinColor: false
-  sprites:
-  - sprite: _Impstation/Mobs/Customization/voxbundle1.rsi
-    state: hairwindswept
-
-- type: marking
-  id: LargeComb
-  bodyPart: Hair
-  markingCategory: Hair # starcup
-  speciesRestriction: [ Vox ]
-  followSkinColor: false
-  sprites:
-  - sprite: _Impstation/Mobs/Customization/voxbundle1.rsi
-    state: largecomb
+#- type: marking
+#  id: LargeComb
+#  bodyPart: Hair
+#  markingCategory: Hair # starcup
+#  speciesRestriction: [ Vox ]
+#  followSkinColor: false
+#  sprites:
+#  - sprite: _Impstation/Mobs/Customization/voxbundle1.rsi
+#    state: largecomb
 
 - type: marking
   id: VoxEarhole
