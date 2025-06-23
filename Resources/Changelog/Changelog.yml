@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: SlamBamActionman
-  changes:
-  - message: Chameleon PDAs no longer change your name in the station records.
-    type: Fix
-  id: 8051
-  time: '2025-03-11T13:52:38.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/35782
 - author: Reisama
   changes:
   - message: Borgs will no longer get laws to prevent the shuttle from being called
@@ -3923,3 +3916,20 @@
   id: 8553
   time: '2025-06-23T00:07:02.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/161
+- author: little-meow-meow
+  changes:
+  - message: 'Byoin: Swapped curtains in janitor closet, chief medical officer''s
+      office, dorms, psych for directional curtains.'
+    type: Tweak
+  - message: 'Byoin: Inserted anomaly spawn blockers to the burn chamber and far end
+      of the salvage arm.'
+    type: Fix
+  - message: 'Byoin: Restored missing lathes to engineering, cargo, and science.'
+    type: Fix
+  - message: 'Byoin: Replaced missing light fixtures in the AI core.'
+    type: Fix
+  - message: 'Byoin: Replaced all ''epistemics'' references to ''science.'''
+    type: Fix
+  id: 8554
+  time: '2025-06-23T15:59:32.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/162
