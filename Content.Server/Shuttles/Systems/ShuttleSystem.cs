@@ -123,7 +123,7 @@ public sealed partial class ShuttleSystem : SharedShuttleSystem
             return;
 
         EnsureComp<ShuttleComponent>(ev.EntityUid);
-        EnsureComp<ImplicitRoofComponent>(ev.EntityUid);
+        // EnsureComp<ImplicitRoofComponent>(ev.EntityUid);  // starcup: all grids start life with this component; don't give it to every initialized grid anyway
     }
 
     private void OnShuttleStartup(EntityUid uid, ShuttleComponent component, ComponentStartup args)

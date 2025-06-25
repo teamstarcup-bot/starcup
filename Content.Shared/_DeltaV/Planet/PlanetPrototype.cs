@@ -30,6 +30,36 @@ public sealed partial class PlanetPrototype : IPrototype
     public Color MapLight = Color.FromHex("#D8B059");
 
     /// <summary>
+    /// Daylight color for lighting for the map.
+    /// </summary>
+    [DataField]
+    public Color Sunlight = Color.FromHex("#F9F1D8");
+
+    /// <summary>
+    /// Moonlight color for lighting for the map.
+    /// </summary>
+    [DataField]
+    public Color Moonlight = Color.FromHex("#59617D");
+
+    /// <summary>
+    ///  The highest lighting level to use when lighting the planet during the day.
+    /// </summary>
+    [DataField]
+    public float ClipLight = 1.25f;
+
+    /// <summary>
+    ///  The lowest lighting level to use when lighting the planet at night.
+    /// </summary>
+    [DataField]
+    public float MinimumLightLevel = 0f;
+
+    /// <summary>
+    ///  The highest lighting level to use when lighting the planet during the day.
+    /// </summary>
+    [DataField]
+    public float MaximumLightLevel = 3f;
+
+    /// <summary>
     /// Components to add to the map.
     /// </summary>
     [DataField]

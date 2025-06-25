@@ -21,7 +21,7 @@ public sealed partial class StationPlanetSpawnerComponent : Component
     /// <summary>
     /// Path to the grid to load onto the map.
     /// </summary>
-    [DataField(required: true)]
+    [DataField]
     public ResPath? GridPath;
 
     /// <summary>
@@ -29,4 +29,9 @@ public sealed partial class StationPlanetSpawnerComponent : Component
     /// </summary>
     [DataField]
     public EntityUid? Map;
+
+    // begin starcup
+    [DataField]
+    public bool IsTerrestrialStation;
+    // end starcup
 }
