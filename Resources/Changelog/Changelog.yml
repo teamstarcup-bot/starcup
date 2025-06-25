@@ -1,12 +1,4 @@
 ﻿Entries:
-- author: Reisama
-  changes:
-  - message: Borgs will no longer get laws to prevent the shuttle from being called
-      when Ion Stormed, and may get laws to call the shuttle instead.
-    type: Fix
-  id: 8052
-  time: '2025-03-12T01:21:59.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/35751
 - author: Winkarst-cpu
   changes:
   - message: The warden job now rolls before security officer/cadet/detective.
@@ -3933,3 +3925,10 @@
   id: 8554
   time: '2025-06-23T15:59:32.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/162
+- author: asterism-etc
+  changes:
+  - message: the PowerGridCheck event now has a 9-minute delay before it can run again
+    type: Tweak
+  id: 8555
+  time: '2025-06-25T22:19:52.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/165
