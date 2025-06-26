@@ -1,18 +1,4 @@
 ﻿Entries:
-- author: K-Dynamic
-  changes:
-  - message: Nitrous oxide canisters now begin locked like other dangerous gas canisters.
-    type: Fix
-  id: 8056
-  time: '2025-03-13T00:30:17.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/35785
-- author: Plykiya
-  changes:
-  - message: A message now pops up when attempting to fire a gun with no ammo.
-    type: Add
-  id: 8057
-  time: '2025-03-13T07:21:24.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34816
 - author: Crude Oil
   changes:
   - message: You can now pet the mail teleporter
@@ -3932,3 +3918,19 @@
   id: 8558
   time: '2025-06-26T17:43:39.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/171
+- author: KoboldCatgirl
+  changes:
+  - message: Slightly increased the minimum heights for felinids and rodentia.
+    type: Tweak
+  id: 8559
+  time: '2025-06-26T17:46:25.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/170
+- author: asterism-etc
+  changes:
+  - message: removed the chance for Secret to roll Survival and Wizard
+    type: Tweak
+  - message: increased the chance for Secret to roll Nukeops and Traitors
+    type: Tweak
+  id: 8560
+  time: '2025-06-26T17:46:55.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/168
