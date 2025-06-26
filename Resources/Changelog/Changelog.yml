@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: onesch
-  changes:
-  - message: Added handheld sprites to some items
-    type: Add
-  id: 8055
-  time: '2025-03-12T22:46:58.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/33689
 - author: K-Dynamic
   changes:
   - message: Nitrous oxide canisters now begin locked like other dangerous gas canisters.
@@ -3931,3 +3924,11 @@
   id: 8557
   time: '2025-06-26T17:37:43.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/164
+- author: KoboldCatgirl
+  changes:
+  - message: ushanka, santa hat, and beanie all now provide equivalent temperature
+      protection to a hood
+    type: Tweak
+  id: 8558
+  time: '2025-06-26T17:43:39.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/171
