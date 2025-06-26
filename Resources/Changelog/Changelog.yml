@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: Crude Oil
-  changes:
-  - message: You can now pet the mail teleporter
-    type: Add
-  id: 8058
-  time: '2025-03-13T12:49:25.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/35819
 - author: ScarKy0
   changes:
   - message: Singularity and Whitehole grenades are now in the Disruption category
@@ -3934,3 +3927,13 @@
   id: 8560
   time: '2025-06-26T17:46:55.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/168
+- author: KoboldCatgirl
+  changes:
+  - message: Added Felinids, Vulpekin, Rodentia, and MKCs to the undergarments whitelists.
+    type: Tweak
+  - message: Gave Rodentia and Harpies access to blush, lipstick, and nail polish
+      markings.
+    type: Tweak
+  id: 8561
+  time: '2025-06-26T17:58:28.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/163
