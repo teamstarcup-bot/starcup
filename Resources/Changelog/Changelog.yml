@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: Winkarst-cpu
-  changes:
-  - message: The warden job now rolls before security officer/cadet/detective.
-    type: Tweak
-  id: 8053
-  time: '2025-03-12T22:36:41.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/35313
 - author: Firewars763
   changes:
   - message: Added gold and coal rock anomalies and ore crab enemies.
@@ -3932,3 +3925,11 @@
   id: 8555
   time: '2025-06-25T22:19:52.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/165
+- author: princesspengy
+  changes:
+  - message: especially venerable bartenders now have a senior job title available
+      in their loadout
+    type: Add
+  id: 8556
+  time: '2025-06-26T04:50:00.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/172
