@@ -32,12 +32,54 @@
   suffix: Filled, Chief Medical Officer
   components:
   - type: StorageFill
+<<<<<<< HEAD
     contents:
       - id: ClothingOuterCoatLabCmo
       - id: ClothingUniformJumpsuitCMOTurtle
       - id: ClothingUniformJumpskirtCMOTurtle
       - id: ClothingHeadHatBeretCmo
       - id: ClothingHeadMirror
+=======
+    contents: # imp edit - diversifying dressers
+      - id: ClothingHeadHatBeretCmo
+        orGroup: CMOHat
+      - id: ClothingHeadMirror
+        orGroup: CMOHat
+      - id: ClothingHeadHatCMOClip
+        orGroup: CMOHat
+      - id: ClothingCloakCmo
+        orGroup: CMONeck
+      - id: ClothingNeckMantleCMO
+        orGroup: CMONeck
+      - id: ClothingNeckCloakCmosGreatcloak
+        orGroup: CMONeck
+      - id: ClothingUniformJumpsuitCMOTurtle
+        orGroup: CMOJumpsuit
+      - id: ClothingUniformJumpsuitCMO
+        orGroup: CMOJumpsuit
+      - id: ClothingUniformJumpsuitCMOFormal
+        orGroup: CMOJumpsuit
+      - id: ClothingUniformJumpsuitCMOCasual
+        orGroup: CMOJumpsuit
+      - id: ClothingUniformJumpsuitCMOScrubs
+        orGroup: CMOJumpsuit
+      - id: ClothingUniformJumpskirtCMOTurtle
+        orGroup: CMOJumpskirt
+      - id: ClothingUniformJumpskirtCMO
+        orGroup: CMOJumpskirt
+      - id: ClothingUniformJumpskirtCMOFormal
+        orGroup: CMOJumpskirt
+      - id: ClothingUniformJumpskirtCMOCasual
+        orGroup: CMOJumpskirt
+      - id: ClothingOuterCoatLabCmo
+        orGroup: CMOOuter
+      - id: ClothingOuterWinterCMO
+        orGroup: CMOOuter
+      - id: ClothingOuterCoatCMO
+        orGroup: CMOOuter
+      - id: ClothingOuterApronCMO
+        orGroup: CMOOuter
+>>>>>>> 878c969e64 (new cmo clothing (#2832))
       - id: ClothingEyesGlasses
       - id: ClothingOuterWinterCMO
       - id: ClothingCloakCmo

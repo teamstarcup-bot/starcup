@@ -1203,6 +1203,7 @@
   loadouts:
   - ChiefMedicalOfficerBeret
   - CMOMedicalHeadMirror
+  - CMOClip # imp
 
 - type: loadoutGroup
   id: ChiefMedicalOfficerJumpsuit
@@ -1212,6 +1213,11 @@
   - ChiefMedicalOfficerJumpskirt
   - ChiefMedicalOfficerTurtleneckJumpsuit
   - ChiefMedicalOfficerTurtleneckJumpskirt
+  - CMOCasualSuit # imp
+  - CMOCasualSkirt # imp
+  - CMOFormalSuit # imp
+  - CMOFormalDress # imp
+  - CMOScrubs # imp
 
 - type: loadoutGroup
   id: ChiefMedicalOfficerOuterClothing
@@ -1220,6 +1226,11 @@
   loadouts:
   - ChiefMedicalOfficerLabCoat
   - ChiefMedicalOfficerWintercoat
+<<<<<<< HEAD
+=======
+  - CMOPrestigeLabcoat #IMP
+  - CMOApron # imp
+>>>>>>> 878c969e64 (new cmo clothing (#2832))
 
 - type: loadoutGroup
   id: ChiefMedicalOfficerNeck

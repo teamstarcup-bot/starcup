@@ -128,4 +128,44 @@
   - type: Sprite
     sprite: _Impstation/Clothing/Uniforms/Jumpskirt/spacedress.rsi
   - type: Clothing
+<<<<<<< HEAD
     sprite: _Impstation/Clothing/Uniforms/Jumpskirt/spacedress.rsi
+=======
+    sprite: _Impstation/Clothing/Uniforms/Jumpskirt/mimecropped.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtAngelDress
+  name: angel dress
+  description: Could you stop sabotaging my business?!
+  components:
+  - type: Sprite
+    sprite: _Impstation/Clothing/Uniforms/Jumpskirt/angeldress.rsi
+  - type: Clothing
+    sprite: _Impstation/Clothing/Uniforms/Jumpskirt/angeldress.rsi
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+
+- type: entity
+  parent: [ClothingUniformSkirtBase, BaseCommandContraband]
+  id: ClothingUniformJumpskirtCMOCasual
+  name: chief medical officer's casual skirt
+  description: A comfy casual outfit for the CMO.
+  components:
+  - type: Sprite
+    sprite: _Impstation/Clothing/Uniforms/Jumpskirt/cmo_casual.rsi
+  - type: Clothing
+    sprite: _Impstation/Clothing/Uniforms/Jumpskirt/cmo_casual.rsi
+
+- type: entity
+  parent: [ClothingUniformSkirtBase, BaseCommandContraband]
+  id: ClothingUniformJumpskirtCMOFormal
+  name: chief medical officer's formal dress
+  description: The CMO's formal attire, perfect for meetings and hands-off work.
+  components:
+  - type: Sprite
+    sprite: _Impstation/Clothing/Uniforms/Jumpskirt/cmo_formal.rsi
+  - type: Clothing
+    sprite: _Impstation/Clothing/Uniforms/Jumpskirt/cmo_formal.rsi
+>>>>>>> 878c969e64 (new cmo clothing (#2832))

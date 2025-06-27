@@ -40,3 +40,108 @@
   - type: Clothing
     sprite: Clothing/Head/Hats/holyhatmelon.rsi
   - type: Armor
+<<<<<<< HEAD
+=======
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadSipsiHat
+  name: sipsi hat
+  description: Cheap plastic version of a traditional Gray headdress. Has a picture of a surfing penguin on the front.
+  components:
+  - type: Sprite
+    sprite: _Impstation/Clothing/Head/Hats/sipsi_hat.rsi
+  - type: Clothing
+    sprite: _Impstation/Clothing/Head/Hats/sipsi_hat.rsi
+  - type: ExaminableSolution
+    solution: drink
+  - type: Appearance
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+  - type: MixableSolution
+    solution: drink
+  - type: SolutionTransfer
+    canChangeTransferAmount: true
+  - type: Drink
+  - type: MeleeWeapon
+    soundNoDamage:
+      path: "/Audio/Effects/Fluids/splat.ogg"
+    damage:
+      types:
+        Blunt: 0
+  - type: Spillable
+    solution: drink
+  - type: DrawableSolution
+    solution: drink
+  - type: RefillableSolution
+    solution: drink
+  - type: DrainableSolution
+    solution: drink
+  - type: UserInterface
+    interfaces:
+      enum.TransferAmountUiKey.Key:
+        type: TransferAmountBoundUserInterface
+  - type: DnaSubstanceTrace
+  - type: Tag
+    tags:
+    - HamsterWearable
+    - WhitelistChameleon
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadDeerstalker
+  name: deerstalker
+  description: Heavily modified to stalk clues instead.
+  components:
+  - type: Sprite
+    sprite: _Impstation/Clothing/Head/Hats/deerstalker.rsi
+  - type: Clothing
+    sprite: _Impstation/Clothing/Head/Hats/deerstalker.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - WhitelistChameleon
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadSailorCap
+  name: sailor's hat
+  description: You aren't immune to seasickness wearing this, but it'll make you look cooler when heaving on the boat!
+  components:
+  - type: Sprite
+    sprite: _Impstation/Clothing/Head/Hats/sailorcap.rsi
+  - type: Clothing
+    sprite: _Impstation/Clothing/Head/Hats/sailorcap.rsi
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+    - ClothMade
+
+- type: entity
+  parent: [ClothingHeadBase, BaseCentcommContraband]
+  id: ClothingHeadImpishHorns
+  name: impish horns
+  description:
+  components:
+  - type: Sprite
+    sprite: _Impstation/Clothing/Head/Hats/impishhorns.rsi
+  - type: Clothing
+    sprite: _Impstation/Clothing/Head/Hats/impishhorns.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - WhitelistChameleon
+
+- type: entity
+  parent: [ClothingHeadBase, BaseCommandContraband]
+  id: ClothingHeadHatCMOClip
+  name: chief medical officer's hairclip
+  description: A shiny plastic hairclip fashioned after the iconic green medical cross.
+  components:
+  - type: Sprite
+    sprite: _Impstation/Clothing/Head/Misc/cmo_clip.rsi
+  - type: Clothing
+    sprite: _Impstation/Clothing/Head/Misc/cmo_clip.rsi
+>>>>>>> 878c969e64 (new cmo clothing (#2832))
