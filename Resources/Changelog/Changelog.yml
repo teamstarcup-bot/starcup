@@ -1,12 +1,4 @@
 ﻿Entries:
-- author: Coolsurf6
-  changes:
-  - message: Added a new and powerful drink called Bacchus' Blessing for all bartenders
-      to struggle with.
-    type: Add
-  id: 8062
-  time: '2025-03-14T06:49:26.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/35306
 - author: Quantum-cross
   changes:
   - message: Corrupt borg speech if they are damaged or low power
@@ -3935,3 +3927,13 @@
   id: 8564
   time: '2025-06-27T21:15:23.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/176
+- author: princesspengy
+  changes:
+  - message: many, many lines of description text have been rewritten to better align
+      with our server culture and intended narrative tone
+    type: Tweak
+  - message: some posters and other decorative items have been removed
+    type: Remove
+  id: 8565
+  time: '2025-06-27T23:25:07.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/175
