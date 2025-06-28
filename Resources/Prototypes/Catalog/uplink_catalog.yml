@@ -17,7 +17,7 @@
 - type: listing
   id: UplinkRevolverPython
   name: uplink-revolver-python-name
-  description: uplink-revolver-python-desc
+  description: uplink-revolver-python-desc-starcup # starcup: Syndicate to NT
   productEntity: WeaponRevolverPythonAP
   discountCategory: rareDiscounts
   discountDownTo:
@@ -83,7 +83,7 @@
 - type: listing
   id: UplinkThrowingKnivesKit
   name: uplink-knives-kit-name
-  description: uplink-knives-kit-desc
+  description: uplink-knives-kit-desc-starcup # starcup: Syndicate to NT
   icon: { sprite: /Textures/Objects/Storage/boxicons.rsi, state: throwing_knives }
   productEntity: ThrowingKnivesKit
   discountCategory: rareDiscounts
@@ -109,7 +109,7 @@
 
 - type: listing
   id: UplinkGlovesKnuckleDusters
-  name: uplink-gloves-knuckleduster-name
+  name: uplink-gloves-knuckleduster-name-starcup # starcup: Syndicate to NT
   description: uplink-gloves-knuckleduster-desc
   icon: { sprite: Clothing/Hands/Gloves/KnuckleDusters/syndicateknuckleduster.rsi, state: syndicateknuckleduster }
   productEntity: ClothingHandsKnuckleDustersSyndicate
@@ -124,7 +124,7 @@
 - type: listing
   id: UplinkDisposableTurret
   name: uplink-disposable-turret-name
-  description: uplink-disposable-turret-desc
+  description: uplink-disposable-turret-desc-starcup # starcup: Syndicate to NT
   productEntity: ToolboxElectricalTurretFilled
   discountCategory: usualDiscounts
   discountDownTo:
@@ -305,7 +305,7 @@
 - type: listing
   id: UplinkGrenadePenguin
   name: uplink-penguin-grenade-name
-  description: uplink-penguin-grenade-desc
+  description: uplink-penguin-grenade-desc-starcup # starcup: Syndicate to NT
   productEntity: MobGrenadePenguin
   discountCategory: usualDiscounts
   discountDownTo:
@@ -393,7 +393,7 @@
 
 - type: listing
   id: UplinkSyndicateBomb
-  name: uplink-exploding-syndicate-bomb-name
+  name: uplink-exploding-syndicate-bomb-name-starcup # starcup: Syndicate to NT
   description: uplink-exploding-syndicate-bomb-desc
   productEntity: SyndicateBomb
   cost:
@@ -409,8 +409,8 @@
 
 - type: listing
   id: UplinkSyndicateBombNukie
-  name: uplink-exploding-syndicate-bomb-name
-  description: uplink-exploding-syndicate-bomb-desc
+  name: uplink-exploding-syndicate-bomb-name-starcup # starcup: Syndicate to NT
+  description: uplink-exploding-syndicate-bomb-desc-starcup # starcup: Syndicate to NT
   productEntity: SyndicateBomb
   cost:
     Telecrystal: 11
@@ -610,7 +610,7 @@
 
 - type: listing
   id: UplinkZombieBundle
-  name: uplink-zombie-bundle-name
+  name: uplink-zombie-bundle-name-starcup # starcup: Syndicate to NT
   description: uplink-zombie-bundle-desc
   icon: { sprite: /Textures/Structures/Wallmounts/signs.rsi, state: bio }
   productEntity: ClothingBackpackDuffelZombieBundle
@@ -670,7 +670,7 @@
 - type: listing
   id: UplinkStimpack
   name: uplink-stimpack-name
-  description: uplink-stimpack-desc
+  description: uplink-stimpack-desc-starcup # starcup: Syndicate to NT
   productEntity: Stimpack
   discountCategory: usualDiscounts
   discountDownTo:
@@ -695,7 +695,7 @@
 
 - type: listing
   id: UplinkCigarettes
-  name: uplink-cigarettes-name
+  name: uplink-cigarettes-name-starcup # starcup: Syndicate to NT
   description: uplink-cigarettes-desc
   productEntity: CigPackSyndicate
   cost:
@@ -768,7 +768,7 @@
 
 - type: listing
   id: UplinkHeadsetEncryptionKey
-  name: uplink-encryption-key-name
+  name: uplink-encryption-key-name-starcup # starcup: Syndicate to NT
   description: uplink-encryption-key-desc
   icon: { sprite: /Textures/Objects/Devices/encryption_keys.rsi, state: synd_label }
   productEntity: BoxEncryptionKeySyndie # Two for the price of one
@@ -892,7 +892,7 @@
 - type: listing
   id: UplinkEmag
   name: uplink-emag-name
-  description: uplink-emag-desc
+  description: uplink-emag-desc-starcup # starcup: Syndicate to NT
   productEntity: Emag
   discountCategory: veryRareDiscounts
   discountDownTo:
@@ -954,8 +954,8 @@
 
 - type: listing
   id: UplinkSlipocalypseClusterSoap
-  name: uplink-slipocalypse-clustersoap-name
-  description: uplink-slipocalypse-clustersoap-desc
+  name: uplink-slipocalypse-clustersoap-name-starcup # starcup: Syndicate to NT
+  description: uplink-slipocalypse-clustersoap-desc-starcup # starcup: Syndicate to NT
   productEntity: SlipocalypseClusterSoap
   discountCategory: rareDiscounts
   discountDownTo:
@@ -968,7 +968,7 @@
 - type: listing
   id: UplinkToolbox
   name: uplink-toolbox-name
-  description: uplink-toolbox-desc
+  description: uplink-toolbox-desc-starcup # starcup: Syndicate to NT
   productEntity: ToolboxSyndicateFilled
   discountCategory: rareDiscounts
   discountDownTo:
@@ -1062,7 +1062,7 @@
 - type: listing
   id: UplinkSurplusBundle
   name: uplink-surplus-bundle-name
-  description: uplink-surplus-bundle-desc
+  description: uplink-surplus-bundle-desc-starcup # starcup: Syndicate to NT
   productEntity: CrateSyndicateSurplusBundle
   cost:
     Telecrystal: 20
@@ -1081,7 +1081,7 @@
 - type: listing
   id: UplinkSuperSurplusBundle
   name: uplink-super-surplus-bundle-name
-  description: uplink-super-surplus-bundle-desc
+  description: uplink-super-surplus-bundle-desc-starcup # starcup: Syndicate to NT
   productEntity: CrateSyndicateSuperSurplusBundle
   cost:
     Telecrystal: 40
@@ -1198,7 +1198,7 @@
 
 - type: listing
   id: UplinkReinforcementRadioSyndicateCyborgAssault
-  name:  uplink-reinforcement-radio-cyborg-assault-name
+  name:  uplink-reinforcement-radio-cyborg-assault-name-starcup # starcup: Syndicate to NT
   description: uplink-reinforcement-radio-cyborg-assault-desc
   productEntity: ReinforcementRadioSyndicateCyborgAssault
   icon: { sprite: Objects/Devices/communication.rsi, state: old-radio-borg-assault }
@@ -1215,7 +1215,7 @@
 - type: listing
   id: UplinkReinforcementRadioSyndicateAncestor
   name: uplink-reinforcement-radio-ancestor-name
-  description: uplink-reinforcement-radio-ancestor-desc
+  description: uplink-reinforcement-radio-ancestor-desc-starcup # starcup: Syndicate to NT
   productEntity: ReinforcementRadioSyndicateAncestor
   icon: { sprite: Objects/Devices/communication.rsi, state: old-radio-ancestor }
   discountCategory: usualDiscounts
@@ -1284,8 +1284,8 @@
 
 - type: listing
   id: UplinkSyndicatePersonalAI
-  name: uplink-syndicate-pai-name
-  description: uplink-syndicate-pai-desc
+  name: uplink-syndicate-pai-name-starcup # starcup: Syndicate to NT
+  description: uplink-syndicate-pai-desc-starcup # starcup: Syndicate to NT
   icon: { sprite: /Textures/Objects/Fun/pai.rsi, state: syndicate-icon-pai-off }
   productEntity: SyndicatePersonalAI
   cost:
@@ -1376,7 +1376,7 @@
 - type: listing
   id: UplinkRadioImplanter
   name: uplink-radio-implanter-name
-  description: uplink-radio-implanter-desc
+  description: uplink-radio-implanter-desc-starcup # starcup: Syndicate to NT
   icon: { sprite: /Textures/Objects/Devices/encryption_keys.rsi, state: synd_label }
   productEntity: RadioImplanter
   discountCategory: usualDiscounts
@@ -1465,7 +1465,7 @@
 - type: listing
   id: UplinkDeathRattle
   name: uplink-deathrattle-implant-name
-  description: uplink-deathrattle-implant-desc
+  description: uplink-deathrattle-implant-desc-starcup # starcup: Syndicate to NT
   productEntity: BoxDeathRattleImplants
   cost:
     Telecrystal: 4
@@ -1625,7 +1625,7 @@
 
 - type: listing
   id: UplinkEVASyndie
-  name: uplink-eva-syndie-name
+  name: uplink-eva-syndie-name-starcup # starcup: Syndicate to NT
   description: uplink-eva-syndie-desc
   icon: { sprite: /Textures/Clothing/OuterClothing/Suits/eva_syndicate.rsi, state: icon }
   productEntity: ClothingBackpackDuffelSyndicateEVABundle
@@ -1653,8 +1653,8 @@
 
 - type: listing
   id: UplinkHardsuitSyndie
-  name: uplink-hardsuit-syndie-name
-  description: uplink-hardsuit-syndie-desc
+  name: uplink-hardsuit-syndie-name-starcup # starcup: Syndicate to NT
+  description: uplink-hardsuit-syndie-desc-starcup # starcup: Syndicate to NT
   icon: { sprite: /Textures/Clothing/OuterClothing/Hardsuits/syndicate.rsi, state: icon }
   productEntity: ClothingBackpackDuffelSyndicateHardsuitBundle
   discountCategory: veryRareDiscounts
@@ -1667,8 +1667,8 @@
 
 - type: listing
   id: UplinkClothingOuterArmorRaid
-  name: uplink-syndie-raid-name
-  description: uplink-syndie-raid-desc
+  name: uplink-syndie-raid-name-starcup # starcup: Syndicate to NT
+  description: uplink-syndie-raid-desc-starcup # starcup: Syndicate to NT
   icon: { sprite: /Textures/Clothing/OuterClothing/Armor/syndie-raid.rsi, state: icon }
   productEntity: ClothingBackpackSyndicateRaidBundle
   cost:
@@ -1683,8 +1683,8 @@
 
 - type: listing
   id: UplinkHardsuitSyndieElite
-  name: uplink-hardsuit-syndieelite-name
-  description: uplink-hardsuit-syndieelite-desc
+  name: uplink-hardsuit-syndieelite-name-starcup # starcup: Syndicate to NT
+  description: uplink-hardsuit-syndieelite-desc-starcup # starcup: Syndicate to NT
   icon: { sprite: /Textures/Clothing/OuterClothing/Hardsuits/syndieelite.rsi, state: icon }
   productEntity: ClothingBackpackDuffelSyndicateEliteHardsuitBundle
   cost:
@@ -1699,7 +1699,7 @@
 
 - type: listing
   id: UplinkClothingOuterHardsuitJuggernaut
-  name: uplink-clothing-outer-hardsuit-juggernaut-name
+  name: uplink-clothing-outer-hardsuit-juggernaut-name-starcup # starcup: Syndicate to NT
   description: uplink-clothing-outer-hardsuit-juggernaut-desc
   icon: { sprite: /Textures/Structures/Storage/Crates/syndicate.rsi, state: icon }
   productEntity: CrateCybersunJuggernautBundle
@@ -1715,8 +1715,8 @@
 
 - type: listing
   id: UplinkClothingEyesHudSyndicate
-  name: uplink-clothing-eyes-hud-syndicate-name
-  description: uplink-clothing-eyes-hud-syndicate-desc
+  name: uplink-clothing-eyes-hud-syndicate-name-starcup # starcup: Syndicate to NT
+  description: uplink-clothing-eyes-hud-syndicate-desc-starcup # starcup: Syndicate to NT
   productEntity: ClothingEyesHudSyndicate
   cost:
     Telecrystal: 2
@@ -1740,7 +1740,7 @@
 
 - type: listing
   id: UplinkBackpackSyndicate
-  name: uplink-backpack-syndicate-name
+  name: uplink-backpack-syndicate-name-starcup # starcup: Syndicate to NT
   description: uplink-backpack-syndicate-desc
   productEntity: ClothingBackpackSyndicate
   cost:
@@ -1762,7 +1762,7 @@
 
 - type: listing
   id: UplinkSnackBox
-  name: uplink-snack-box-name
+  name: uplink-snack-box-name-starcup # starcup: Syndicate to NT
   description: uplink-snack-box-desc
   productEntity: HappyHonkNukieSnacks
   cost:
@@ -1785,7 +1785,7 @@
 
 - type: listing
   id: UplinkSyndicateStamp
-  name: uplink-syndicate-stamp-name
+  name: uplink-syndicate-stamp-name-starcup # starcup: Syndicate to NT
   description: uplink-syndicate-stamp-desc
   productEntity: RubberStampSyndicate
   discountCategory: rareDiscounts
@@ -1828,8 +1828,8 @@
 
 - type: listing
   id: UplinkCostumePyjama
-  name: uplink-costume-pyjama-name
-  description: uplink-costume-pyjama-desc
+  name: uplink-costume-pyjama-name-starcup # starcup: Syndicate to NT
+  description: uplink-costume-pyjama-desc-starcup # starcup: Syndicate to NT
   productEntity: ClothingBackpackDuffelSyndicatePyjamaBundle
   cost:
     Telecrystal: 4
@@ -1888,8 +1888,8 @@
 
 - type: listing
   id: UplinkScarfSyndieRed
-  name: uplink-scarf-syndie-red-name
-  description: uplink-scarf-syndie-red-desc
+  name: uplink-scarf-syndie-red-name-starcup # starcup: Syndicate to NT
+  description: uplink-scarf-syndie-red-desc-starcup # starcup: Syndicate to NT
   productEntity: ClothingNeckScarfStripedSyndieRed
   cost:
     Telecrystal: 1
@@ -1898,8 +1898,8 @@
 
 - type: listing
   id: UplinkScarfSyndieGreen
-  name: uplink-scarf-syndie-green-name
-  description: uplink-scarf-syndie-green-desc
+  name: uplink-scarf-syndie-green-name-starcup # starcup: Syndicate to NT
+  description: uplink-scarf-syndie-green-desc-starcup # starcup: Syndicate to NT
   productEntity: ClothingNeckScarfStripedSyndieGreen
   cost:
     Telecrystal: 1
@@ -1908,8 +1908,8 @@
 
 - type: listing
   id: UplinkSyndicateBusinessCard
-  name: uplink-business-card-name
-  description: uplink-business-card-desc
+  name: uplink-business-card-name-starcup # starcup: Syndicate to NT
+  description: uplink-business-card-desc-starcup # starcup: Syndicate to NT
   productEntity: SyndicateBusinessCard
   categories:
     - UplinkPointless
@@ -2139,8 +2139,8 @@
 
 - type: listing
   id: UplinkSyndicateSpongeBox
-  name: uplink-syndicate-sponge-box-name
-  description: uplink-syndicate-sponge-box-desc
+  name: uplink-syndicate-sponge-box-name-starcup # starcup: Syndicate to NT
+  description: uplink-syndicate-sponge-box-desc-starcup # starcup: Syndicate to NT
   icon: { sprite:  Objects/Misc/monkeycube.rsi, state: box}
   discountCategory: rareDiscounts
   discountDownTo:
@@ -2183,7 +2183,7 @@
 - type: listing
   id: UplinkCombatBakery
   name: uplink-combat-bakery-name
-  description: uplink-combat-bakery-desc
+  description: uplink-combat-bakery-desc-starcup # starcup: Syndicate to NT
   icon: { sprite:  Objects/Consumable/Food/Baked/bread.rsi, state: baguette}
   productEntity: CombatBakeryKit
   discountCategory: usualDiscounts

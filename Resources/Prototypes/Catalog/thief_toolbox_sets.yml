@@ -45,8 +45,8 @@
 
 - type: thiefBackpackSet
   id: SyndieSet
-  name: thief-backpack-category-syndie-name
-  description: thief-backpack-category-syndie-description
+  name: thief-backpack-category-syndie-name-starcup # starcup: Syndicate to NT
+  description: thief-backpack-category-syndie-description # starcup: Syndicate to NT
   sprite:
     sprite: Objects/Specific/Syndicate/telecrystal.rsi
     state: telecrystal
