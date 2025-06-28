@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: Quantum-cross
-  changes:
-  - message: Corrupt borg speech if they are damaged or low power
-    type: Add
-  id: 8063
-  time: '2025-03-14T15:31:10.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/35318
 - author: Centronias
   changes:
   - message: Moths can once again eat lizard plushies
@@ -3937,3 +3930,21 @@
   id: 8565
   time: '2025-06-27T23:25:07.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/175
+- author: little-meow-meow
+  changes:
+  - message: 'Glacier: Replaced rock walls with ones ported from Delta-v'
+    type: Tweak
+  - message: 'Glacier: Expanded the ice rink and gave it ice flooring'
+    type: Tweak
+  - message: 'Glacier: Swapped emergency closets with winter coat variants from Impstation'
+    type: Tweak
+  - message: 'Glacier: Replaced several curtains with directional variants'
+    type: Tweak
+  - message: 'Glacier: Renamed all remaining ''epistemics'' references'
+    type: Tweak
+  - message: 'Glacier: Replaced botany''s missing counter and Research Director''s
+      missing winter coat'
+    type: Fix
+  id: 8566
+  time: '2025-06-28T04:48:17.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/178
