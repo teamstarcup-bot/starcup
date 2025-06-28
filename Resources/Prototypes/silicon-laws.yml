@@ -130,7 +130,7 @@
   - Syndicate1
   - Syndicate2
   - Syndicate3
-  obeysTo: laws-owner-syndicate
+  obeysTo: laws-owner-syndicate-starcup # starcup: Syndicate to NT
 
 # Ninja conversion laws
 - type: siliconLaw
