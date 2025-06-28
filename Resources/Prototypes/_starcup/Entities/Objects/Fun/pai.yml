@@ -1,0 +1,33 @@
+- type: entity
+  parent: [ PersonalAI, BaseSyndicateContraband]
+  id: NanotrasenPersonalAI
+  name: NanoTrasen personal ai device
+  description: Your NanoTrasen pal who's fun to be with!
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/pai.rsi
+    layers:
+    - state: pai-base
+    - state: syndicate-pai-off-overlay
+      shader: unshaded
+      map: ["screen"]
+  - type: ToggleableGhostRole
+    roleName: pai-system-role-name-nanotrasen
+    roleDescription: pai-system-role-description-nanotrasen
+    roleRules: ghost-role-information-familiar-rules
+    mindRoles:
+    - MindRoleGhostRoleFamiliar
+  - type: IntrinsicRadioTransmitter
+    channels:
+    - Syndicate
+  - type: ActiveRadio
+    channels:
+    - Syndicate
+  - type: Appearance
+  - type: GenericVisualizer
+    visuals:
+      enum.ToggleableGhostRoleVisuals.Status:
+        screen:
+          Off: { state: syndicate-pai-off-overlay }
+          Searching: { state: syndicate-pai-searching-overlay }
+          On: { state: syndicate-pai-on-overlay }
