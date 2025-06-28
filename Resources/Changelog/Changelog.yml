@@ -1,14 +1,4 @@
 ﻿Entries:
-- author: Centronias
-  changes:
-  - message: Moths can once again eat lizard plushies
-    type: Fix
-  - message: Lizard plushes can once again be inserted as payloads into modular grenades
-      and mines
-    type: Fix
-  id: 8064
-  time: '2025-03-14T20:22:31.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/35835
 - author: K-Dynamic
   changes:
   - message: Electrocution stun duration decreased overall; LV or hacking from 8 seconds
@@ -3948,3 +3938,13 @@
   id: 8566
   time: '2025-06-28T04:48:17.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/178
+- author: princesspengy
+  changes:
+  - message: reptilians have been renamed to unathi
+    type: Tweak
+  - message: kobolds have been removed in preparation for being reintroduced as a
+      playable species
+    type: Remove
+  id: 8567
+  time: '2025-06-28T05:58:37.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/173
