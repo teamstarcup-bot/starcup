@@ -1,0 +1,54 @@
+- type: entity
+  parent: [UnsensoredClothingUniformBase, BaseNanotrasenContraband]
+  id: ClothingUniformJumpsuitPyjamaNanotrasenBlack
+  name: black NanoTrasen pyjamas
+  description: For those long nights in perma.
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/pyjamasyndicateblack.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/pyjamasyndicateblack.rsi
+
+- type: entity
+  parent: [UnsensoredClothingUniformBase, BaseNanotrasenContraband]
+  id: ClothingUniformJumpsuitPyjamaNanotrasenGold
+  name: gold NanoTrasen pyjamas
+  description: For those long nights in perma.
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/pyjamasyndicatepink.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/pyjamasyndicatepink.rsi
+
+- type: entity
+  parent: [UnsensoredClothingUniformBase, BaseNanotrasenContraband]
+  id: ClothingUniformJumpsuitPyjamaNanotrasenBlue
+  name: blue NanoTrasen pyjamas
+  description: For those long nights in perma.
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/pyjamasyndicatered.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/pyjamasyndicatered.rsi
+
+- type: entity
+  parent: [UnsensoredClothingUniformBase, BaseNanotrasenContraband]
+  id: ClothingUniformJumpsuitOperativeNT
+  name: operative jumpsuit
+  description: Uniform for elite NanoTrasen operatives performing tactical operations in deep space.
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/operative.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/operative.rsi
+
+- type: entity
+  parent: [ClothingUniformBase, BaseNanotrasenContraband]
+  id: ClothingUniformJumpsuitNTFormal
+  name: NanoTrasen formal suit
+  description: Combines sleek, upper-class elegance with NanoTrasen's signature aura of faint totalitarian menace.
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/syndieformal.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/syndieformal.rsi

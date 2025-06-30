@@ -24,7 +24,7 @@
 # This is clear syndicate contraband and is illegal to own IC.
 - type: contrabandSeverity
   id: Syndicate
-  examineText: contraband-examine-text-Syndicate-starcup # starcup: Syndicate to NT
+  examineText: contraband-examine-text-Syndicate
 
 # This is magical contraband and not permitted to be used IC.
 - type: contrabandSeverity

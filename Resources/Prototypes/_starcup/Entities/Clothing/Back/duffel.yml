@@ -1,0 +1,61 @@
+- type: entity
+  parent: [ClothingBackpackDuffel, BaseNanotrasenContraband]
+  id: ClothingBackpackDuffelNanotrasen
+  name: NanoTrasen duffel bag
+  description: A large duffel bag for holding various traitor goods.
+  components:
+  - type: Sprite
+    sprite: Clothing/Back/Duffels/syndicate.rsi
+  - type: ExplosionResistance
+    damageCoefficient: 0.1
+  - type: Storage
+    grid:
+    - 0,0,8,4
+
+- type: entity
+  parent: ClothingBackpackDuffelNanotrasen
+  id: ClothingBackpackDuffelNanotrasenBundle
+  abstract: true
+  components:
+  - type: Tag
+    tags: [] # ignore "WhitelistChameleon" tag
+
+- type: entity
+  parent: ClothingBackpackDuffelNanotrasen
+  id: ClothingBackpackDuffelNanotrasenAmmo
+  components:
+  - type: Sprite
+    sprite: Clothing/Back/Duffels/syndicate.rsi
+    state: icon-ammo
+  - type: Item
+    heldPrefix: ammo
+  - type: Clothing
+    equippedPrefix: ammo
+
+- type: entity
+  parent: ClothingBackpackDuffelNanotrasenAmmo
+  id: ClothingBackpackDuffelNanotrasenAmmoBundle
+  abstract: true
+  components:
+    - type: Tag
+      tags: [] # ignore "WhitelistChameleon" tag
+
+- type: entity
+  parent: ClothingBackpackDuffelNanotrasen
+  id: ClothingBackpackDuffelNanotrasenMedical
+  components:
+  - type: Sprite
+    sprite: Clothing/Back/Duffels/syndicate.rsi
+    state: icon-med
+  - type: Item
+    heldPrefix: med
+  - type: Clothing
+    equippedPrefix: med
+
+- type: entity
+  parent: ClothingBackpackDuffelNanotrasenMedical
+  id: ClothingBackpackDuffelNanotrasenMedicalBundle
+  abstract: true
+  components:
+    - type: Tag
+      tags: [] # ignore "WhitelistChameleon" tag

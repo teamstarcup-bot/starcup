@@ -1,0 +1,15 @@
+# Nanotrasen Footsoldier Gear - No Headset
+- type: startingGear
+  id: NanotrasenFootsoldierGearRuin
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitOperativeNT
+    head: ClothingHeadHelmetSwatNanotrasen
+    mask: ClothingMaskGasNanotrasen
+    outerClothing: ClothingOuterArmorBasic
+    gloves: ClothingHandsGlovesCombat
+    back: ClothingBackpack
+    shoes: ClothingShoesBootsCombat
+    id: NTPDA
+  storage:
+    back:
+    - BoxSurvival

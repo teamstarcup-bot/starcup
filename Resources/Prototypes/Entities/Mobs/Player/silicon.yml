@@ -429,8 +429,8 @@
   suffix: Ghost role
   components:
     - type: GhostRole
-      name: ghost-role-information-syndicate-cyborg-saboteur-name-starcup # starcup: Syndicate to NT
-      description: ghost-role-information-syndicate-cyborg-description-starcup # starcup: Syndicate to NT
+      name: ghost-role-information-syndicate-cyborg-saboteur-name
+      description: ghost-role-information-syndicate-cyborg-description
       rules: ghost-role-information-silicon-rules
       raffle:
         settings: default

@@ -39,13 +39,13 @@ uplink-disposable-turret-desc-starcup = Looks and functions like a normal electr
 uplink-eva-syndie-name-starcup = NanoTrasen EVA Bundle
 
 uplink-hardsuit-syndie-name-starcup = NanoTrasen Hardsuit
-uplink-hardsuit-syndie-desc-starcup = Nanotrasen's well known armored royal blue hardsuit, capable of space walks and bullet resistant.
+uplink-hardsuit-syndie-desc-starcup = Nanotrasen's well known armored blueblood hardsuit, capable of space walks and bullet resistant.
 
 uplink-syndie-raid-name-starcup = NanoTrasen Raid Suit
-uplink-syndie-raid-desc-starcup = A very durable and reasonably flexible suit of royal-blue armor, reinforced against all common forms of damage but not capable of space walks. Comes with a sick helmet.
+uplink-syndie-raid-desc-starcup = A very durable and reasonably flexible suit of blueblood armor, reinforced against all common forms of damage but not capable of space walks. Comes with a sick helmet.
 
 uplink-hardsuit-syndieelite-name-starcup = NanoTrasen Elite Hardsuit
-uplink-hardsuit-syndieelite-desc-starcup = An elite version of the royal-blue hardsuit, with improved mobility and fireproofing.
+uplink-hardsuit-syndieelite-desc-starcup = An elite version of the blueblood hardsuit, with improved mobility and fireproofing.
 
 uplink-clothing-outer-hardsuit-juggernaut-name-starcup = NanoTrasen Juggernaut Suit
 

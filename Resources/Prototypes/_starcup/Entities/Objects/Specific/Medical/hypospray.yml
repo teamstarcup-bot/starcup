@@ -1,0 +1,33 @@
+- type: entity
+  name: NanoTrasen hypospray
+  parent: BaseItem
+  description: Using reverse engineered designs from the Syndicate, NanoTrasen produced these in limited quantities for their operatives.
+  id: NanotrasenHypo
+  components:
+  - type: Sprite
+    sprite: Objects/Specific/Medical/syndihypo.rsi
+    layers:
+      - state: hypo
+        map: ["enum.SolutionContainerLayers.Base"]
+      - state: hypo_fill1
+        map: ["enum.SolutionContainerLayers.Fill"]
+        visible: false
+  - type: Item
+    sprite: Objects/Specific/Medical/syndihypo.rsi
+  - type: SolutionContainerManager
+    solutions:
+      hypospray:
+        maxVol: 20
+  - type: RefillableSolution
+    solution: hypospray
+  - type: ExaminableSolution
+    solution: hypospray
+  - type: Hypospray
+    onlyAffectsMobs: false
+  - type: UseDelay
+    delay: 0.5
+  - type: Appearance
+  - type: SolutionContainerVisuals
+    maxFillLevels: 4
+    fillBaseName: hypo_fill
+    solutionName: hypospray

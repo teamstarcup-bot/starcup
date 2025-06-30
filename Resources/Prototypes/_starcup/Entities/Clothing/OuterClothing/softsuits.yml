@@ -1,0 +1,17 @@
+#NanoTrasen EVA
+- type: entity
+  parent: [ ClothingOuterEVASuitBase, BaseNanotrasenContraband ]
+  id: ClothingOuterEVASuitNanotrasen
+  name: NanoTrasen EVA suit
+  description: Perhaps predictably, they're exactly no better or worse than the suits provided to Syndicate stations.
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Suits/eva_syndicate.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Suits/eva_syndicate.rsi
+  - type: Tag
+    tags:
+    - SuitEVA
+    - MonkeyWearable
+    - WhitelistChameleon
+    - HidesHarpyWings

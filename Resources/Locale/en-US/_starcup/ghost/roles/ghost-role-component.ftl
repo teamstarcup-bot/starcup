@@ -8,9 +8,9 @@ ghost-role-information-syndicate-reinforcement-thief-name-starcup = NanoTrasen T
 
 ghost-role-information-syndicate-monkey-reinforcement-name-starcup = NanoTrasen Monkey Agent
 
-ghost-role-information-syndicate-cyborg-assault-name-starcup = NanoTrasen Assault Cyborg
-ghost-role-information-syndicate-cyborg-saboteur-name-starcup = NanoTrasen Saboteur Cyborg
-ghost-role-information-syndicate-cyborg-description-starcup = NanoTrasen needs reinforcements. You, a cold silicon killing machine, will help them.
+ghost-role-information-nanotrasen-cyborg-assault-name = NanoTrasen Assault Cyborg
+ghost-role-information-nanotrasen-cyborg-saboteur-name = NanoTrasen Saboteur Cyborg
+ghost-role-information-nanotrasen-cyborg-description = NanoTrasen needs reinforcements. You, a cold silicon killing machine, will help them.
 
 ghost-role-information-syndie-disaster-victim-name-starcup = NanoTrasen Disaster Victim
 ghost-role-information-syndie-disaster-victim-description-starcup = You're a regular passenger from a NanoTrasen station. Unfortunately, an evacuation pod has thrown you into an enemy sector...

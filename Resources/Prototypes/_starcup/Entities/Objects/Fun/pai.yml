@@ -1,5 +1,5 @@
 - type: entity
-  parent: [ PersonalAI, BaseSyndicateContraband]
+  parent: [ PersonalAI, BaseNanotrasenContraband]
   id: NanotrasenPersonalAI
   name: NanoTrasen personal ai device
   description: Your NanoTrasen pal who's fun to be with!

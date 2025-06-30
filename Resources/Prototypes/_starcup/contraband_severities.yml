@@ -1,0 +1,4 @@
+# This is clear nanotrasen contraband and is illegal to own IC.
+- type: contrabandSeverity
+  id: Nanotrasen
+  examineText: contraband-examine-text-nanotrasen
