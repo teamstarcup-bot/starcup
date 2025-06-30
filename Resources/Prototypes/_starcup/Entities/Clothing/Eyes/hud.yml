@@ -25,5 +25,5 @@
 
 - type: entity
   parent: [ClothingEyesGlassesSunglasses, ShowSecurityIcons]
-  id: ClothingEyesGlassesHiddenSecurity
+  id: ClothingEyesGlassesHiddenSecurityNT
   suffix: NanoTrasen

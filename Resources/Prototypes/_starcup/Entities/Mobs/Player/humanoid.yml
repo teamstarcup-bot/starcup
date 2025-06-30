@@ -1,7 +1,7 @@
 ## Syndicate
 
 - type: entity
-  id: RandomHumanoidSpawnerSyndicateAgent
+  id: RandomHumanoidSpawnerNanotrasenAgent
   name: NanoTrasen agent
   components:
     - type: Sprite
