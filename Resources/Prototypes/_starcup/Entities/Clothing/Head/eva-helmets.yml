@@ -1,7 +1,7 @@
 #Syndicate EVA Helmet
 - type: entity
   parent: [ ClothingHeadEVAHelmetBase, BaseNanotrasenContraband ]
-  id: ClothingHeadHelmetSyndicate
+  id: ClothingHeadHelmetNanotrasen
   name: NanoTrasen EVA helmet
   description: A simple, stylish EVA helmet. Designed for maximum humble space-badassery.
   components:
