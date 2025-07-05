@@ -2,7 +2,11 @@
 
 on:
   pull_request_target:
+<<<<<<< HEAD
     types: [review_requested, opened]
+=======
+    types: [review_requested]
+>>>>>>> 0b8c0e153f (i fucking did it (labeler fixes FOR REAL) (#2993))
 
 jobs:
   add_label:
