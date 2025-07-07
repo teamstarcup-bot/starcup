@@ -47,3 +47,8 @@
   - Reporter
   - Zookeeper
   # end starcup
+
+- type: accessGroup
+  id: General
+  tags:
+  - Maintenance
