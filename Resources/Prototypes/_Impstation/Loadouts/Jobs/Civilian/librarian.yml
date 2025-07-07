@@ -10,8 +10,8 @@
 
 - type: loadout
   id: LibrarianSpaceDress
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: JamjarTimer
+#  effects:  # starcup: made non-exclusive
+#  - !type:GroupLoadoutEffect
+#    proto: JamjarTimer
   equipment:
     jumpsuit: ClothingUniformJumpskirtSpaceDress # imp
