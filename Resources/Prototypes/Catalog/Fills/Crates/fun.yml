@@ -46,7 +46,34 @@
     - id: PlushieEskie
     - id: PlushieEikse
     - id: PlushieMort
+<<<<<<< HEAD
     # end starcup
+||||||| parent of 803ced67f22 (Impstation Plushie Exchange (#942) (#381))
+    - id: PlushieIPC
+    - id: PlushieFelinid
+    - id: PlushieOni
+    - id: PlushieHarpy
+    - id: PlushieRodentia
+    - id: PlushieFeroxi
+    - id: PlushieChitinid
+    - id: PlushieKitsune
+    # End DeltaV
+    - id: PlushieThaven # IMP port
+=======
+    - id: PlushieIPC
+    - id: PlushieFelinid
+    - id: PlushieOni
+    - id: PlushieHarpy
+    - id: PlushieRodentia
+    - id: PlushieFeroxi
+    - id: PlushieChitinid
+    - id: PlushieKitsune
+    # End DeltaV
+    - id: PlushieThaven # IMP port
+    - id: PlushieUrsaMinor # L5
+    - id: PlushieGiantBear # L5
+      weight: 0.15
+>>>>>>> 803ced67f22 (Impstation Plushie Exchange (#942) (#381))
 
 - type: entityTable
   id: AllPottedPlantsTable
