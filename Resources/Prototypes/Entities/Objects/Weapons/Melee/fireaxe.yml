@@ -69,3 +69,8 @@
     quickEquip: false
     slots:
     - back
+# begin starcup: no Axing (antags shouldn't be able to space rooms this easily)
+  - type: Tool
+    qualities:
+    - Prying
+# end starcup
