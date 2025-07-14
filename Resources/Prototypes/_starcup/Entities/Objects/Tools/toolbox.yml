@@ -1,6 +1,7 @@
 - type: entity
   parent: [BaseTraitorContraband, ToolboxSyndicate]
   id: ToolboxNanotrasen
+  suffix: NanoTrasen
   description: A sinister looking toolbox filled with elite NanoTrasen tools.
   components:
   - type: Sprite
@@ -10,7 +11,7 @@
     sprite: _starcup/Objects/Tools/Toolboxes/toolbox_nt.rsi
 
 - type: entity
-  suffix: NanoTrasen, Turret
+  suffix: Turret, NanoTrasen
   parent: ToolboxElectricalTurret
   id: ToolboxElectricalTurretNT
   description: A toolbox typically stocked with electrical gear.
