@@ -1,3 +1,6 @@
+uplink-nanotrasen-deck-name = NanoTrasen Deck Box
+uplink-nanotrasen-deck-desc = A deck box with the standard 53 playing cards with NanoTrasen branding. Please gamble responsibly.
+
 uplink-revolver-python-desc-starcup = A brutally simple, effective, and loud NanoTrasen revolver. Comes loaded with armor-piercing rounds. Uses .45 magnum.
 
 uplink-gloves-knuckleduster-name-starcup = NanoTrasen Knuckle Dusters
