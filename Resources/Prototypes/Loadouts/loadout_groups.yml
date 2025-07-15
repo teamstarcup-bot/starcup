@@ -17,6 +17,23 @@
   - HandheldStationMap
   # end starcup additions
   - ThreeCandles
+  # begin starcup additions
+  - BoxFolderClipboard
+  - BoxFolderBlack
+  - BoxFolderRed
+  - BoxFolderGreen
+  - BoxFolderBlue
+  - BoxFolderWhite
+  - NotebookPocketBlue
+  - NotebookPocketBrown
+  - NotebookPocketGreen
+  - NotebookSpiralCybersun
+  - NotebookSpiralInterdyne
+  - NotebookSpiralBeige
+  - NotebookSpiralPurple
+  - NotebookSpiralTeal
+  - NotebookCompositionBlack
+  # end starcup additions
   - Lighter
   - CigPackGreen
   - CigPackRed
