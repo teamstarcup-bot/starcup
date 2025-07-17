@@ -42,3 +42,10 @@
   id: 8071
   time: '2025-07-16T13:40:45.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/242
+- author: KoboldCatgirl
+  changes:
+  - message: Gave Janitor a choice between janibelt and maid waistbag!
+    type: Add
+  id: 8072
+  time: '2025-07-17T09:13:18.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/244
