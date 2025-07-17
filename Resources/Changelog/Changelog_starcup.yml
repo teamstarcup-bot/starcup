@@ -49,3 +49,11 @@
   id: 8072
   time: '2025-07-17T09:13:18.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/244
+- author: princesspengy
+  changes:
+  - message: the moscow mule, gin fizz, and pina colada have had their recipes and
+      ethanol content rebalanced
+    type: Tweak
+  id: 8073
+  time: '2025-07-17T21:39:51.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/245
