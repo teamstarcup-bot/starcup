@@ -28,6 +28,8 @@ loadout-group-admin-assistant-outerclothing = Administrative Assistant outer clo
 loadout-group-admin-assistant-shoes = Administrative Assistant shoes
 loadout-group-admin-assistant-gloves = Administrative Assistant gloves
 
+loadout-group-assistant-head = Assistant head
+
 # Logistics
 loadout-group-courier-head = Courier head
 loadout-group-courier-neck = Courier neck

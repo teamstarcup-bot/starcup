@@ -1,5 +1,55 @@
+
+
 ## Bartender
 - type: loadoutGroup
+<<<<<<< HEAD
+||||||| parent of f12b84e7d18 (Mega assistant loadout update (#3554))
+  id: ServiceWorkerHead
+  name: loadout-group-serviceworker-head
+  minLimit: 0
+  loadouts:
+  - ServiceWorkerCap
+  - ServiceWorkerCapFlip
+  - ServiceWorkerBandana
+
+- type: loadoutGroup
+  id: ServiceWorkerJumpsuit
+  name: loadout-group-serviceworker-jumpsuit
+  loadouts:
+  - ServiceWorkerJumpsuit
+  - ServiceWorkerJumpskirt
+  - ServiceWorkerJumpsuitDark
+  - ServiceWorkerJumpskirtDark
+  - BartenderJumpsuit
+  - BartenderJumpskirt
+  - BartenderJumpsuitPurple
+
+## Bartender
+- type: loadoutGroup
+=======
+  id: ServiceWorkerHead
+  name: loadout-group-serviceworker-head
+  minLimit: 0
+  loadouts:
+  - ServiceWorkerCap
+  - ServiceWorkerCapFlip
+  - ServiceWorkerBandana
+
+- type: loadoutGroup
+  id: ServiceWorkerJumpsuit
+  name: loadout-group-serviceworker-jumpsuit
+  loadouts:
+  - GreenJumpsuit
+  - GreenJumpskirt
+  - DarkGreenJumpsuit
+  - DarkGreenJumpskirt
+  - BartenderJumpsuit
+  - BartenderJumpskirt
+  - BartenderJumpsuitPurple
+
+## Bartender
+- type: loadoutGroup
+>>>>>>> f12b84e7d18 (Mega assistant loadout update (#3554))
   id: BartenderNeck
   name: loadout-group-bartender-neck
   minLimit: 0
@@ -52,7 +102,48 @@
   - ScarfBlack
   - ScarfPurple
   - ScarfZebra
+<<<<<<< HEAD
   - ScarfRainbow #starcup
+||||||| parent of f12b84e7d18 (Mega assistant loadout update (#3554))
+=======
+
+## Assistants
+- type: loadoutGroup
+  id: AssistantHead
+  name: loadout-group-assistant-head
+  minLimit: 0
+  loadouts:
+  - BlackBandana
+  - BlueBandana
+  - GoldBandana
+  - GreenBandana
+  - GreyBandana
+  - RedBandana
+  - BrownBandana
+  - SkullBandana
+  - BartenderHead
+  - BartenderBowler
+  - RedBeret
+  - BrownFedora
+  - GreyFedora
+  - BlackFedora
+  - ChocFedora
+  - WhiteFedora
+  - GreyFlatCap
+  - BlackFlatCap
+  - BrownFlatCap
+  - BrownCowboyHat
+  - BlackCowboyHat
+  - GreyCowboyHat
+  - RedCowboyHat
+  - WhiteCowboyHat
+  - BountyHunterHat
+  - StrawHat
+  - HeadBand
+  - OutlawHat
+  - WitchHat
+  - PirateHat
+>>>>>>> f12b84e7d18 (Mega assistant loadout update (#3554))
 
 # Logistics
 ## Courier
