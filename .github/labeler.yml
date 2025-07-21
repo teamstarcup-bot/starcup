@@ -39,7 +39,7 @@
 
 "Changes: Port":
 - changed-files:
-  - any-glob-to-any-file: '**/_!(Impstation)/**'
+  - any-glob-to-any-file: '**/_!(starcup)/**'
 
 "Changes: Guidebook":
 - changed-files:
