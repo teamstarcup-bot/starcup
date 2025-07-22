@@ -397,8 +397,26 @@
     - horrible
     - terrible
     - chewy
+  # begin starcup: make less voracious
+  - type: Thirst
+    startingThirst: 25  # spawn with Okay thirst state
+    thresholds:
+      OverHydrated: 30
+      Okay: 20
+      Thirsty: 10
+      Parched: 5
+      Dead: 0
   - type: Hunger
-    baseDecayRate: 0.25
+    thresholds:
+      Overfed: 30
+      Okay: 20
+      Peckish: 10
+      Starving: 5
+      Dead: 0
+    baseDecayRate: 0.1
+  - type: Body
+    prototype: Mouse
+    # end starcup
   - type: Extractable
     grindableSolutionName: food
   - type: SolutionContainerManager
@@ -1201,6 +1219,28 @@
   - type: HTN
     rootTask:
       task: SimpleHostileCompound
+    blackboard:
+      NavClimb: !type:Bool
+        true
+      NavInteract: !type:Bool
+        true
+      NavPry: !type:Bool
+        true
+      NavSmash: !type:Bool
+        true
+  - type: Prying
+    pryPowered: true
+    force: true
+    speedModifier: 1.5
+    useSound:
+      path: /Audio/Items/crowbar.ogg
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      200: Critical
+      250: Dead
+  - type: StaminaResistance
+    damageCoefficient: 0.40
 
 - type: entity
   name: kangaroo
@@ -1768,17 +1808,17 @@
       OverHydrated: 35
       Okay: 25
       Thirsty: 15
-      Parched: 10
+      Parched: 5 # starcup: was 10
       Dead: 0
     baseDecayRate: 0.04
   - type: Hunger
     thresholds:
       Overfed: 35
       Okay: 25
-      Peckish: 15
-      Starving: 10
+      Peckish: 12.5 # starcup: was 15
+      Starving: 5 # starcup: was 10
       Dead: 0
-    baseDecayRate: 0.5 # I'm very hungry! Give me. The cheese.
+    baseDecayRate: 0.05 # starcup, was 0.5
   - type: Extractable
     grindableSolutionName: food
   - type: SolutionContainerManager
@@ -2318,6 +2358,7 @@
         Brute: 5
   - type: Item
     size: Normal
+    sprite: Mobs/Animals/grenadepenguin.rsi
   - type: OnUseTimerTrigger
     delay: 10
     beepSound:
@@ -3101,6 +3142,10 @@
   - type: NpcFactionMember
     factions:
     - Syndicate
+  - type: Access
+    tags:
+    - NuclearOperative
+    - SyndicateAgent
   - type: MeleeWeapon
     altDisarm: false
     angle: 0
@@ -3256,6 +3301,7 @@
   - type: Grammar
     attributes:
       gender: epicene
+  - type: SlowAccent
   - type: Tag
     tags:
     - VimPilot
@@ -3393,7 +3439,7 @@
     flavors:
     - meaty
   - type: Hunger
-    baseDecayRate: 0.3
+    baseDecayRate: 0.05 # starcup: was 0.3
   - type: Extractable
     grindableSolutionName: food
   - type: SolutionContainerManager
@@ -3780,3 +3826,6 @@
     - DoorBumpOpener
   - type: StatusIcon # marks them as crew
     bounds: -0.5,-0.5,0.5,0.5
+  - type: NpcFactionMember
+    factions:
+    - NanoTrasen

@@ -6,7 +6,7 @@ loadout-group-medical-intern-outerclothing = Medical intern outer clothing
 
 loadout-group-chemist-id-starcup = Chemist PDA
 
-# Research
+# Science
 loadout-group-research-assistant-outerclothing = Research assistant outer clothing
 
 loadout-group-roboticist-id-starcup = Roboticist PDA
@@ -28,6 +28,7 @@ loadout-group-chef-shoes = Chef shoes
 
 loadout-group-clown-mask = Clown mask
 
+loadout-group-janitor-belt-starcup = Janitor belt
 loadout-group-janitor-shoes = Janitor shoes
 loadout-group-janitor-light = Janitor flashlight
 
@@ -44,6 +45,9 @@ loadout-group-musician-shoes = Musician shoes
 loadout-group-service-worker-jumpsuit = Service worker jumpsuit
 loadout-group-service-worker-outerclothing = Service worker outer clothing
 loadout-group-service-worker-shoes = Service worker shoes
+
+# Wildcards
+loadout-group-prisoner-jumpsuit = Prisoner jumpsuit
 
 # Misc
 loadout-group-plushies = Plushies

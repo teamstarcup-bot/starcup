@@ -1,6 +1,6 @@
 - type: entity
   abstract: true
-  parent: [ BaseItem, StorePresetUplink ] #PDA's have uplinks so they have to inherit the data.
+  parent: [ BaseItem, StorePresetUplinkNT ] #PDA's have uplinks so they have to inherit the data. # starcup: Syndicate to NT
   id: BasePDA
   name: PDA
   description: Personal Data Assistant.
@@ -475,10 +475,12 @@
     state: pda-qm
   - type: CartridgeLoader # DeltaV - MailMetrics courier tracker
     preinstalled:
-      - CrewManifestCartridge
-      - NotekeeperCartridge
-      - NewsReaderCartridge
-      - MailMetricsCartridge
+    - CrewManifestCartridge
+    - NotekeeperCartridge
+    - NanoTaskCartridge
+    - NewsReaderCartridge
+    - AstroNavCartridge
+    - MailMetricsCartridge
 
 - type: entity
   parent: BasePDA
@@ -640,7 +642,7 @@
   - type: Pda
     id: CaptainIDCard
     penSlot:
-      startingItem: PenCap
+      startingItem: PenCapSyndie # starcup: Syndicate recolors
       priority: -1
       whitelist:
         tags:
@@ -1521,3 +1523,14 @@
     borderColor: "#7F3300"
   - type: Icon
     state: pda-wizard
+
+- type: entity
+  parent: ClearPDA
+  id: ScurretPDA
+  description: A temporary PDA granted to scurret temps. Doesn't do much. Wawa!
+  components:
+  - type: Pda
+    id: VisitorIDCard
+  - type: Tag #  Ignore Chameleon tags
+    tags:
+    - DoorBumpOpener
