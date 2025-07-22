@@ -91,3 +91,19 @@
   id: 8077
   time: '2025-07-22T08:38:07.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/229
+- author: princesspengy
+  changes:
+  - message: silicon first aid kits can now be ordered from cargo, containing all
+      the tools necessary to repair mkcs!
+    type: Add
+  - message: oilpacks have been removed from the medical techfab and added to the
+      robotech deluxe vendor
+    type: Tweak
+  - message: the oilpack crate has been removed since now you can order oilpacks via
+      the first aid kits
+    type: Remove
+  - message: the exosuit fabricator can create empty silicon first aid kit boxes
+    type: Add
+  id: 8078
+  time: '2025-07-22T12:17:33.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/240
