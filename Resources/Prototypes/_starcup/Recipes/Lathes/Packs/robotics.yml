@@ -1,6 +1,7 @@
 ## Static
 
 - type: latheRecipePack
-  id: MedicalStaticDeltaV
+  id: RoboticsStarcupStatic
   recipes:
   - Oilpack
+  - MedkitSilicon
