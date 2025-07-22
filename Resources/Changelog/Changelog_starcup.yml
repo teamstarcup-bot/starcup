@@ -121,3 +121,10 @@
   id: 8080
   time: '2025-07-22T14:13:00.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/254
+- author: foxcurl
+  changes:
+  - message: Select MNK clothes are now available in the uniform printer.
+    type: Add
+  id: 8081
+  time: '2025-07-22T23:23:18.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/255
