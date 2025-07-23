@@ -135,3 +135,13 @@
   id: 8082
   time: '2025-07-23T00:38:40.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/189
+- author: princesspengy
+  changes:
+  - message: stamina and stun animations have been added
+    type: Add
+  - message: replaced the existing crawling system with upstream's! notably, your
+      default hotkey is now C instead of R
+    type: Tweak
+  id: 8083
+  time: '2025-07-23T12:51:48.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/257
