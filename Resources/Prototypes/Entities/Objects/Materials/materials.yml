@@ -262,9 +262,7 @@
         reagents:
         - ReagentId: Cellulose
           Quantity: 10
-<<<<<<< HEAD
-=======
-# imp edits below
+# begin imp
   - type: UserInterface
     interfaces:
       enum.ShortConstructionUiKey.Key:
@@ -293,7 +291,7 @@
     - TileWoodParquetLight
     - TileWoodParquetRed
     - TileWoodRed
->>>>>>> fc4f1c4201 (Merge pull request #1795 from rainyatrium/tg-woodfloors)
+# end imp
 
 - type: entity
   parent: MaterialWoodPlank
