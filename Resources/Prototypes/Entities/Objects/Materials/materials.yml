@@ -262,36 +262,6 @@
         reagents:
         - ReagentId: Cellulose
           Quantity: 10
-# begin imp
-  - type: UserInterface
-    interfaces:
-      enum.ShortConstructionUiKey.Key:
-        type: ShortConstructionMenuBUI
-  - type: ActivatableUI
-    key: enum.ShortConstructionUiKey.Key
-  - type: ShortConstruction
-    prototypes:
-    - TileWood
-    - TileWoodBlack
-    - TileWoodChess
-    - TileWoodChessBlack
-    - TileWoodChessDark
-    - TileWoodChessLight
-    - TileWoodChessRed
-    - TileWoodDark
-    - TileWoodLarge
-    - TileWoodLargeBlack
-    - TileWoodLargeDark
-    - TileWoodLargeLight
-    - TileWoodLargeRed
-    - TileWoodLight
-    - TileWoodParquet
-    - TileWoodParquetBlack
-    - TileWoodParquetDark
-    - TileWoodParquetLight
-    - TileWoodParquetRed
-    - TileWoodRed
-# end imp
 
 - type: entity
   parent: MaterialWoodPlank
