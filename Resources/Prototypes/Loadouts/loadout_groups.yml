@@ -108,9 +108,74 @@
   - TowelColorRed
   - TowelColorSilver
   - TowelColorYellow
+<<<<<<< HEAD
   # Misc Cosmetics
   - GoldRing # Delta-V
   - SilverRing # Delta-V
+||||||| parent of ae26c9c9adc (Tarot cards (#3150))
+  - AACTablet # DeltaV
+  - CDDogtags #_CD
+  # imp edit start
+  - NoviceMark
+  - BarFlask
+  - CardBoxBlack
+  - Clipboard
+  - ClothingHeadHatKippahBlueAndGold
+  - ClothingHeadHatKippahSimple
+  - ClothingHeadHatKippahWhiteAndBlue
+  - ClothingHeadPaperSack
+  - ClothingHeadPaperSackSmile
+  - FolderBlack
+  - FolderHamster
+  - FolderMime
+  - FolderPun
+  - GoldRingTrinket
+  - HeartLocket
+  - HeartLocketSilver
+  - NewtonCradle
+  - PanFluteInstrument
+  - PlushieDoll
+  - PlushieDollHair
+  - SilverRingTrinket
+  - TutorialAI_Newcomer
+  - VapeSwappable
+  - VapeCart
+  - WalkingCane
+  - WristwatchTrinket
+  # imp edit end
+=======
+  - AACTablet # DeltaV
+  - CDDogtags #_CD
+  # imp edit start
+  - NoviceMark
+  - BarFlask
+  - CardBoxBlack
+  - CardBoxTarot
+  - Clipboard
+  - ClothingHeadHatKippahBlueAndGold
+  - ClothingHeadHatKippahSimple
+  - ClothingHeadHatKippahWhiteAndBlue
+  - ClothingHeadPaperSack
+  - ClothingHeadPaperSackSmile
+  - FolderBlack
+  - FolderHamster
+  - FolderMime
+  - FolderPun
+  - GoldRingTrinket
+  - HeartLocket
+  - HeartLocketSilver
+  - NewtonCradle
+  - PanFluteInstrument
+  - PlushieDoll
+  - PlushieDollHair
+  - SilverRingTrinket
+  - TutorialAI_Newcomer
+  - VapeSwappable
+  - VapeCart
+  - WalkingCane
+  - WristwatchTrinket
+  # imp edit end
+>>>>>>> ae26c9c9adc (Tarot cards (#3150))
 
 - type: loadoutGroup
   id: Glasses
