@@ -1,7 +1,7 @@
 - type: tile
   id: FloorGoldMono
   name: tiles-gold-floor-mono
-  sprite: /Textures/_Frontier/Tiles/gold-mono.png
+  sprite: /Textures/_NF/Tiles/gold-mono.png
   variants: 4
   placementVariants:
   - 1.0
@@ -19,7 +19,7 @@
 - type: tile
   id: FloorSilverMono
   name: tiles-silver-floor-mono
-  sprite: /Textures/_Frontier/Tiles/silver-mono.png
+  sprite: /Textures/_NF/Tiles/silver-mono.png
   variants: 4
   placementVariants:
   - 1.0
@@ -37,7 +37,7 @@
 - type: tile
   id: FloorGreenMono
   name: tiles-green-floor-mono
-  sprite: /Textures/_Frontier/Tiles/green-mono.png
+  sprite: /Textures/_NF/Tiles/green-mono.png
   variants: 4
   placementVariants:
   - 1.0
@@ -55,7 +55,7 @@
 - type: tile
   id: FloorLightBlueMono
   name: tiles-light-blue-floor-mono
-  sprite: /Textures/_Frontier/Tiles/light-blue-mono.png
+  sprite: /Textures/_NF/Tiles/light-blue-mono.png
   variants: 4
   placementVariants:
   - 1.0
@@ -73,7 +73,7 @@
 - type: tile
   id: FloorLightGreenMono
   name: tiles-light-green-floor-mono
-  sprite: /Textures/_Frontier/Tiles/light-green-mono.png
+  sprite: /Textures/_NF/Tiles/light-green-mono.png
   variants: 4
   placementVariants:
   - 1.0
@@ -91,7 +91,7 @@
 - type: tile
   id: FloorLightPinkMono
   name: tiles-light-pink-floor-mono
-  sprite: /Textures/_Frontier/Tiles/light-pink-mono.png
+  sprite: /Textures/_NF/Tiles/light-pink-mono.png
   variants: 4
   placementVariants:
   - 1.0
@@ -109,7 +109,7 @@
 - type: tile
   id: FloorLightYellowMono
   name: tiles-light-yellow-floor-mono
-  sprite: /Textures/_Frontier/Tiles/light-yellow-mono.png
+  sprite: /Textures/_NF/Tiles/light-yellow-mono.png
   variants: 4
   placementVariants:
   - 1.0
@@ -127,7 +127,7 @@
 - type: tile
   id: FloorOrangeMono
   name: tiles-orange-floor-mono
-  sprite: /Textures/_Frontier/Tiles/orange-mono.png
+  sprite: /Textures/_NF/Tiles/orange-mono.png
   variants: 4
   placementVariants:
   - 1.0
@@ -145,7 +145,7 @@
 - type: tile
   id: FloorSus
   name: tiles-sus-floor
-  sprite: /Textures/_Frontier/Tiles/sus/sus.png
+  sprite: /Textures/_NF/Tiles/sus/sus.png
   variants: 4
   placementVariants:
   - 1.0
@@ -164,7 +164,7 @@
 - type: tile
   id: FloorLightRedMono
   name: tiles-light-red-floor-mono
-  sprite: /Textures/_Frontier/Tiles/light-red-mono.png
+  sprite: /Textures/_NF/Tiles/light-red-mono.png
   variants: 4
   placementVariants:
   - 1.0
@@ -182,7 +182,7 @@
 - type: tile
   id: FloorRedMono
   name: tiles-red-floor-mono
-  sprite: /Textures/_Frontier/Tiles/red-mono.png
+  sprite: /Textures/_NF/Tiles/red-mono.png
   variants: 4
   placementVariants:
   - 1.0
@@ -200,7 +200,7 @@
 - type: tile
   id: FloorCheckerboardWood
   name: tiles-wood-checkerboard-floor
-  sprite: /Textures/_Frontier/Tiles/checkerboard.png
+  sprite: /Textures/_NF/Tiles/checkerboard.png
   variants: 4
   placementVariants:
   - 1.0
@@ -218,7 +218,7 @@
 - type: tile
   id: FloorLightMosaicWood
   name: tiles-wood-light-mosaic-floor
-  sprite: /Textures/_Frontier/Tiles/light-mosaic.png
+  sprite: /Textures/_NF/Tiles/light-mosaic.png
   variants: 4
   placementVariants:
   - 1.0
@@ -236,7 +236,7 @@
 - type: tile
   id: FloorFancyWood
   name: tiles-wood-fancy-floor
-  sprite: /Textures/_Frontier/Tiles/fancywood.png
+  sprite: /Textures/_NF/Tiles/fancywood.png
   variants: 4
   placementVariants:
   - 1.0
@@ -254,7 +254,7 @@
 - type: tile
   id: FloorVersaillesWood
   name: tiles-wood-versailles-floor
-  sprite: /Textures/_Frontier/Tiles/versailles.png
+  sprite: /Textures/_NF/Tiles/versailles.png
   variants: 4
   placementVariants:
   - 1.0
@@ -272,7 +272,7 @@
 - type: tile
   id: FloorCheese
   name: tiles-cheese-floor
-  sprite: /Textures/_Frontier/Tiles/cheese.png
+  sprite: /Textures/_NF/Tiles/cheese.png
   variants: 4
   placementVariants:
   - 1.0

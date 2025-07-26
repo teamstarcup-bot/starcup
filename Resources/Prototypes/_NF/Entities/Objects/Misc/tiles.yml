@@ -4,10 +4,10 @@
   id: FloorTileItemGoldMono
   components:
   - type: Sprite
-    sprite: /Textures/_Frontier/Objects/Tiles/color_monotile.rsi
+    sprite: /Textures/_NF/Objects/Tiles/color_monotile.rsi
     state: gold-mono
   - type: Item
-    sprite: /Textures/_Frontier/Objects/Tiles/color_monotile.rsi
+    sprite: /Textures/_NF/Objects/Tiles/color_monotile.rsi
     heldPrefix: gold-mono
   - type: FloorTile
     outputs:
@@ -21,10 +21,10 @@
   id: FloorTileItemSilverMono
   components:
   - type: Sprite
-    sprite: /Textures/_Frontier/Objects/Tiles/color_monotile.rsi
+    sprite: /Textures/_NF/Objects/Tiles/color_monotile.rsi
     state: silver-mono
   - type: Item
-    sprite: /Textures/_Frontier/Objects/Tiles/color_monotile.rsi
+    sprite: /Textures/_NF/Objects/Tiles/color_monotile.rsi
     heldPrefix: silver-mono
   - type: FloorTile
     outputs:
@@ -38,10 +38,10 @@
   id: FloorTileItemGreenMono
   components:
   - type: Sprite
-    sprite: /Textures/_Frontier/Objects/Tiles/color_monotile.rsi
+    sprite: /Textures/_NF/Objects/Tiles/color_monotile.rsi
     state: green-mono
   - type: Item
-    sprite: /Textures/_Frontier/Objects/Tiles/color_monotile.rsi
+    sprite: /Textures/_NF/Objects/Tiles/color_monotile.rsi
     inhandVisuals:
       left:
         - state: mono-inhand-left
@@ -61,10 +61,10 @@
   id: FloorTileItemLightBlueMono
   components:
   - type: Sprite
-    sprite: /Textures/_Frontier/Objects/Tiles/color_monotile.rsi
+    sprite: /Textures/_NF/Objects/Tiles/color_monotile.rsi
     state: light-blue-mono
   - type: Item
-    sprite: /Textures/_Frontier/Objects/Tiles/color_monotile.rsi
+    sprite: /Textures/_NF/Objects/Tiles/color_monotile.rsi
     inhandVisuals:
       left:
         - state: mono-inhand-left
@@ -84,10 +84,10 @@
   id: FloorTileItemLightGreenMono
   components:
   - type: Sprite
-    sprite: /Textures/_Frontier/Objects/Tiles/color_monotile.rsi
+    sprite: /Textures/_NF/Objects/Tiles/color_monotile.rsi
     state: light-green-mono
   - type: Item
-    sprite: /Textures/_Frontier/Objects/Tiles/color_monotile.rsi
+    sprite: /Textures/_NF/Objects/Tiles/color_monotile.rsi
     inhandVisuals:
       left:
         - state: mono-inhand-left
@@ -107,10 +107,10 @@
   id: FloorTileItemLightPinkMono
   components:
   - type: Sprite
-    sprite: /Textures/_Frontier/Objects/Tiles/color_monotile.rsi
+    sprite: /Textures/_NF/Objects/Tiles/color_monotile.rsi
     state: light-pink-mono
   - type: Item
-    sprite: /Textures/_Frontier/Objects/Tiles/color_monotile.rsi
+    sprite: /Textures/_NF/Objects/Tiles/color_monotile.rsi
     inhandVisuals:
       left:
         - state: mono-inhand-left
@@ -130,10 +130,10 @@
   id: FloorTileItemLightYellowMono
   components:
   - type: Sprite
-    sprite: /Textures/_Frontier/Objects/Tiles/color_monotile.rsi
+    sprite: /Textures/_NF/Objects/Tiles/color_monotile.rsi
     state: light-yellow-mono
   - type: Item
-    sprite: /Textures/_Frontier/Objects/Tiles/color_monotile.rsi
+    sprite: /Textures/_NF/Objects/Tiles/color_monotile.rsi
     inhandVisuals:
       left:
         - state: mono-inhand-left
@@ -153,10 +153,10 @@
   id: FloorTileItemOrangeMono
   components:
   - type: Sprite
-    sprite: /Textures/_Frontier/Objects/Tiles/color_monotile.rsi
+    sprite: /Textures/_NF/Objects/Tiles/color_monotile.rsi
     state: orange-mono
   - type: Item
-    sprite: /Textures/_Frontier/Objects/Tiles/color_monotile.rsi
+    sprite: /Textures/_NF/Objects/Tiles/color_monotile.rsi
     inhandVisuals:
       left:
         - state: mono-inhand-left
@@ -176,10 +176,10 @@
   id: FloorTileItemLightRedMono
   components:
   - type: Sprite
-    sprite: /Textures/_Frontier/Objects/Tiles/color_monotile.rsi
+    sprite: /Textures/_NF/Objects/Tiles/color_monotile.rsi
     state: light-red-mono
   - type: Item
-    sprite: /Textures/_Frontier/Objects/Tiles/color_monotile.rsi
+    sprite: /Textures/_NF/Objects/Tiles/color_monotile.rsi
     inhandVisuals:
       left:
         - state: mono-inhand-left
@@ -199,10 +199,10 @@
   id: FloorTileItemRedMono
   components:
   - type: Sprite
-    sprite: /Textures/_Frontier/Objects/Tiles/color_monotile.rsi
+    sprite: /Textures/_NF/Objects/Tiles/color_monotile.rsi
     state: red-mono
   - type: Item
-    sprite: /Textures/_Frontier/Objects/Tiles/color_monotile.rsi
+    sprite: /Textures/_NF/Objects/Tiles/color_monotile.rsi
     inhandVisuals:
       left:
         - state: mono-inhand-left
@@ -222,10 +222,10 @@
   id: FloorTileItemSus
   components:
   - type: Sprite
-    sprite: /Textures/_Frontier/Objects/Tiles/carpettile.rsi
+    sprite: /Textures/_NF/Objects/Tiles/carpettile.rsi
     state: sus
   - type: Item
-    sprite: /Textures/_Frontier/Objects/Tiles/carpettile.rsi
+    sprite: /Textures/_NF/Objects/Tiles/carpettile.rsi
     heldPrefix: sus
   - type: FloorTile
     outputs:
@@ -239,10 +239,10 @@
   id: FloorTileItemCheckerboardWood
   components:
   - type: Sprite
-    sprite: /Textures/_Frontier/Objects/Tiles/woodtile.rsi
+    sprite: /Textures/_NF/Objects/Tiles/woodtile.rsi
     state: checkerboard
   - type: Item
-    sprite: /Textures/_Frontier/Objects/Tiles/woodtile.rsi
+    sprite: /Textures/_NF/Objects/Tiles/woodtile.rsi
   - type: FloorTile
     outputs:
       - FloorCheckerboardWood
@@ -255,10 +255,10 @@
   id: FloorTileItemLightMosaicWood
   components:
   - type: Sprite
-    sprite: /Textures/_Frontier/Objects/Tiles/woodtile.rsi
+    sprite: /Textures/_NF/Objects/Tiles/woodtile.rsi
     state: light-mosaic
   - type: Item
-    sprite: /Textures/_Frontier/Objects/Tiles/woodtile.rsi
+    sprite: /Textures/_NF/Objects/Tiles/woodtile.rsi
   - type: FloorTile
     outputs:
       - FloorLightMosaicWood
@@ -271,10 +271,10 @@
   id: FloorTileItemFancyWood
   components:
   - type: Sprite
-    sprite: /Textures/_Frontier/Objects/Tiles/woodtile.rsi
+    sprite: /Textures/_NF/Objects/Tiles/woodtile.rsi
     state: fancy
   - type: Item
-    sprite: /Textures/_Frontier/Objects/Tiles/woodtile.rsi
+    sprite: /Textures/_NF/Objects/Tiles/woodtile.rsi
   - type: FloorTile
     outputs:
       - FloorFancyWood
@@ -287,10 +287,10 @@
   id: FloorTileItemVersaillesWood
   components:
   - type: Sprite
-    sprite: /Textures/_Frontier/Objects/Tiles/woodtile.rsi
+    sprite: /Textures/_NF/Objects/Tiles/woodtile.rsi
     state: versailles
   - type: Item
-    sprite: /Textures/_Frontier/Objects/Tiles/woodtile.rsi
+    sprite: /Textures/_NF/Objects/Tiles/woodtile.rsi
   - type: FloorTile
     outputs:
       - FloorVersaillesWood
@@ -303,10 +303,10 @@
   id: FloorTileItemCheese
   components:
   - type: Sprite
-    sprite: /Textures/_Frontier/Objects/Tiles/organic.rsi
+    sprite: /Textures/_NF/Objects/Tiles/organic.rsi
     state: cheese
   - type: Item
-    sprite: /Textures/_Frontier/Objects/Tiles/organic.rsi
+    sprite: /Textures/_NF/Objects/Tiles/organic.rsi
     heldPrefix: cheese
   - type: FloorTile
     outputs:
