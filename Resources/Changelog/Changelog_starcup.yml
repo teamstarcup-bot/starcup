@@ -186,3 +186,14 @@
   id: 8088
   time: '2025-08-05T03:27:10.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/281
+- author: KoboldCatgirl
+  changes:
+  - message: Added SyndComm chapel, menagerie & cryo area
+    type: Add
+  - message: Removed most lethal ammo from SC bar.
+    type: Tweak
+  - message: Added various useful items to SyndComm.
+    type: Tweak
+  id: 8089
+  time: '2025-08-05T17:13:00.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/282
