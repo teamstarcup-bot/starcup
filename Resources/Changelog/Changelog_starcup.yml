@@ -170,3 +170,10 @@
   id: 8086
   time: '2025-07-29T00:11:10.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/266
+- author: foxcurl
+  changes:
+  - message: Prisoner comms should now be available on all maps.
+    type: Fix
+  id: 8087
+  time: '2025-08-05T03:21:46.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/280
