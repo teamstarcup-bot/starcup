@@ -177,3 +177,12 @@
   id: 8087
   time: '2025-08-05T03:21:46.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/280
+- author: foxcurl
+  changes:
+  - message: Pen holders have been added, able to hold up to 8 pens.
+    type: Add
+  - message: Paper trays may be crafted.
+    type: Tweak
+  id: 8088
+  time: '2025-08-05T03:27:10.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/281
