@@ -1,14 +1,20 @@
 # Door resprites
-- type: AirlockGroup
+- type: paintableGroup  # starcup: fixed for upstream merge
   id: StandardDeltaV
+  time: 3  # starcup: fixed for upstream merge
+  cost: 3  # starcup: fixed for upstream merge
   iconPriority: 200 # higher priority for spray painter
-  stylePaths:
+  defaultStyle: roboticist  # starcup: fixed for upstream merge
+  styles:  # starcup: fixed for upstream merge
     roboticist: _DV/Structures/Doors/Airlocks/Standard/roboticist.rsi #Added Roboticist Role
 
-- type: AirlockGroup
+- type: paintableGroup  # starcup: fixed for upstream merge
   id: GlassDeltaV
+  time: 3  # starcup: fixed for upstream merge
+  cost: 3  # starcup: fixed for upstream merge
   iconPriority: 190
-  stylePaths:
+  defaultStyle: roboticist  # starcup: fixed for upstream merge
+  styles:  # starcup: fixed for upstream merge
     roboticist: _DV/Structures/Doors/Airlocks/Glass/roboticist.rsi #Added Roboticist Role
 
 
