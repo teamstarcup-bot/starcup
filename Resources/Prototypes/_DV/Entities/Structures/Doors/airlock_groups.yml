@@ -7,7 +7,7 @@
   iconPriority: 200
   defaultStyle: roboticist
   styles:
-    roboticist: AirlockRoboticist #Added Roboticist Role
+    roboticist: AirlockRobotics #Added Roboticist Role
 
 - type: paintableGroup
   id: GlassDeltaV
@@ -16,5 +16,5 @@
   iconPriority: 190
   defaultStyle: roboticist
   styles:
-    roboticist: AirlockRoboticistGlass #Added Roboticist Role
+    roboticist: AirlockRoboticsGlass #Added Roboticist Role
 # end starcup

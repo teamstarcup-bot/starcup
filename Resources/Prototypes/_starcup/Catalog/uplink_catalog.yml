@@ -69,28 +69,54 @@
 
 # Poor accuracy, slow to fire, cheap option
 - type: listing
-  parent: UplinkRifleMosin
   id: UplinkRifleMosinNT
+  name: uplink-rifle-mosin-name
+  description: uplink-rifle-mosin-desc
+  productEntity: WeaponSniperMosin
+  cost:
+    Telecrystal: 1
   categories:
   - UplinkWeaponryNT
 
 - type: listing
-  parent: UplinkEsword
   id: UplinkEswordNT
+  name: uplink-esword-name
+  description: uplink-esword-desc
+  icon: { sprite: /Textures/Objects/Weapons/Melee/e_sword.rsi, state: icon }
+  discountCategory: veryRareDiscounts
+  discountDownTo:
+    Telecrystal: 4
+  productEntity: EnergySword
+  cost:
+    Telecrystal: 8
   categories:
   - UplinkWeaponryNT
 
 - type: listing
-  parent: UplinkEnergyDagger
   id: UplinkEnergyDaggerNT
+  name: uplink-edagger-name
+  description: uplink-edagger-desc
+  icon: { sprite: /Textures/Objects/Weapons/Melee/e_dagger.rsi, state: icon }
+  productEntity: EnergyDaggerBox
+  discountCategory: rareDiscounts
+  discountDownTo:
+    Telecrystal: 1
+  cost:
+    Telecrystal: 2
   categories:
   - UplinkWeaponryNT
 
 - type: listing
-  parent: UplinkThrowingKnivesKit
   id: UplinkThrowingKnivesKitNT
+  name: uplink-knives-kit-name
   description: uplink-knives-kit-desc-starcup
   icon: { sprite: _starcup/Objects/Storage/boxicons.rsi, state: throwing_knives }
+  productEntity: ThrowingKnivesKit
+  discountCategory: rareDiscounts
+  discountDownTo:
+    Telecrystal: 3
+  cost:
+    Telecrystal: 6
   categories:
     - UplinkWeaponryNT
 
