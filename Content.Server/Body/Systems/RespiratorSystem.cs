@@ -78,15 +78,18 @@ public sealed class RespiratorSystem : EntitySystem
             if (_mobState.IsDead(uid))
                 continue;
 
+            // begin starcup: we don't use this right now so I can't be bothered to fix it
             // Begin DeltaV Code: Addition:
-            var organs = _bodySystem.GetBodyOrganEntityComps<LungComponent>((uid, body));
-            var multiplier = -1f;
-            foreach (var (_, lung, _) in organs)
-            {
-                multiplier *= lung.SaturationLoss;
-            }
+            // var organs = _bodySystem.GetBodyOrganEntityComps<LungComponent>((uid, body));
+            // var multiplier = -1f;
+            // foreach (var (_, lung, _) in organs)
+            // {
+            //     multiplier *= lung.SaturationLoss;
+            // }
             // End DeltaV Code
-            UpdateSaturation(uid, multiplier * (float) respirator.UpdateInterval.TotalSeconds, respirator); // DeltaV: use multiplier instead of negating
+            // UpdateSaturation(uid, multiplier * (float) respirator.UpdateInterval.TotalSeconds, respirator); // DeltaV: use multiplier instead of negating
+            UpdateSaturation(uid, (float) -respirator.UpdateInterval.TotalSeconds, respirator); // DeltaV: use multiplier instead of negating
+            // end starcup
 
             if (!_mobState.IsIncapacitated(uid)) // cannot breathe in crit.
             {
