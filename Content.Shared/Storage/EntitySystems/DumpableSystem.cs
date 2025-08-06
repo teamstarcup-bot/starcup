@@ -136,7 +136,7 @@ public sealed class DumpableSystem : EntitySystem
 
     // DeltaV: Refactor to allow dumping that doesn't require a verb
     [PublicAPI]
-    public void DumpContents(EntityUid uid, EntityUid? target, EntityUid user, DumpableDoAfterEvent args, DumpableComponent? component = null)
+    public void DumpContents(EntityUid uid, EntityUid? target, EntityUid user, DumpableComponent? component = null)
     {
         if (!TryComp<StorageComponent>(uid, out var storage)
             || !Resolve(uid, ref component))
