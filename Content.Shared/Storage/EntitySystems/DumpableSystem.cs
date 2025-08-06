@@ -128,21 +128,7 @@ public sealed class DumpableSystem : EntitySystem
 
     private void OnDoAfter(EntityUid uid, DumpableComponent component, DumpableDoAfterEvent args)
     {
-        if (args.Handled || args.Cancelled)
-            return;
-
-        DumpContents(uid, args.Args.Target, args.Args.User, component);
-    }
-
-    // DeltaV: Refactor to allow dumping that doesn't require a verb
-    [PublicAPI]
-    public void DumpContents(EntityUid uid, EntityUid? target, EntityUid user, DumpableComponent? component = null)
-    {
-        if (!TryComp<StorageComponent>(uid, out var storage)
-            || !Resolve(uid, ref component))
-            return;
-
-        if (storage.Container.ContainedEntities.Count == 0 || args.Args.Target is not { } target)
+        if (args.Handled || args.Cancelled || !TryComp<StorageComponent>(uid, out var storage) || storage.Container.ContainedEntities.Count == 0 || args.Args.Target is not { } target)
             return;
 
         var dumpQueue = new Queue<EntityUid>(storage.Container.ContainedEntities);
@@ -165,7 +151,7 @@ public sealed class DumpableSystem : EntitySystem
 
         if (evt.PlaySound)
         {
-            _audio.PlayPredicted(component.DumpSound, uid, user);
+            _audio.PlayPredicted(component.DumpSound, uid, args.User);
         }
     }
 }
