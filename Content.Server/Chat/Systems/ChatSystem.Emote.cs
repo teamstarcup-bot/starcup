@@ -169,6 +169,7 @@ public partial class ChatSystem
         _audio.PlayPvs(sound, uid, param);
         return true;
     }
+
     /// <summary>
     /// Checks if a valid emote was typed, to play sounds and etc and invokes an event.
     /// </summary>
@@ -187,12 +188,10 @@ public partial class ChatSystem
             if (!AllowedToUseEmote(uid, emote))
                 continue;
 
-            TryInvokeEmoteEvent(uid, emote);
-            validEmote = true; // DeltaV
+            validEmote |= TryInvokeEmoteEvent(uid, emote); // DeltaV, starcup
         }
 
-        if (!validEmote) // DeltaV
-            return false;
+        return validEmote;
 
         static string TrimPunctuation(string textInput)
         {
@@ -211,6 +210,7 @@ public partial class ChatSystem
             return textInput[trimStart..trimEnd];
         }
     }
+
     /// <summary>
     /// Checks if we can use this emote based on the emotes whitelist, blacklist, and availibility to the entity.
     /// </summary>
