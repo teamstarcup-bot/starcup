@@ -197,3 +197,13 @@
   id: 8089
   time: '2025-08-05T17:13:00.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/282
+- author: princesspengy
+  changes:
+  - message: departmental glasses loadouts for security and command, plus options
+      for bartender, roboticist, and musician
+    type: Add
+  - message: standard eyepatches are now in the generic glasses loadout group
+    type: Add
+  id: 8090
+  time: '2025-08-06T18:21:02.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/284
