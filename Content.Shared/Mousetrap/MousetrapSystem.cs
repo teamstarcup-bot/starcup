@@ -2,7 +2,6 @@ using Content.Shared.Item.ItemToggle.Components;
 using Content.Shared.Trigger.Systems;
 using Content.Shared.StepTrigger.Systems;
 using Robust.Shared.Physics.Components;
-using Content.Shared.Abilities; // DeltaV
 using Content.Shared._DV.Rodentia;
 
 namespace Content.Shared.Mousetrap;
