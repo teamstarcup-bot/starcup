@@ -85,6 +85,7 @@
   - OffsetCaneMime
   - OffsetCaneNT
   - Cane
+  - WhiteCane # Delta-V
   - TowelColorBlack
   - TowelColorDarkBlue
   - TowelColorDarkGreen
@@ -103,8 +104,6 @@
   # Misc Cosmetics
   - GoldRing # Delta-V
   - SilverRing # Delta-V
-  - Cane # Delta-V
-  - WhiteCane # Delta-V
 
 - type: loadoutGroup
   id: Glasses
