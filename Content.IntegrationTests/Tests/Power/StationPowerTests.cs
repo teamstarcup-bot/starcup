@@ -20,25 +20,38 @@ public sealed class StationPowerTests
 
     private static readonly string[] GameMaps =
     [
-        "Fland",
-        "Meta",
-        "Packed",
-        "Omega",
-        "Bagel",
-        "Box",
-        "Core",
-        "Marathon",
-        "Saltern",
-        "Reach",
-        "Train",
-        "Oasis",
-        "Gate",
-        "Amber",
+        // starcup: removed upstream maps
+        //"Fland",
+        //"Meta",
+        //"Packed",
+        //"Omega",
+        //"Bagel",
+        //"Box",
+        //"Core",
+        //"Marathon",
+        //"Saltern",
+        //"Reach",
+        //"Train",
+        //"Oasis",
+        //"Gate",
+        //"Amber",
+        //"Loop",
+        //"Plasma",
+        //"Elkridge",
+        //"Convex",
+        //"Relic",
+
+        // starcup maps:
+        "Byoin",
+        "Glacier",
         "Loop",
-        "Plasma",
-        "Elkridge",
-        "Convex",
-        "Relic",
+        "Omega",
+        "Packed",
+        "Reach",
+        "Saltern",
+        "Syndcomm",
+        "Train"
+        // end starcup
     ];
 
     [Test, TestCaseSource(nameof(GameMaps))]
