@@ -14,57 +14,6 @@
 #  shaded: unshaded //use for markings that ignore shader
 
 - type: marking
-  id: fizz
-  bodyPart: Head
-  markingCategory: Head
-  speciesRestriction: [ SlimePerson ]
-  forcedColoring: false
-  followSkinColor: false
-  sprites:
-  - sprite: _Impstation/Mobs/Customization/animatedmarkings.rsi
-    state: fizz
-
-- type: marking
-  id: bubble
-  bodyPart: Chest
-  markingCategory: Chest
-  speciesRestriction: [ SlimePerson ]
-  forcedColoring: false
-  followSkinColor: false
-  sprites:
-  - sprite: _Impstation/Mobs/Customization/animatedmarkings.rsi
-    state: bubble
-
-- type: marking
-  id: fishbowl
-  bodyPart: Chest
-  markingCategory: Chest
-  speciesRestriction: [ SlimePerson ]
-  forcedColoring: false
-  followSkinColor: false
-  sprites:
-  - sprite: _Impstation/Mobs/Customization/animatedmarkings.rsi
-    state: fishbowl1
-  - sprite: _Impstation/Mobs/Customization/animatedmarkings.rsi
-    state: fishbowl2
-
-- type: marking
-  id: FadingStars
-  bodyPart: Head
-  markingCategory: Head
-  speciesRestriction: [ SlimePerson ]
-  forcedColoring: false
-  followSkinColor: false
-  sprites:
-  - sprite: _Impstation/Mobs/Customization/animatedmarkings.rsi
-    state: fadingstars1
-  - sprite: _Impstation/Mobs/Customization/animatedmarkings.rsi
-    state: fadingstars2
-  - sprite: _Impstation/Mobs/Customization/animatedmarkings.rsi
-    state: fadingstars3
-  shader: unshaded
-
-- type: marking
   id: DionaLivingNymph
   bodyPart: Chest
   markingCategory: Chest
