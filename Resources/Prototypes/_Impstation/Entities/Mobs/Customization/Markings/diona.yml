@@ -28,7 +28,7 @@
   - sprite: _Impstation/Mobs/Customization/Diona/chest.rsi
     state: moss
 
-# begin starcup: unimplemented
+# begin starcup: currently unimplemented
 # - type: marking
 #   id: MycenaChest
 #   bodyPart: Chest
@@ -90,7 +90,7 @@
   - sprite: _Impstation/Mobs/Customization/Diona/head.rsi
     state: pollendust
 
-# begin starcup: unimplemented
+# begin starcup: currently unimplemented
 # - type: marking
 #   id: JackHead
 #   bodyPart: Head

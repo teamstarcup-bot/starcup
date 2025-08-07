@@ -48,7 +48,7 @@
   - sprite: _Impstation/Mobs/Customization/SlimePerson/chest.rsi
     state: core
 
-# begin starcup: unimplemented
+# begin starcup: currently unimplemented
 # - type: marking
 #   id: SlimeCoreGlowing
 #   bodyPart: Chest
@@ -149,7 +149,7 @@
 
 # Eyes
 
-# begin starcup: unimplemented
+# begin starcup: currently unimplemented
 # - type: marking
 #   id: SlimeEyesDefault
 #   bodyPart: Eyes
@@ -180,7 +180,7 @@
     state: glow
   shader: unshaded
 
-# begin starcup: unimplemented
+# begin starcup: currently unimplemented
 # - type: marking
 #   id: SlimeEyesDroopy
 #   bodyPart: Eyes
