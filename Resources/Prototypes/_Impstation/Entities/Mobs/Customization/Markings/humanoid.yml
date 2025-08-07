@@ -36,7 +36,7 @@
   id: ChestBackstabbed
   bodyPart: Chest
   markingCategory: Chest
-  speciesRestriction: [ Human, Reptilian, SlimePerson, Felinid, Oni, Rodentia, Vulpkanin ] # added felinid, oni, rodentia, vulpekin, and removed dwarf and thaven
+  speciesRestriction: [ Human, Reptilian, SlimePerson, Felinid, Oni, Rodentia, Vulpkanin ] # starcup: added felinid, oni, rodentia, vulpkanin, and removed dwarf and thaven
   sprites:
   - sprite: _Impstation/Mobs/Customization/Humanoid/chest.rsi
     state: backstabbed
@@ -45,7 +45,7 @@
   id: ChestCutHere
   bodyPart: Chest
   markingCategory: Chest
-  speciesRestriction: [ Human, Reptilian, SlimePerson, Felinid, Oni, Rodentia, Vulpkanin ] # added felinid, oni, rodentia, vulpekin, and removed arachnid and dwarf
+  speciesRestriction: [ Human, Reptilian, SlimePerson, Felinid, Oni, Rodentia, Vulpkanin ] # added felinid, oni, rodentia, vulpkanin, and removed arachnid and dwarf
   coloring:
     default:
       type:
@@ -93,7 +93,7 @@
   id: ChestStar
   bodyPart: Chest
   markingCategory: Chest
-  speciesRestriction: [ Human, Reptilian, SlimePerson, Felinid, Oni, Rodentia, Vulpkanin ] # added felinid, oni, rodentia, vulpekin, and removed arachnid, dwarf, gray, thaven
+  speciesRestriction: [ Human, Reptilian, SlimePerson, Felinid, Oni, Rodentia, Vulpkanin ] # starcup: added felinid, oni, rodentia, vulpkanin, and removed arachnid, dwarf, gray, thaven
   sprites:
   - sprite: _Impstation/Mobs/Customization/Humanoid/chest.rsi
     state: star
@@ -102,7 +102,7 @@
   id: ChestTwistingLeft
   bodyPart: Chest
   markingCategory: Chest
-  speciesRestriction: [ Human, Reptilian, SlimePerson, Felinid, Oni, Rodentia, Vulpkanin ] # added felinid, oni, rodentia, vulpekin, and removed dwarf and thaven
+  speciesRestriction: [ Human, Reptilian, SlimePerson, Felinid, Oni, Rodentia, Vulpkanin ] # starcup: added felinid, oni, rodentia, vulpkanin, and removed dwarf and thaven
   sprites:
   - sprite: _Impstation/Mobs/Customization/Humanoid/chest.rsi
     state: twistingleft
@@ -111,7 +111,7 @@
   id: ChestTwistingRight
   bodyPart: Chest
   markingCategory: Chest
-  speciesRestriction: [ Human, Reptilian, SlimePerson, Felinid, Oni, Rodentia, Vulpkanin ] # added felinid, oni, rodentia, vulpekin, and removed dwarf and thaven
+  speciesRestriction: [ Human, Reptilian, SlimePerson, Felinid, Oni, Rodentia, Vulpkanin ] # starcup: added felinid, oni, rodentia, vulpkanin, and removed dwarf and thaven
   sprites:
   - sprite: _Impstation/Mobs/Customization/Humanoid/chest.rsi
     state: twistingright
@@ -241,7 +241,7 @@
   id: TorsoIncision
   bodyPart: Chest
   markingCategory: Chest
-  speciesRestriction: [ Human, Arachnid, Dwarf, Reptilian, SlimePerson, Thaven ]
+  speciesRestriction: [ Human, Reptilian, SlimePerson, Felinid, Oni, Rodentia, Vulpkanin ] # starcup: added felinid, oni, rodentia, vulpkanin, and removed arachnid, dwarf, thaven
   sprites:
   - sprite: _Impstation/Mobs/Customization/Humanoid/chest.rsi
     state: incision
@@ -266,7 +266,7 @@
   id: VitiligoChestF
   bodyPart: Chest
   markingCategory: Chest
-  speciesRestriction: [ Human, Dwarf ]
+  speciesRestriction: [ Human, Oni, Felinid, Rodentia ] # starcup: added oni, felinid, rodentia, and removed dwarf
   forcedColoring: true
   coloring:
     default:
@@ -281,7 +281,7 @@
   id: VitiligoChestSpots
   bodyPart: Chest
   markingCategory: Chest
-  speciesRestriction: [ Human, Dwarf ]
+  speciesRestriction: [ Human, Oni, Felinid, Rodentia ] # starcup: added oni, felinid, rodentia, and removed dwarf
   forcedColoring: true
   coloring:
     default:
@@ -343,7 +343,7 @@
   id: HeadTwisting
   bodyPart: Head
   markingCategory: Head
-  speciesRestriction: [ Human, Dwarf, SlimePerson ]
+  speciesRestriction: [ Human, SlimePerson, Oni, Felinid, Rodentia ] # starcup: added oni, felinid, rodentia, and removed dwarf
   sprites:
   - sprite: _Impstation/Mobs/Customization/Humanoid/head.rsi
     state: twisting
@@ -372,7 +372,7 @@
   id: SmileScars
   bodyPart: Head
   markingCategory: Head
-  speciesRestriction: [ Human, Dwarf, SlimePerson ]
+  speciesRestriction: [ Human, SlimePerson, Oni, Felinid, Rodentia ] # starcup: added oni, felinid, rodentia, and removed dwarf
   sprites:
   - sprite: _Impstation/Mobs/Customization/Humanoid/head.rsi
     state: smile
@@ -381,7 +381,7 @@
   id: VitiligoHeadJaw
   bodyPart: Head
   markingCategory: Head
-  speciesRestriction: [ Human, Dwarf ]
+  speciesRestriction: [ Human, Oni, Felinid, Rodentia ] # starcup: added oni, felinid, rodentia, and removed dwarf
   forcedColoring: true
   coloring:
     default:
@@ -396,7 +396,7 @@
   id: VitiligoHeadL
   bodyPart: Head
   markingCategory: Head
-  speciesRestriction: [ Human, Dwarf ]
+  speciesRestriction: [ Human, Oni, Felinid, Rodentia ] # starcup: added oni, felinid, rodentia, and removed dwarf
   forcedColoring: true
   coloring:
     default:
@@ -411,7 +411,7 @@
   id: VitiligoHeadR
   bodyPart: Head
   markingCategory: Head
-  speciesRestriction: [ Human, Dwarf ]
+  speciesRestriction: [ Human, Oni, Felinid, Rodentia ] # starcup: added oni, felinid, rodentia, and removed dwarf
   forcedColoring: true
   coloring:
     default:
@@ -463,7 +463,7 @@
   id: ArmDollJointsTattooRight
   bodyPart: RArm
   markingCategory: Arms
-  speciesRestriction: [ Human, Arachnid, Dwarf, Reptilian, SlimePerson ]
+  speciesRestriction: [ Human, Reptilian, SlimePerson, Felinid, Oni, Rodentia, Vulpkanin ] # starcup: added felinid, oni, rodentia, vulpkanin, removed arachnid, dwarf
   coloring:
     default:
       type:
@@ -477,7 +477,7 @@
   id: ArmHeavyTattoosRight
   bodyPart: RArm
   markingCategory: Arms
-  speciesRestriction: [ Human, Arachnid, Dwarf, Reptilian, SlimePerson ]
+  speciesRestriction: [ Human, Reptilian, SlimePerson, Felinid, Oni, Rodentia, Vulpkanin ] # starcup: added felinid, oni, rodentia, vulpkanin, removed arachnid, dwarf
   coloring:
     default:
       type:
@@ -493,7 +493,7 @@
   id: ArmProstheticRight
   bodyPart: RArm
   markingCategory: Arms
-  speciesRestriction: [ Human, Arachnid, Dwarf, Reptilian, SlimePerson, Thaven ]
+  speciesRestriction: [ Human, Reptilian, SlimePerson, Felinid, Oni, Rodentia, Vulpkanin ] # starcup: added felinid, oni, rodentia, vulpkanin, and removed arachnid, dwarf, thaven
   coloring:
     default:
       type:
@@ -507,7 +507,7 @@
   id: ArmTwistingRight
   bodyPart: RArm
   markingCategory: Arms
-  speciesRestriction: [ Human, Arachnid, Dwarf, Reptilian, SlimePerson, Thaven ]
+  speciesRestriction: [ Human, Reptilian, SlimePerson, Felinid, Oni, Rodentia, Vulpkanin ] # starcup: added felinid, oni, rodentia, vulpkanin, and removed arachnid, dwarf, thaven
   sprites:
   - sprite: _Impstation/Mobs/Customization/Humanoid/rarm.rsi
     state: twisting
@@ -566,7 +566,7 @@
   id: VitiligoArmR
   bodyPart: RArm
   markingCategory: Arms
-  speciesRestriction: [ Human, Dwarf ]
+  speciesRestriction: [ Human, Oni, Felinid, Rodentia ] # starcup: added oni, felinid, rodentia, and removed dwarf
   forcedColoring: true
   coloring:
     default:
@@ -583,7 +583,7 @@
   id: ArmDollJointsTattooLeft
   bodyPart: LArm
   markingCategory: Arms
-  speciesRestriction: [ Human, Arachnid, Dwarf, Reptilian, SlimePerson ]
+  speciesRestriction: [ Human, Reptilian, SlimePerson, Felinid, Oni, Rodentia, Vulpkanin ] # starcup: added felinid, oni, rodentia, vulpkanin, removed arachnid, dwarf
   coloring:
     default:
       type:
@@ -615,7 +615,7 @@
   id: ArmProstheticLeft
   bodyPart: LArm
   markingCategory: Arms
-  speciesRestriction: [ Human, Arachnid, Dwarf, Reptilian, SlimePerson, Thaven ]
+  speciesRestriction: [ Human, Reptilian, SlimePerson, Felinid, Oni, Rodentia, Vulpkanin ] # starcup: added felinid, oni, rodentia, vulpkanin, and removed arachnid, dwarf, thaven
   coloring:
     default:
       type:
@@ -629,7 +629,7 @@
   id: ArmTwistingLeft
   bodyPart: LArm
   markingCategory: Arms
-  speciesRestriction: [ Human, Arachnid, Dwarf, Reptilian, SlimePerson, Thaven ]
+  speciesRestriction: [ Human, Reptilian, SlimePerson, Felinid, Oni, Rodentia, Vulpkanin ] # starcup: added felinid, oni, rodentia, vulpkanin, and removed arachnid, dwarf, thaven
   sprites:
   - sprite: _Impstation/Mobs/Customization/Humanoid/larm.rsi
     state: twisting
@@ -656,7 +656,7 @@
   id: VitiligoArmL
   bodyPart: LArm
   markingCategory: Arms
-  speciesRestriction: [ Human, Dwarf ]
+  speciesRestriction: [ Human, Oni, Felinid, Rodentia ] # starcup: added oni, felinid, rodentia, and removed dwarf
   forcedColoring: true
   coloring:
     default:
@@ -673,7 +673,7 @@
   id: LegDollJointsTattooRight
   bodyPart: RLeg
   markingCategory: Legs
-  speciesRestriction: [ Human, Arachnid, Dwarf, Reptilian, SlimePerson ]
+  speciesRestriction: [ Human, Reptilian, SlimePerson, Felinid, Oni, Rodentia, Vulpkanin ] # starcup: added felinid, oni, rodentia, vulpkanin, removed arachnid, dwarf
   coloring:
     default:
       type:
@@ -705,7 +705,7 @@
   id: LegProstheticRight
   bodyPart: RLeg
   markingCategory: Legs
-  speciesRestriction: [ Human, Arachnid, Dwarf, SlimePerson, Thaven ]
+  speciesRestriction: [ Human, SlimePerson, Felinid, Oni, Rodentia, Vulpkanin ] # starcup: added felinid, oni, rodentia, vulpkanin, removed arachnid, dwarf, thaven
   coloring:
     default:
       type:
@@ -719,7 +719,7 @@
   id: LegTwistingRight
   bodyPart: RLeg
   markingCategory: Legs
-  speciesRestriction: [ Human, Arachnid, Dwarf, Reptilian, SlimePerson, Thaven ]
+  speciesRestriction: [ Human, Reptilian, SlimePerson, Felinid, Oni, Rodentia, Vulpkanin ] # starcup: added felinid, oni, rodentia, vulpkanin, and removed arachnid, dwarf, thaven
   sprites:
   - sprite: _Impstation/Mobs/Customization/Humanoid/rleg.rsi
     state: twisting
@@ -728,7 +728,7 @@
   id: VitiligoLegR
   bodyPart: RLeg
   markingCategory: Legs
-  speciesRestriction: [ Human, Dwarf ]
+  speciesRestriction: [ Human, Oni, Felinid, Rodentia ] # starcup: added oni, felinid, rodentia, and removed dwarf
   forcedColoring: true
   coloring:
     default:
@@ -745,7 +745,7 @@
   id: LegDollJointsTattooLeft
   bodyPart: LLeg
   markingCategory: Legs
-  speciesRestriction: [ Human, Arachnid, Dwarf, Reptilian, SlimePerson ]
+  speciesRestriction: [ Human, Reptilian, SlimePerson, Felinid, Oni, Rodentia, Vulpkanin ] # starcup: added felinid, oni, rodentia, vulpkanin, removed arachnid, dwarf
   coloring:
     default:
       type:
@@ -759,7 +759,7 @@
   id: LegHeavyTattoosLeft
   bodyPart: LLeg
   markingCategory: Legs
-  speciesRestriction: [ Human, Arachnid, Dwarf, Reptilian, SlimePerson ]
+  speciesRestriction: [ Human, Reptilian, SlimePerson, Felinid, Oni, Rodentia, Vulpkanin ] # starcup: added felinid, oni, rodentia, vulpkanin, removed arachnid, dwarf
   coloring:
     default:
       type:
@@ -775,7 +775,7 @@
   id: LegProstheticLeft
   bodyPart: LLeg
   markingCategory: Legs
-  speciesRestriction: [ Human, Arachnid, Dwarf, SlimePerson, Thaven ]
+  speciesRestriction: [ Human, SlimePerson, Felinid, Oni, Rodentia, Vulpkanin ] # starcup: added felinid, oni, rodentia, vulpkanin, removed arachnid, dwarf, thaven
   coloring:
     default:
       type:
@@ -789,7 +789,7 @@
   id: LegTwistingLeft
   bodyPart: LLeg
   markingCategory: Legs
-  speciesRestriction: [ Human, Arachnid, Dwarf, Reptilian, SlimePerson, Thaven ]
+  speciesRestriction: [ Human, Reptilian, SlimePerson, Felinid, Oni, Rodentia, Vulpkanin ] # starcup: added felinid, oni, rodentia, vulpkanin, and removed arachnid, dwarf, thaven
   sprites:
   - sprite: _Impstation/Mobs/Customization/Humanoid/lleg.rsi
     state: twisting
@@ -798,7 +798,7 @@
   id: VitiligoLegL
   bodyPart: LLeg
   markingCategory: Legs
-  speciesRestriction: [ Human, Dwarf ]
+  speciesRestriction: [ Human, Oni, Felinid, Rodentia ] # starcup: added oni, felinid, rodentia, and removed dwarf
   forcedColoring: true
   coloring:
     default:
@@ -1160,7 +1160,7 @@
   id: FootDollJointsTattooLeft
   bodyPart: LFoot
   markingCategory: Legs
-  speciesRestriction: [ Human, Arachnid, Dwarf, SlimePerson ]
+  speciesRestriction: [ Human, SlimePerson, Felinid, Oni, Rodentia, Vulpkanin ] # starcup: added felinid, oni, rodentia, vulpkanin, removed arachnid, dwarf
   coloring:
     default:
       type:
@@ -1192,7 +1192,7 @@
   id: FootProstheticLeft
   bodyPart: LFoot
   markingCategory: Legs
-  speciesRestriction: [ Human, Arachnid, Dwarf, SlimePerson, Thaven ]
+  speciesRestriction: [ Human, SlimePerson, Felinid, Oni, Rodentia, Vulpkanin ] # starcup: added felinid, oni, rodentia, vulpkanin, removed arachnid, dwarf, thaven
   coloring:
     default:
       type:
@@ -1208,7 +1208,7 @@
   id: FootDollJointsTattooRight
   bodyPart: RFoot
   markingCategory: Legs
-  speciesRestriction: [ Human, Arachnid, Dwarf, SlimePerson ]
+  speciesRestriction: [ Human, SlimePerson, Felinid, Oni, Rodentia, Vulpkanin ] # starcup: added felinid, oni, rodentia, vulpkanin, removed arachnid, dwarf
   coloring:
     default:
       type:
@@ -1240,7 +1240,7 @@
   id: FootProstheticRight
   bodyPart: RFoot
   markingCategory: Legs
-  speciesRestriction: [ Human, Arachnid, Dwarf, SlimePerson, Thaven ]
+  speciesRestriction: [ Human, SlimePerson, Felinid, Oni, Rodentia, Vulpkanin ] # starcup: added felinid, oni, rodentia, vulpkanin, removed arachnid, dwarf, thaven
   coloring:
     default:
       type:
@@ -1272,7 +1272,7 @@
   id: HandDollJointsTattooLeft
   bodyPart: LHand
   markingCategory: Arms
-  speciesRestriction: [ Human, Arachnid, Dwarf, Reptilian, SlimePerson ]
+  speciesRestriction: [ Human, Reptilian, SlimePerson, Felinid, Oni, Rodentia, Vulpkanin ] # starcup: added felinid, oni, rodentia, vulpkanin, removed arachnid, dwarf
   coloring:
     default:
       type:
@@ -1304,7 +1304,7 @@
   id: HandProstheticLeft
   bodyPart: LHand
   markingCategory: Arms
-  speciesRestriction: [ Human, Arachnid, Dwarf, Reptilian, SlimePerson, Thaven ]
+  speciesRestriction: [ Human, Reptilian, SlimePerson, Felinid, Oni, Rodentia, Vulpkanin ] # starcup: added felinid, oni, rodentia, vulpkanin, and removed arachnid, dwarf, thaven
   coloring:
     default:
       type:
@@ -1336,7 +1336,7 @@
   id: HandTwistingLeft
   bodyPart: LHand
   markingCategory: Arms
-  speciesRestriction: [ Human, Arachnid, Dwarf, Reptilian, SlimePerson, Thaven ]
+  speciesRestriction: [ Human, Reptilian, SlimePerson, Felinid, Oni, Rodentia, Vulpkanin ] # starcup: added felinid, oni, rodentia, vulpkanin, and removed arachnid, dwarf, thaven
   sprites:
   - sprite: _Impstation/Mobs/Customization/Humanoid/lhand.rsi
     state: twisting
@@ -1345,7 +1345,7 @@
   id: VitiligoHandL
   bodyPart: LHand
   markingCategory: Arms
-  speciesRestriction: [ Human, Dwarf ]
+  speciesRestriction: [ Human, Oni, Felinid, Rodentia ] # starcup: added oni, felinid, rodentia, and removed dwarf
   forcedColoring: true
   coloring:
     default:
@@ -1378,7 +1378,7 @@
   id: HandDollJointsTattooRight
   bodyPart: RHand
   markingCategory: Arms
-  speciesRestriction: [ Human, Arachnid, Dwarf, Reptilian, SlimePerson ]
+  speciesRestriction: [ Human, Reptilian, SlimePerson, Felinid, Oni, Rodentia, Vulpkanin ] # starcup: added felinid, oni, rodentia, vulpkanin, removed arachnid, dwarf
   coloring:
     default:
       type:
@@ -1410,7 +1410,7 @@
   id: HandProstheticRight
   bodyPart: RHand
   markingCategory: Arms
-  speciesRestriction: [ Human, Arachnid, Dwarf, Reptilian, SlimePerson, Thaven ]
+  speciesRestriction: [ Human, Reptilian, SlimePerson, Felinid, Oni, Rodentia, Vulpkanin ] # starcup: added felinid, oni, rodentia, vulpkanin, and removed arachnid, dwarf, thaven
   coloring:
     default:
       type:
@@ -1442,7 +1442,7 @@
   id: HandTwistingRight
   bodyPart: RHand
   markingCategory: Arms
-  speciesRestriction: [ Human, Arachnid, Dwarf, Reptilian, SlimePerson, Thaven ]
+  speciesRestriction: [ Human, Reptilian, SlimePerson, Felinid, Oni, Rodentia, Vulpkanin ] # starcup: added felinid, oni, rodentia, vulpkanin, and removed arachnid, dwarf, thaven
   sprites:
   - sprite: _Impstation/Mobs/Customization/Humanoid/rhand.rsi
     state: twisting
@@ -1451,7 +1451,7 @@
   id: VitiligoHandR
   bodyPart: RHand
   markingCategory: Arms
-  speciesRestriction: [ Human, Dwarf ]
+  speciesRestriction: [ Human, Oni, Felinid, Rodentia ] # starcup: added oni, felinid, rodentia, and removed dwarf
   forcedColoring: true
   coloring:
     default:
@@ -1620,7 +1620,7 @@
   id: HumanHairSpikyPonytailLong
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [ Human, Dwarf, SlimePerson ]
+  speciesRestriction: [ Human, SlimePerson, Oni, Felinid, Rodentia ] # starcup: added oni, felinid, rodentia, and removed dwarf
   sprites:
   - sprite: _Impstation/Mobs/Customization/Humanoid/hair.rsi
     state: spikyponytaillong
@@ -1648,7 +1648,7 @@
   id: Niqab
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [ Human, Dwarf, SlimePerson ]
+  speciesRestriction: [ Human, SlimePerson, Oni, Felinid, Rodentia ] # starcup: added oni, felinid, rodentia, and removed dwarf
   sprites:
   - sprite: _Impstation/Mobs/Customization/Humanoid/hair.rsi
     state: niqab
