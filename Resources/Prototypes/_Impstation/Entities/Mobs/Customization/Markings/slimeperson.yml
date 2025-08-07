@@ -168,7 +168,7 @@
 - type: marking
   id: SlimeEyeglow
   bodyPart: Eyes
-  markingCategory: Eyes
+  markingCategory: Head # Frontier: changed from Eyes
   speciesRestriction: [ SlimePerson ]
   coloring:
     default:
