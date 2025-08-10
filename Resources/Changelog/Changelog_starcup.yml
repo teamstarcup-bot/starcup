@@ -207,3 +207,16 @@
   id: 8090
   time: '2025-08-06T18:21:02.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/284
+- author: princesspengy
+  changes:
+  - message: a large number of features missing from loop have been added! it should
+      now include spawns, slots, and resources for all of starcup's available jobs,
+      as well as a few missing vendors
+    type: Fix
+  - message: additional holopads and intercoms have been added to loop
+    type: Add
+  - message: loop now features a kitchen shelf and a bar shelf
+    type: Add
+  id: 8091
+  time: '2025-08-10T09:30:37.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/289
