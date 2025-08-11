@@ -227,3 +227,28 @@
   id: 8092
   time: '2025-08-10T18:36:21.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/288
+- author: princesspengy
+  changes:
+  - message: research assistants, medical interns, and technical assistants are now
+      eligible for antagonist selection
+    type: Tweak
+  id: 8093
+  time: '2025-08-11T02:07:16.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/294
+- author: princesspengy
+  changes:
+  - message: added missing job slots/spawns to omega! all of starcup's typical jobs
+      should be available now
+    type: Fix
+  - message: added the administrative assistant's locker to the bridge
+    type: Add
+  - message: added a psychologist job slot to omega, and added their locker to medbay
+      (a proper office will be coming later!)
+    type: Add
+  - message: the pride-o-mat and mnk drobe can now be found at omega
+    type: Add
+  - message: omega now has more departmental intercoms
+    type: Add
+  id: 8094
+  time: '2025-08-11T02:08:03.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/292
