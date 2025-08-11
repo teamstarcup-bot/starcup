@@ -45,7 +45,6 @@ public sealed class StationPowerTests
         "Glacier",
         "Loop",
         "Omega",
-        "Packed",
         "Reach",
         "Saltern",
         "Byoin",

@@ -76,7 +76,6 @@ namespace Content.IntegrationTests.Tests
             "Glacier",  // starcup
             "Loop", // starcup
             "Omega", // starcup
-            "Packed", // starcup
             "Reach", // starcup
             "Saltern", // starcup
             "Byoin",  // starcup
