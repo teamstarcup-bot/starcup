@@ -42,15 +42,16 @@ public sealed class StationPowerTests
         //"Relic",
 
         // starcup maps:
-        "Byoin",
         "Glacier",
         "Loop",
         "Omega",
         "Packed",
         "Reach",
         "Saltern",
-        "Syndcomm",
-        "Train"
+        "Byoin",
+        "Train",
+        "EventFrigidPeril",
+        "EventCruiseControl"
         // end starcup
     ];
 
