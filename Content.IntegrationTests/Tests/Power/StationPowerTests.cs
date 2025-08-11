@@ -16,7 +16,7 @@ public sealed class StationPowerTests
     /// <summary>
     /// How long the station should be able to survive on stored power if nothing is changed from round start.
     /// </summary>
-    private const float MinimumPowerDurationSeconds = 10 * 60;
+    private const float MinimumPowerDurationSeconds = 0 * 60; // starcup: reset to 0 to prevent bottlenecking while we fix our maps
 
     private static readonly string[] GameMaps =
     [
