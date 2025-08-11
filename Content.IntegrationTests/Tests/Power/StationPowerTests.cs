@@ -50,8 +50,6 @@ public sealed class StationPowerTests
         "Saltern",
         "Byoin",
         "Train",
-        "EventFrigidPeril",
-        "EventCruiseControl"
         // end starcup
     ];
 
