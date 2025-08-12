@@ -103,8 +103,10 @@
     back:
     - BibleSatanic
 
-- type: loadout
-  id: BibleTanakh
-  storage:
-    back:
-    - BibleTanakh
+# starcup: remove real-world religion references
+# - type: loadout
+#   id: BibleTanakh
+#   storage:
+#     back:
+#     - BibleTanakh
+# end starcup
