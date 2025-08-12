@@ -455,11 +455,11 @@
   name: loadout-group-chaplain-bible
   minLimit: 1
   loadouts:
-  - Bible
+  - BibleGoshan # starcup: replaced bible with goshan bible
   - BibleDruid
-  - BibleNanoTrasen
+#  - BibleNanoTrasen # starcup
   - BibleSatanic
-  - BibleTanakh
+#  - BibleTanakh # starcup
 
 - type: loadoutGroup
   id: JanitorHead
