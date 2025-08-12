@@ -56,7 +56,7 @@
   storage:
     back:
     - Lighter
-#  groupBy: "smokeables" # starcup - lighters are also for candles and cauterizing and can be more visible
+  groupBy: "lighters" # starcup
 
 - type: loadout
   id: CigPackGreen

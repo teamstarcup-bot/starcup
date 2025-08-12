@@ -33,7 +33,13 @@
   - HandheldStationMap # starcup
   - TapeRecorder # Delta-V
   - ThreeCandles
+  # Lighters
   - Lighter
+  - CybersunFlippo
+  - DonkcoLighter
+  - GorlexMatchbox
+  - InterdyneFlippo
+  - SyndicateFlippo
   # Smokeables
   - CigPackGreen
   - CigPackRed

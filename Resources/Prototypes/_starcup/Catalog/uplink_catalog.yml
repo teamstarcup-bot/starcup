@@ -2202,6 +2202,17 @@
     - Mime
 
 - type: listing
+  id: UplinkNanotrasenLighter
+  name: uplink-nanotrasen-lighter-name
+  description: uplink-nanotrasen-lighter-desc
+  icon: { sprite:  Objects/Tools/Lighters/nanotrasen.rsi, state: icon}
+  productEntity: NanotrasenFlippo
+  cost:
+    Telecrystal: 1
+  categories:
+  - UplinkPointless
+
+- type: listing
   id: UplinkSmugglerSatchelNT
   name: uplink-smuggler-satchel-name
   description: uplink-smuggler-satchel-desc

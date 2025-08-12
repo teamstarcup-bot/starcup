@@ -110,10 +110,10 @@
   - type: SpaceGarbage
 
 - type: entity
-  parent: [Matchbox, BaseSyndicateContraband]
+  parent: Matchbox # starcup: removed contraband label
   id: GorlexMatchbox
   name: Gorlex match box
-  description: "A pneumatic match box styled after the Gorlex Marauders' equipment. Contains 24 matches."
+  description: "A pneumatic match box styled after the Gorlex Marauders' equipment. Contains 6 matches." # starcup: corrected number
   components:
   - type: Sprite
     sprite: Objects/Tools/Lighters/gorlex.rsi
@@ -125,14 +125,14 @@
   - type: StorageFill
     contents:
       - id: GorlexMatchstick
-        amount: 24
+        amount: 6 # starcup: from 24
   - type: Matchbox
 
 - type: entity
   name: match stick
-  parent: [Matchstick, BaseSyndicateContraband]
+  parent: Matchstick # starcup: removed contraband label
   id: GorlexMatchstick
-  description: A military grade match stick, used for lighting fine smokables and noncombatants alike.
+  description: A military grade match stick, used for lighting fine smokables and high-yield explosives alike. # starcup: rewritten for tone
   components:
   - type: Sprite
     sprite: Objects/Tools/Lighters/gorlexmatch.rsi
@@ -144,7 +144,7 @@
     size: Tiny
   - type: PointLight
     enabled: false
-    radius: 3
+    radius: 1.1 # starcup: from 3
     color: green
   - type: Matchstick
-    duration: 30
+    duration: 10 # starcup: from 30

@@ -312,23 +312,23 @@
     ignited: false
 
 - type: entity
-  parent: [BaseBrandedLighter, BaseSyndicateContraband]
+  parent: BaseBrandedLighter # starcup: removed contraband label
   id: SyndicateFlippo
-  name: Blood-red flippo
-  description: "A 'Valid' choice in lighters. Contains no copper."
+  name: Syndicate flippo # starcup: Blood-red > Syndicate
+  description: Represent your employers at SyndComm as easily as a flick of the wrist! # starcup: rewritten for tone
   components:
   - type: Sprite
     sprite: Objects/Tools/Lighters/syndielighter.rsi
   - type: Item
     sprite: Objects/Tools/Lighters/syndielighter.rsi
   - type: Welder
-    fuelConsumption: 0.005
-    fuelLitCost: 0.01
+    fuelConsumption: 0.01 # starcup: from 0.005
+    fuelLitCost: 0.1 # starcup: from 0.01
     tankSafe: true
   - type: PointLight
     enabled: false
     netsync: false
-    radius: 2
+    radius: 1.2 # starcup: from 2
     color: green
 
 - type: entity
@@ -387,60 +387,62 @@
         maxVol: 3
 
 - type: entity
-  parent: [BaseBrandedLighter, BaseSyndicateContraband]
+  parent: BaseBrandedLighter # starcup: removed contraband label
   id: CybersunFlippo
-  name: CyberSun Flippo
-  description: "A Sleek black and magenta flippo lighter, bearing the logo and iconography of CyberSun Industries."
+  name: Cybersun flippo # starcup: capitalization corrections
+  description: "A Sleek black and magenta flippo lighter, bearing the logo and iconography of Cybersun Industries." # starcup: capitalization correction
   components:
   - type: Sprite
     sprite: Objects/Tools/Lighters/cybersun.rsi
   - type: Item
     sprite: Objects/Tools/Lighters/cybersun.rsi
-  - type: Welder #
-    fuelConsumption: 0.005
-    fuelLitCost: 0.01
+  - type: Welder
+    fuelConsumption: 0.01 # starcup: from 0.005
+    fuelLitCost: 0.1 # starcup: from 0.01
     tankSafe: true
   - type: PointLight
     enabled: false
     netsync: false
-    radius: 2
+    radius: 1.2 # starcup: from 2
     color: magenta
 
 - type: entity
-  parent: [BaseBrandedLighter, BaseSyndicateContraband]
+  parent: BaseBrandedLighter # starcup: removed contraband label
   id: InterdyneFlippo
-  name: Interdyne Flippo
+  name: Interdyne flippo # starcup: capitalization corrections
   description: "A deep blue flippo lighter, decorated with the logo of Interdyne Pharmaceuticals' 'Gene Clean' clinics. Become the master of your own cigarette."
   components:
   - type: Sprite
     sprite: Objects/Tools/Lighters/interdyne.rsi
   - type: Item
     sprite: Objects/Tools/Lighters/interdyne.rsi
-  - type: Welder #
-    fuelConsumption: 0.005
-    fuelLitCost: 0.01
+  - type: Welder
+    fuelConsumption: 0.01 # starcup: from 0.005
+    fuelLitCost: 0.1 # starcup: from 0.01
     tankSafe: true
-  - type: ItemToggleMeleeWeapon
-    activatedDamage:
-        types:
-          Radiation: 1
+  # begin starcup: remove radiation damage
+  # - type: ItemToggleMeleeWeapon
+  #   activatedDamage:
+  #       types:
+  #         Radiation: 1
+  # end starcup
   - type: PointLight
     enabled: false
     netsync: false
-    radius: 2
+    radius: 1.2 # starcup: from 2
     color: cyan
 
 - type: entity
-  parent: [BaseBrandedLighter]
+  parent: [BaseBrandedLighter, BaseTraitorContraband ] # starcup: added contraband label
   id: NanotrasenFlippo
-  name: Nanotrasen Flippo
-  description: "A navy blue luxury flippo, generally handed out to loyal heads of staff instead of a payraise. Fueled with liquid plasma"
+  name: NanoTrasen flippo # starcup: capitalization corrections
+  description: A navy blue luxury lighter. Fueled by liquid plasma, to show just how much of it NanoTrasen has to go around. # starcup: rewritten for setting lore
   components:
   - type: Sprite
     sprite: Objects/Tools/Lighters/nanotrasen.rsi
   - type: Item
     sprite: Objects/Tools/Lighters/nanotrasen.rsi
-  - type: Welder #
+  - type: Welder
     fuelConsumption: 0.005
     fuelLitCost: 1
     fuelReagent: Plasma
@@ -473,7 +475,7 @@
     sprite: Objects/Tools/Lighters/centcomm.rsi
   - type: ItemToggleRequiresLock
     requireLocked: false
-  - type: Welder #
+  - type: Welder
     fuelConsumption: 0.0
     fuelLitCost: 10
     fuelReagent: Plasma
@@ -509,14 +511,14 @@
 - type: entity
   parent: [BaseBrandedLighter, BaseMajorContraband]
   id: SpiderclanFlippo
-  name: Spider-Clan lighter
+  name: Renegade lighter # starcup: renamed for setting lore
   description: "A high tech jet lighter, engineered to function even in deep space. Runs on a tiny microfusion cell."
   components:
   - type: Sprite
     sprite: Objects/Tools/Lighters/spiderclan.rsi
   - type: Item
     sprite: Objects/Tools/Lighters/spiderclan.rsi
-  - type: Welder #
+  - type: Welder
     fuelConsumption: 0
     fuelLitCost: 0
     tankSafe: true
@@ -527,7 +529,7 @@
     color: green
 
 - type: entity
-  parent: [BaseBrandedLighter, BaseSyndicateContraband]
+  parent: [BaseBrandedLighter, BaseTraitorContraband] # starcup: syndicate contraband to traitor
   id: WaffleCoFlippo
   name: Waffle Co. flippo
   description: "A robust mass produced lighter. The Waffle Co. logo turns the spark wheel when pushed up, minimising risk of lighter burns for even the most inept user."
@@ -536,7 +538,7 @@
     sprite: Objects/Tools/Lighters/waffleco.rsi
   - type: Item
     sprite: Objects/Tools/Lighters/waffleco.rsi
-  - type: Welder #
+  - type: Welder
     fuelConsumption: 0.005
     fuelLitCost: 0.05
     tankSafe: true
@@ -581,7 +583,7 @@
           density: 10
           mask:
           - ItemMask
-  - type: Welder #
+  - type: Welder
     fuelConsumption: 0.1
     fuelLitCost: 1
     tankSafe: true
@@ -601,7 +603,7 @@
     sprite: Objects/Tools/Lighters/donkco.rsi
   - type: Item
     sprite: Objects/Tools/Lighters/donkco.rsi
-  - type: Welder #
+  - type: Welder
     fuelConsumption: 0.02
     fuelLitCost: 0.1
     tankSafe: true
@@ -617,12 +619,12 @@
           Quantity: 12
         maxVol: 12
       food:
-        maxVol: 20
+        maxVol: 10 # starcup: from 20
         reagents:
         - ReagentId: Nutriment
           Quantity: 10
-        - ReagentId: Omnizine
-          Quantity: 10
+        #- ReagentId: Omnizine # starcup: remove omnizine
+        #  Quantity: 10
   - type: FlavorProfile
     flavors:
       - bread
@@ -634,5 +636,5 @@
   - type: PointLight
     enabled: false
     netsync: false
-    radius: 2
+    radius: 1.2 # starcup: from 2
     color: orange
