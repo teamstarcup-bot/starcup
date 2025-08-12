@@ -2259,23 +2259,25 @@
   categories:
   - UplinkDeception
 
-- type: listing
-  id: UplinkAcolyteArmor
-  name: uplink-acolyte-armor-name
-  description: uplink-acolyte-armor-desc
-  icon: { sprite: Clothing/OuterClothing/Armor/cult_armour.rsi, state: icon}
-  productEntity: ClothingBackpackDuffelAcolyteBundle
-  discountCategory: veryRareDiscounts
-  discountDownTo:
-    Telecrystal: 3
-  cost:
-    Telecrystal: 4
-  categories:
-  - UplinkJob
-  conditions:
-  - !type:BuyerJobCondition
-    whitelist:
-    - Chaplain
+# starcup: removed; re-added armor to pietyvend emag list
+# - type: listing
+#   id: UplinkAcolyteArmor
+#   name: uplink-acolyte-armor-name
+#   description: uplink-acolyte-armor-desc
+#   icon: { sprite: Clothing/OuterClothing/Armor/cult_armour.rsi, state: icon}
+#   productEntity: ClothingBackpackDuffelAcolyteBundle
+#   discountCategory: veryRareDiscounts
+#   discountDownTo:
+#     Telecrystal: 3
+#   cost:
+#     Telecrystal: 4
+#   categories:
+#   - UplinkJob
+#   conditions:
+#   - !type:BuyerJobCondition
+#     whitelist:
+#     - Chaplain
+# end starcup
 
 - type: listing
   id: UplinkSawAdvanced

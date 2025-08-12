@@ -29,6 +29,8 @@
     ToyFigurineChaplain: 1
     ClothingNeckScarfStripedBlack: 3
   emaggedInventory:
+    ClothingOuterArmorCult: 1 # starcup: re-added
+    ClothingHeadHelmetCult: 1 # starcup: re-added
     ClothingOuterRobesCult: 3
     ClothingHeadHatHoodCulthood: 3
     ClothingShoesCult: 4

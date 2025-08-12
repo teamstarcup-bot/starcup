@@ -26,6 +26,7 @@
   contrabandInventory:
     DrinkLithiumFlask: 1
     StrangePill: 3
+  emaggedInventory: # starcup: re-add items to emag inventory
     ChemistryBottleToxin: 1
 
 - type: vendingMachineInventory
