@@ -292,3 +292,11 @@
   id: 8098
   time: '2025-08-11T02:09:14.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/290
+- author: princesspengy
+  changes:
+  - message: guidebook entries for starcup's species have been updated and rewritten
+      to include more information and better fit our server's narrative standards
+    type: Tweak
+  id: 8099
+  time: '2025-08-13T06:58:32.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/286
