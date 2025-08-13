@@ -49,4 +49,5 @@
       mobState:
       - Critical
       - Dead
-    - type: Rattle
+    - type: RattleOnTrigger
+      targetUser: true
