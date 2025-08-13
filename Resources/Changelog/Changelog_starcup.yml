@@ -300,3 +300,21 @@
   id: 8099
   time: '2025-08-13T06:58:32.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/286
+- author: foxcurl
+  changes:
+  - message: Reinforced tables can now be constructed.
+    type: Add
+  id: 8100
+  time: '2025-08-13T18:37:29.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/297
+- author: princesspengy
+  changes:
+  - message: we've merged upstream changes through august 5th! check out the upstream
+      merge thread on our forum for a list of notable changes
+    type: Add
+  - message: whitelists for many, many impstation markings are now expanded to include
+      additional starcup species
+    type: Add
+  id: 8101
+  time: '2025-08-13T18:32:36.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/285
