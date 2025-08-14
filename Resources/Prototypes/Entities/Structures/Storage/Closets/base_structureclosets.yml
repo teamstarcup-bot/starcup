@@ -2,7 +2,7 @@
   id: ClosetBase
   parent: BaseStructureDynamic
   name: closet
-  description: A standard-issue Nanotrasen storage unit.
+  description: A standard-issue SyndComm storage unit. # starcup - NT-SC swap
   abstract: true
   components:
   - type: Animateable
@@ -133,7 +133,7 @@
   id: BaseWallCloset
   abstract: true
   name: wall closet
-  description: A standard-issue Nanotrasen storage unit, now on walls.
+  description: A standard-issue SyndComm storage unit, now on walls. # starcup - NT-SC swap
   components:
   - type: ResistLocker
   - type: Weldable
