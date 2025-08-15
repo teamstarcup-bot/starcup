@@ -318,3 +318,28 @@
   id: 8101
   time: '2025-08-13T18:32:36.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/285
+- author: princesspengy
+  changes:
+  - message: 'added a new type of character records: admin records, only available
+      to you and server admins! give us your secret character lore!'
+    type: Add
+  id: 8102
+  time: '2025-08-15T09:22:57.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/300
+- author: princesspengy
+  changes:
+  - message: changed the flavor text on many, many existing drinks
+    type: Tweak
+  - message: rebranded the manly dorf to the rock 'n stone
+    type: Tweak
+  id: 8103
+  time: '2025-08-15T09:23:55.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/299
+- author: little-meow-meow
+  changes:
+  - message: Many casual references to NanoTrasen (*spit*) have been cut and replaced
+      with Syndicate equivalents. Death to NanoTrasen!
+    type: Add
+  id: 8104
+  time: '2025-08-14T22:57:28.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/267
