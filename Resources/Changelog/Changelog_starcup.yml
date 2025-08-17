@@ -398,3 +398,11 @@
   id: 8111
   time: '2025-08-17T09:12:14.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/308
+- author: princesspengy
+  changes:
+  - message: insulated gloves are now labeled as engineering contraband. doorhackers
+      take caution
+    type: Tweak
+  id: 8112
+  time: '2025-08-17T09:21:51.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/312
