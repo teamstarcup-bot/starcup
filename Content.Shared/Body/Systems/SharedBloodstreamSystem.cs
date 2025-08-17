@@ -1,3 +1,4 @@
+using Content.Shared._Impstation.Traits.Assorted;
 using Content.Shared.Alert;
 using Content.Shared.Body.Components;
 using Content.Shared.Body.Events;
@@ -415,6 +416,11 @@ public abstract class SharedBloodstreamSystem : EntitySystem
     {
         if (!Resolve(ent, ref ent.Comp, logMissing: false))
             return false;
+
+        // begin starcup: hemophilia trait
+        if (amount < 0 && TryComp<HemophiliaComponent>(ent.Owner, out var trait))
+            amount *= trait.BleedReductionMultiplier;
+        // end starcup
 
         ent.Comp.BleedAmount += amount;
         ent.Comp.BleedAmount = Math.Clamp(ent.Comp.BleedAmount, 0, ent.Comp.MaxBleedAmount);
