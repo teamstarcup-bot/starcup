@@ -406,3 +406,10 @@
   id: 8112
   time: '2025-08-17T09:21:51.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/312
+- author: little-meow-meow
+  changes:
+  - message: Ported Shoko from Delta-V.
+    type: Add
+  id: 8113
+  time: '2025-08-17T10:19:05.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/301
