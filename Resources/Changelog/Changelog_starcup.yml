@@ -380,3 +380,21 @@
   id: 8109
   time: '2025-08-17T09:04:40.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/313
+- author: sususuyo suyo
+  changes:
+  - message: shaved 1.5 seconds off of the goliath's tentacle grapple stun to accommodate
+      for crawling's extremely interruptible doafter (1 second)
+    type: Tweak
+  id: 8110
+  time: '2025-08-17T09:11:23.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/307
+- author: deltanedas
+  changes:
+  - message: Changed goliath sprites to be accurate to SS13's regular goliath and
+      not ancient goliath.
+    type: Tweak
+  - message: Goliaths attack range was slightly reduced to make combat more fair.
+    type: Tweak
+  id: 8111
+  time: '2025-08-17T09:12:14.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/308
