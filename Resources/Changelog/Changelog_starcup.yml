@@ -350,3 +350,11 @@
   id: 8105
   time: '2025-08-16T01:52:51.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/304
+- author: foxcurl
+  changes:
+  - message: Train got a big update; enjoy a portion of the kitchen in the bar, a
+      redone singularity containment, expanded salvage dock, and more.
+    type: Tweak
+  id: 8106
+  time: '2025-08-17T04:25:01.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/306
