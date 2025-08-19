@@ -413,3 +413,10 @@
   id: 8113
   time: '2025-08-17T10:19:05.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/301
+- author: Samuka, foxcurl
+  changes:
+  - message: Robotics consoles can no longer remotely detonate or eject borgs.
+    type: Tweak
+  id: 8114
+  time: '2025-08-19T07:29:46.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/316
