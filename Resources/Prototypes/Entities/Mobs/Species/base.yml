@@ -211,6 +211,7 @@
     - DoorBumpOpener
     - AnomalyHost
   - type: FootPrints # DeltaV port from EE, blood splatter
+  - type: ShortExamine
 
 - type: entity
   save: false
