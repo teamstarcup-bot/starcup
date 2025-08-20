@@ -46,11 +46,7 @@ public sealed class IdExaminableSystem : EntitySystem
         return GetInfo(uid) ?? Loc.GetString("id-examinable-component-verb-no-id");
     }
 
-<<<<<<< HEAD
     public string? GetInfo(EntityUid uid)
-=======
-    private string? GetInfo(EntityUid uid)
->>>>>>> 831dcc3ef6 (Merge health and id examine into regular examine (#2093))
     {
         if (_inventorySystem.TryGetSlotEntity(uid, "id", out var idUid))
         {

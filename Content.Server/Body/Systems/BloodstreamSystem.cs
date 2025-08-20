@@ -1,34 +1,7 @@
-<<<<<<< HEAD
 using Content.Shared.Body.Components;
 using Content.Shared.Body.Systems;
 using Content.Shared.Chemistry.Reagent;
 using Content.Shared.Forensics;
-=======
-using Content.Server.Body.Components;
-using Content.Server.Chemistry.Containers.EntitySystems;
-using Content.Server.Chemistry.ReactionEffects;
-using Content.Server.Fluids.EntitySystems;
-using Content.Server.Forensics;
-using Content.Server.Popups;
-using Content.Shared._CM14.Medical.Stasis;
-using Content.Shared.Alert;
-using Content.Shared.Chemistry.Components;
-using Content.Shared.Chemistry.EntitySystems;
-using Content.Shared.Chemistry.Reaction;
-using Content.Shared.Damage;
-using Content.Shared.Damage.Prototypes;
-using Content.Shared.Drunk;
-using Content.Shared.FixedPoint;
-using Content.Shared.HealthExaminable;
-using Content.Shared.Mobs.Systems;
-using Content.Shared.Popups;
-using Content.Shared.Rejuvenate;
-using Content.Shared.Speech.EntitySystems;
-using Robust.Server.Audio;
-using Robust.Shared.Prototypes;
-using Robust.Shared.Random;
-using Robust.Shared.Timing;
->>>>>>> 831dcc3ef6 (Merge health and id examine into regular examine (#2093))
 
 namespace Content.Server.Body.Systems;
 
