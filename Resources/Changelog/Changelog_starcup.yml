@@ -458,3 +458,30 @@
   id: 8119
   time: '2025-08-21T09:31:51.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/322
+- author: princesspengy
+  changes:
+  - message: the head of personnel's job description has been changed to more strongly
+      emphasize their position as the station's second in command
+    type: Tweak
+  - message: the admin assistant has had their duties expanded, and has been granted
+      a proper command headset and entry-level access to all other departments except
+      security
+    type: Tweak
+  - message: removed the existing admin assistant headset
+    type: Remove
+  - message: prisoner and psychologist are no longer listed as station-dependent jobs,
+      and will be included in all maps from now on!
+    type: Tweak
+  - message: the boxer and reporter's job descriptions now have an accurate list of
+      current stations they can work at
+    type: Fix
+  - message: the head of personnel now has access to the robotics lab and mailroom
+    type: Fix
+  - message: the logistics officer's job icon now matches the icon on their id card
+    type: Fix
+  - message: the zookeeper has been taken down from the job loadout list pending future
+      reworks
+    type: Remove
+  id: 8120
+  time: '2025-08-21T23:40:49.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/314
