@@ -420,3 +420,19 @@
   id: 8114
   time: '2025-08-19T07:29:46.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/316
+- author: little-meow-meow
+  changes:
+  - message: New potty mouth trait for people who don't swear.
+    type: Add
+  - message: Potty mouth implanter for forcing people to never say bad things.
+    type: Add
+  id: 8115
+  time: '2025-08-21T04:28:31.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/317
+- author: little-meow-meow
+  changes:
+  - message: Improved map lighting on parallax backgrounds.
+    type: Add
+  id: 8116
+  time: '2025-08-21T04:29:25.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/318
