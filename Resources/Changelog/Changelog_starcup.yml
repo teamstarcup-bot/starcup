@@ -436,3 +436,11 @@
   id: 8116
   time: '2025-08-21T04:29:25.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/318
+- author: little-meow-meow
+  changes:
+  - message: 'Glacier: day length changed from 1 to 4 hours, improved parallax lighting,
+      fixed weird tiles in med courtyard, restored broken signs.'
+    type: Tweak
+  id: 8117
+  time: '2025-08-21T04:30:38.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/319
