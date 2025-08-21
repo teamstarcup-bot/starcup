@@ -51,15 +51,17 @@
   - Cargo
   - Atmospherics
   - Medical
-  # begin starcup additions
+  # begin starcup additions: hops have everything but captain, armory, and other heads
   - Boxer
   - Clown
   - Library
+  - Mail
   - Mime
   - Musician
   - Paramedic
   - Psychologist
   - Reporter
+  - Robotics
   - Zookeeper
   # end starcup
 
