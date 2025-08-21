@@ -97,3 +97,5 @@
   - type: Wires
     boardName: wires-board-name-computer
     layoutId: ComputerAi
+  - type: PointLight # starcup: impstation computer lighting tweaks
+    radius: 2.4

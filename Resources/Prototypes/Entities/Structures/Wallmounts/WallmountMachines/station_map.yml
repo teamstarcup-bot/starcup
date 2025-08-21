@@ -85,7 +85,6 @@
       interfaces:
         enum.StationMapUiKey.Key:
           type: StationMapBoundUserInterface
-<<<<<<< HEAD:Resources/Prototypes/Entities/Structures/Wallmounts/WallmountMachines/station_map.yml
     - type: EmitSoundOnUIOpen
       sound:
         collection: Keyboard
@@ -96,11 +95,17 @@
       blacklist:
         tags:
         - NoConsoleSound
-=======
     - type: PointLight #imp
-      range: 1.5
       color: "#58e873"
->>>>>>> 1633d40b4d (adjusted lighting from computers (#2644)):Resources/Prototypes/Entities/Structures/Wallmounts/station_map.yml
+      # begin starcup
+      energy: 0.8
+      radius: 1.6
+      mask: /Textures/Effects/LightMasks/cone.png
+      offset: "0, -0.1"
+      autoRot: true
+      castShadows: false
+      # end starcup
+    - type: LitOnPowered # starcup
 
 - type: entity
   parent: BaseWallmountMetallic
