@@ -53,7 +53,7 @@
     - AtmosphericAlertsComputer
     - DeviceMonitoringAndControl
   - type: PointLight # starcup
-    color: "e6ffff"
+    color: "#e6ffff"
 
 - type: entity
   parent: BaseComputerAiAccess
