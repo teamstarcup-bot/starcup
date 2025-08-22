@@ -95,6 +95,17 @@
       blacklist:
         tags:
         - NoConsoleSound
+    - type: PointLight #imp
+      color: "#58e873"
+      # begin starcup
+      energy: 0.8
+      radius: 1.6
+      mask: /Textures/Effects/LightMasks/cone.png
+      offset: "0, -0.1"
+      autoRot: true
+      castShadows: false
+      # end starcup
+    - type: LitOnPowered # starcup
 
 - type: entity
   parent: BaseWallmountMetallic
