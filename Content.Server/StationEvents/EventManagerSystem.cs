@@ -1,9 +1,4 @@
 using System.Linq;
-<<<<<<< HEAD
-=======
-using Content.Server.Chat.Managers;
-using Content.Server.FloofStation.GameTicking;
->>>>>>> 45849fb3da7 (Merge pull request #418 from Mnemotechnician/floof/feat/event-conditions)
 using Content.Server.GameTicking;
 using Content.Server.RoundEnd;
 using Content.Server.StationEvents.Components;
@@ -30,16 +25,11 @@ public sealed class EventManagerSystem : EntitySystem
     public bool EventsEnabled { get; private set; }
     private void SetEnabled(bool value) => EventsEnabled = value;
 
-    private StationEventCondition.Dependencies _eventConditionDeps = default!; // Floof
-
     public override void Initialize()
     {
         base.Initialize();
 
         Subs.CVar(_configurationManager, CCVars.EventsEnabled, SetEnabled, true);
-
-        _eventConditionDeps = new(EntityManager, GameTicker, this); // Floof
-        _eventConditionDeps.Initialize();
     }
 
     /// <summary>
@@ -206,8 +196,6 @@ public sealed class EventManagerSystem : EntitySystem
 
         var result = new Dictionary<EntityPrototype, StationEventComponent>();
 
-        _eventConditionDeps.Update(); // Floof
-
         foreach (var (proto, stationEvent) in AllEvents())
         {
             if (CanRun(proto, stationEvent, playerCount, currentTime))
@@ -288,13 +276,6 @@ public sealed class EventManagerSystem : EntitySystem
         {
             return false;
         }
-
-        // Floof section - custom conditions
-        if (stationEvent.Conditions is { } conditions
-            && conditions.Any(it => it.Inverted ^ !it.IsMet(prototype, stationEvent, _eventConditionDeps))
-        )
-            return false;
-        // Floof section end
 
         return true;
     }

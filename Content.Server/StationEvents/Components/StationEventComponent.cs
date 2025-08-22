@@ -1,4 +1,3 @@
-using Content.Server.FloofStation.GameTicking;
 using Robust.Shared.Audio;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom;
 
@@ -83,21 +82,9 @@ public sealed partial class StationEventComponent : Component
     [AutoPausedField]
     public TimeSpan? EndTime;
 
-<<<<<<< HEAD
     /// <summary>
     /// If false, the event won't trigger during ongoing evacuation.
     /// </summary>
     [DataField]
     public bool OccursDuringRoundEnd = true;
-=======
-    // Floof section - custom conditions
-
-    /// <summary>
-    ///     A list of conditions that must be met for the event to run.
-    /// </summary>
-    [DataField]
-    public List<StationEventCondition>? Conditions;
-
-    // Floof section end
->>>>>>> 45849fb3da7 (Merge pull request #418 from Mnemotechnician/floof/feat/event-conditions)
 }
