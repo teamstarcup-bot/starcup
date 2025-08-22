@@ -485,3 +485,18 @@
   id: 8120
   time: '2025-08-21T23:40:49.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/314
+- author: AvianMaiden AvianMaiden, Cutinup99
+  changes:
+  - message: Televisions and computers give off cozier lights!
+    type: Add
+  - message: New variant of the desk lamp with a warmer glow!
+    type: Add
+  - message: New mini wallmounted television!
+    type: Add
+  - message: Protolathes now give off a dim glow.
+    type: Add
+  - message: Tech disk terminals now (properly) give off light.
+    type: Tweak
+  id: 8121
+  time: '2025-08-22T00:25:36.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/321
