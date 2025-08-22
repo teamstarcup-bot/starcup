@@ -54,7 +54,7 @@
 - type: entity
   name: explosive grenade
   description: Grenade that creates a small but devastating explosion.
-  parent: [GrenadeBase, BaseTraitorContraband] # starcup: shared contraband level with nt gear
+  parent: [GrenadeBase, BaseTraitorContraband, BaseExaminableClothing] # starcup: shared contraband level with nt gear, examinable clothing
   id: ExGrenade
   components:
   - type: ExplodeOnTrigger
@@ -73,11 +73,15 @@
         volume: 5
     initialBeepDelay: 0
     beepInterval: 2 # 2 beeps total (at 0 and 2)
+  # begin starcup: examinable clothing
+  - type: ExaminableClothing
+    examineText: clothing-grenade-explosive
+  # end starcup
 
 - type: entity
   name: flashbang
   description: Eeeeeeeeeeeeeeeeeeeeee.
-  parent: [ GrenadeBase, BaseSecurityContraband ]
+  parent: [ GrenadeBase, BaseSecurityContraband, BaseExaminableClothing ] # starcup: examinable clothing
   id: GrenadeFlashBang
   components:
   - type: Sprite
@@ -111,6 +115,10 @@
     tags:
     - HandGrenade
     - GrenadeFlashBang
+  # begin starcup: examinable clothing
+  - type: ExaminableClothing
+    examineText: clothing-grenade-flashbang
+  # end starcup
 
 - type: entity
   id: GrenadeFlashEffect
@@ -199,7 +207,7 @@
 
 
 - type: entity
-  parent: [ GrenadeBase, BaseTraitorContraband ] # starcup: shared contraband level with nt gear
+  parent: [ GrenadeBase, BaseTraitorContraband, BaseExaminableClothing ] # starcup: shared contraband level with nt gear, examinable clothing
   id: SingularityGrenade
   name: singularity grenade
   description: Grenade that simulates the power of a singularity, pulling things in a heap.
@@ -265,6 +273,10 @@
       - type: DeleteOnTrigger
         keysIn:
         - stageTwo
+  # begin starcup: examinable clothing
+  - type: ExaminableClothing
+    examineText: clothing-grenade-singularity
+  # end starcup
   - type: StaticPrice
     price: 1000
 
@@ -412,7 +424,7 @@
 - type: entity
   name: EMP grenade
   description: A grenade designed to wreak havoc on electronic systems.
-  parent: [GrenadeBase, BaseTraitorContraband] # starcup: shared contraband level with nt gear
+  parent: [GrenadeBase, BaseTraitorContraband, BaseExaminableClothing] # starcup: shared contraband level with nt gear, examinable clothing
   id: EmpGrenade
   components:
   - type: Sprite
@@ -429,13 +441,17 @@
   - type: TimerTriggerVisuals
     primingSound:
       path: /Audio/Effects/countdown.ogg
+  # begin starcup: examinable clothing
+  - type: ExaminableClothing
+    examineText: clothing-grenade-emp
+  # end starcup
   - type: StaticPrice
     price: 666 # 2000 for 3, I love fractions
 
 - type: entity
   name: holy hand grenade
   description: O Lord, bless this thy hand grenade, that with it thou mayst blow thine enemies to tiny bits, in thy mercy.
-  parent: [GrenadeBase, BaseTraitorContraband] # starcup: shared contraband level with nt gear
+  parent: [GrenadeBase, BaseTraitorContraband, BaseExaminableClothing] # starcup: shared contraband level with nt gear, examinable clothing
   id: HolyHandGrenade
   components:
   - type: Sprite
@@ -458,11 +474,15 @@
   - type: TimerTriggerVisuals
     primingSound:
       path: /Audio/Effects/hallelujah.ogg
+  # begin starcup: examinable clothing
+  - type: ExaminableClothing
+    examineText: clothing-grenade-holy
+  # end starcup
   - type: StaticPrice
     price: 10000
 
 - type: entity
-  parent: [ GrenadeBase, BaseSecurityContraband ]
+  parent: [ GrenadeBase, BaseSecurityContraband, BaseExaminableClothing ] # starcup: examinable clothing
   id: SmokeGrenade
   name: smoke grenade
   description: A tactical grenade that releases a large, long-lasting cloud of smoke when used.
@@ -484,6 +504,10 @@
   - type: TimerTriggerVisuals
     primingSound:
       path: /Audio/Items/smoke_grenade_prime.ogg
+  # begin starcup: examinable clothing
+  - type: ExaminableClothing
+    examineText: clothing-grenade-smoke
+  # end starcup
 
 - type: entity
   parent: [ BaseCivilianContraband, SmokeGrenade ]
@@ -541,9 +565,13 @@
     smokePrototype: AluminiumMetalFoam
   - type: StaticPrice
     price: 350
+  # begin starcup: examinable clothing
+  - type: ExaminableClothing
+    examineText: clothing-grenade-metal-foam
+  # end starcup
 
 - type: entity
-  parent: [ BaseEngineeringContraband, GrenadeBase ] # Prevent inheriting DeleteOnTrigger from SmokeGrenade
+  parent: [ BaseEngineeringContraband, GrenadeBase, BaseExaminableClothing ] # Prevent inheriting DeleteOnTrigger from SmokeGrenade # starcup: examinable clothing
   id: AirGrenade
   name: air grenade
   description: A special solid state chemical grenade used for quickly releasing standard air into a spaced area. Fills up to 30 tiles!
@@ -577,6 +605,10 @@
         enabled:
           True: { state: active }
           False: { state: spent }
+  # begin starcup: examinable clothing
+  - type: ExaminableClothing
+    examineText: clothing-grenade-air
+  # end starcup
 
 # Non-explosive "dummy" grenades to use as a distraction.
 
