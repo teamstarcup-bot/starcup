@@ -522,3 +522,12 @@
   id: 8123
   time: '2025-08-22T00:32:37.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/327
+- author: princesspengy
+  changes:
+  - message: certain wearable items are now visible on examination! these include
+      medals, lawyer badges, pride pins/scarves, and most functional items with contraband
+      labels (security gear, hardsuits, insulated gloves, weapons, etc)
+    type: Add
+  id: 8124
+  time: '2025-08-22T00:41:11.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/323
