@@ -538,3 +538,10 @@
   id: 8125
   time: '2025-08-22T04:32:15.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/330
+- author: little-meow-meow
+  changes:
+  - message: New sofas!
+    type: Add
+  id: 8126
+  time: '2025-08-22T08:59:21.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/331
