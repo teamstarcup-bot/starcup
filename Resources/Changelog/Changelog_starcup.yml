@@ -500,3 +500,25 @@
   id: 8121
   time: '2025-08-22T00:25:36.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/321
+- author: princesspengy
+  changes:
+  - message: adds support for tails (and such) to have more control over their layering,
+      so they'll look good even if you're wearing a skirt
+    type: Add
+  - message: adds support for markings to have sprites inherit color from other sprites
+      in the marking, so you can change multiple sprite colors with one slider
+    type: Add
+  - message: unathi, vulpekin, and rodentia tails have been edited using this system
+      to fix their previous layering errors; no more awkward stripe of pixels over
+      jumpskirts!
+    type: Fix
+  id: 8122
+  time: '2025-08-22T00:32:37.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/276
+- author: little-meow-meow
+  changes:
+  - message: Added flipped eyepatches to loadouts alongside regular eyepatches.
+    type: Add
+  id: 8123
+  time: '2025-08-22T00:32:37.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/327
