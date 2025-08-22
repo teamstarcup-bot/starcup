@@ -545,3 +545,17 @@
   id: 8126
   time: '2025-08-22T08:59:21.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/331
+- author: teamstarcup-bot
+  changes:
+  - message: Merged health and ID examine into standard examine (ported from RMC.)
+    type: Add
+  id: 8127
+  time: '2025-08-22T09:06:31.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/320
+- author: little-meow-meow
+  changes:
+  - message: New maneki-neko "lucky cat" figurines!
+    type: Add
+  id: 8128
+  time: '2025-08-22T09:06:15.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/334
