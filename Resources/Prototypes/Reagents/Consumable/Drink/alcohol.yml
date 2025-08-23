@@ -1625,7 +1625,7 @@
   desc: reagent-desc-mead-starcup # starcup: rewritten
   physicalDesc: reagent-physical-desc-strong-smelling
   flavor: mead-starcup # starcup: rewritten
-  color: "#f09f42" # starcup
+  color: "#e4c35e" # starcup
   metamorphicSprite:
     sprite: Objects/Consumable/Drinks/beerstein.rsi
     state: icon_empty
@@ -1849,8 +1849,8 @@
   name: reagent-name-sbiten
   parent: BaseAlcohol
   desc: reagent-desc-sbiten-starcup # starcup: rewritten
-  physicalDesc: reagent-physical-desc-strong-smelling
-  flavor: sbiten
+  physicalDesc: reagent-physical-desc-thick # starcup
+  flavor: sbiten-starcup # starcup: rewritten
   color: "#5A0717" # starcup
   metamorphicSprite:
     sprite: Objects/Consumable/Drinks/sbitenglass.rsi
@@ -2133,7 +2133,7 @@
   desc: reagent-desc-vodka-martini-starcup # starcup: rewritten
   physicalDesc: reagent-physical-desc-strong-smelling
   flavor: vodkamartini-starcup # starcup: rewritten
-  color: "#004666"
+  color: "#CEDDAD" # starcup
   metamorphicSprite:
     sprite: Objects/Consumable/Drinks/martiniglass.rsi
     state: icon_empty
