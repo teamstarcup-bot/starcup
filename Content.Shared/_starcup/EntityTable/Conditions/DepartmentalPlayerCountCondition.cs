@@ -1,3 +1,4 @@
+using Content.Shared._starcup.GameEvents;
 using Content.Shared.EntityTable;
 using Content.Shared.EntityTable.Conditions;
 using Content.Shared.EntityTable.EntitySelectors;
@@ -8,12 +9,13 @@ using Robust.Shared.Enums;
 using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 
-namespace Content.Server._starcup.EntityTable.Conditions;
+namespace Content.Shared._starcup.EntityTable.Conditions;
 
 /// <summary>
-/// Condition that passes only if the number of players in a department falls within the configured range.
+/// Condition that passes only if the number of players in a department falls within the configured range. Only
+/// counts players who are currently connected and in-game.
 /// </summary>
-public sealed partial class DepartmentalPlayerCountCondition : EntityTableCondition
+public sealed partial class DepartmentalPlayerCountCondition : EntityTableCondition, IStationEventCondition
 {
     [DataField(required: true)]
     public ProtoId<DepartmentPrototype> Department;
@@ -29,16 +31,20 @@ public sealed partial class DepartmentalPlayerCountCondition : EntityTableCondit
     private static readonly Dictionary<ProtoId<JobPrototype>, ProtoId<DepartmentPrototype>> JobDepartmentMap = new();
 
     protected override bool EvaluateImplementation(EntityTableSelector root,
-        IEntityManager entMan,
-        IPrototypeManager proto,
+        IEntityManager entityManager,
+        IPrototypeManager prototypeManager,
         EntityTableContext ctx)
     {
+        return Evaluate(entityManager, prototypeManager);
+    }
 
+    public bool Evaluate(IEntityManager entityManager, IPrototypeManager prototypeManager)
+    {
         _playerManager ??= IoCManager.Resolve<ISharedPlayerManager>();
 
         if (JobDepartmentMap.Count == 0)
         {
-            foreach (var departmentProto in proto.EnumeratePrototypes<DepartmentPrototype>())
+            foreach (var departmentProto in prototypeManager.EnumeratePrototypes<DepartmentPrototype>())
             {
                 departmentProto.Roles.ForEach(x => JobDepartmentMap[x] = departmentProto.ID);
             }
@@ -58,12 +64,12 @@ public sealed partial class DepartmentalPlayerCountCondition : EntityTableCondit
                 continue;
             }
 
-            if (!entMan.TryGetComponent<MindComponent>(mind, out var mindComponent))
+            if (!entityManager.TryGetComponent<MindComponent>(mind, out var mindComponent))
             {
                 continue;
             }
 
-            if (IsMindEmployedInDepartment(entMan, mindComponent, Department))
+            if (IsMindEmployedInDepartment(entityManager, mindComponent, Department))
             {
                 tally++;
             }
@@ -72,13 +78,13 @@ public sealed partial class DepartmentalPlayerCountCondition : EntityTableCondit
         return tally >= Min && tally <= Max;
     }
 
-    private static bool IsMindEmployedInDepartment(IEntityManager entMan,
+    private static bool IsMindEmployedInDepartment(IEntityManager entityManager,
         MindComponent mindComponent,
         ProtoId<DepartmentPrototype> department)
     {
         foreach (var mindRole in mindComponent.MindRoles)
         {
-            if (!entMan.TryGetComponent<MindRoleComponent>(mindRole, out var mindRoleComponent))
+            if (!entityManager.TryGetComponent<MindRoleComponent>(mindRole, out var mindRoleComponent))
             {
                 continue;
             }

@@ -1,3 +1,4 @@
+using Content.Shared._starcup.GameEvents;
 using Robust.Shared.Audio;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom;
 
@@ -87,4 +88,13 @@ public sealed partial class StationEventComponent : Component
     /// </summary>
     [DataField]
     public bool OccursDuringRoundEnd = true;
+
+    // begin starcup: event conditions
+    /// <summary>
+    /// A list of <see cref="Content.Shared.EntityTable.Conditions.EntityTableCondition"/>s that are all required to
+    /// pass before this event is scheduled.
+    /// </summary>
+    [DataField]
+    public List<IStationEventCondition> Conditions = [];
+    // end starcup
 }

@@ -277,6 +277,16 @@ public sealed class EventManagerSystem : EntitySystem
             return false;
         }
 
+        // begin starcup: event conditions
+        foreach (var condition in stationEvent.Conditions)
+        {
+            if (!condition.Evaluate(EntityManager, _prototype))
+            {
+                return false;
+            }
+        }
+        // end starcup
+
         return true;
     }
 }

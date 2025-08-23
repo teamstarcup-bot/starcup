@@ -6,8 +6,7 @@
       conditions:
       - !type:DepartmentalPlayerCountCondition
         department: Science
-        range:
-          min: 1
+        min: 1
     - id: BluespaceArtifact
     - id: BluespaceLocker
     - id: BreakerFlip
@@ -87,6 +86,10 @@
     weight: 8
     reoccurrenceDelay: 5 # starcup: prevents anomaly event spamming on lowpop survival
     duration: 35
+    conditions:
+    - !type:DepartmentalPlayerCountCondition
+      department: Science
+      min: 1
   - type: AnomalySpawnRule
 
 - type: entity
