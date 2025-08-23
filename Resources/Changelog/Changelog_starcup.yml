@@ -566,3 +566,18 @@
   id: 8129
   time: '2025-08-22T12:10:53.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/332
+- author: princesspengy
+  changes:
+  - message: many drinks have had their colors changed to appear more accurate, particularly
+      when served in non-metamorphic glasses
+    type: Tweak
+  - message: rewrote a handful of drink flavor texts
+    type: Tweak
+  - message: the cocktail named the booger has been renamed to the slimer
+    type: Tweak
+  - message: the sbiten's recipe and description has been changed to more accurately
+      reflect its real world counterpart
+    type: Tweak
+  id: 8130
+  time: '2025-08-23T01:09:33.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/335
