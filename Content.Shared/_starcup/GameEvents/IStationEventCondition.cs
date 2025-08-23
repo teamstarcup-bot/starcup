@@ -7,4 +7,3 @@ public partial interface IStationEventCondition
 {
     public bool Evaluate(IEntityManager entityManager, IPrototypeManager prototypeManager);
 }
-
