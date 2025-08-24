@@ -47,7 +47,7 @@
       board: [ DoorElectronicsChapel ]
 
 - type: entity
-  parent: AirlockServiceLocked
+  parent: AirlockJanitor # The Den - airlock resprite
   id: AirlockJanitorLocked
   suffix: Janitor, Locked
   components:
@@ -56,7 +56,7 @@
       board: [ DoorElectronicsJanitor ]
 
 - type: entity
-  parent: AirlockServiceLocked
+  parent: AirlockKitchen # The Den - airlock resprite
   id: AirlockKitchenLocked
   suffix: Kitchen, Locked
   components:
@@ -65,7 +65,7 @@
       board: [ DoorElectronicsKitchen ]
 
 - type: entity
-  parent: AirlockServiceLocked
+  parent: AirlockBartender # The Den - airlock resprite
   id: AirlockBarLocked
   suffix: Bar, Locked
   components:
@@ -74,6 +74,7 @@
       board: [ DoorElectronicsBar ]
 
 - type: entity
+<<<<<<< HEAD
   parent: AirlockServiceLocked
   id: AirlockBarKitchenLocked
   suffix: Bar&Kitchen, Locked
@@ -84,6 +85,11 @@
 
 - type: entity
   parent: AirlockHydroponics
+||||||| parent of 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
+  parent: AirlockServiceLocked
+=======
+  parent: AirlockHydroponics # DeltaV - Logistics Department replacing Cargo
+>>>>>>> 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
   id: AirlockHydroponicsLocked
   suffix: Hydroponics, Locked
   components:
@@ -232,7 +238,13 @@
       board: [ DoorElectronicsCargo ]
 
 - type: entity
+<<<<<<< HEAD
   parent: AirlockSalvage
+||||||| parent of 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
+  parent: AirlockCargo
+=======
+  parent: AirlockSalvage # The Den - airlock resprite
+>>>>>>> 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
   id: AirlockSalvageLocked
   suffix: Salvage, Locked
   components:
@@ -257,6 +269,26 @@
   - type: ContainerFill
     containers:
       board: [ DoorElectronicsMedical ]
+<<<<<<< HEAD
+||||||| parent of 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
+
+- type: entity
+  parent: AirlockMedical
+  id: AirlockParamedicLocked
+  suffix: Paramedic, Locked
+  components:
+  - type: AccessReader
+    access: [["Paramedic"]]
+=======
+
+- type: entity
+  parent: AirlockParamedic # The Den - airlock resprite
+  id: AirlockParamedicLocked
+  suffix: Paramedic, Locked
+  components:
+  - type: AccessReader
+    access: [["Paramedic"]]
+>>>>>>> 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
 
 - type: entity
   parent: AirlockVirology
@@ -295,7 +327,7 @@
       board: [ DoorElectronicsResearch ]
 
 - type: entity
-  parent: AirlockScience
+  parent: AirlockMedicalScience # The Den - airlock resprite
   id: AirlockMedicalScienceLocked
   suffix: Medical/Science, Locked
   components:
@@ -331,7 +363,7 @@
       board: [ DoorElectronicsCaptain ]
 
 - type: entity
-  parent: AirlockCommand
+  parent: AirlockChiefMedicalOfficer # The Den - airlock resprite
   id: AirlockChiefMedicalOfficerLocked
   suffix: ChiefMedicalOfficer, Locked
   components:
@@ -340,7 +372,7 @@
       board: [ DoorElectronicsChiefMedicalOfficer ]
 
 - type: entity
-  parent: AirlockCommand
+  parent: AirlockChiefEngineer # The Den - airlock resprite
   id: AirlockChiefEngineerLocked
   suffix: ChiefEngineer, Locked
   components:
@@ -349,7 +381,7 @@
       board: [ DoorElectronicsChiefEngineer ]
 
 - type: entity
-  parent: AirlockCommand
+  parent: AirlockHeadOfSecurity # The Den - airlock resprite
   id: AirlockHeadOfSecurityLocked
   suffix: HeadOfSecurity, Locked
   components:
@@ -358,7 +390,7 @@
       board: [ DoorElectronicsHeadOfSecurity ]
 
 - type: entity
-  parent: AirlockCommand
+  parent: AirlockResearchDirector # The Den - airlock resprite
   id: AirlockResearchDirectorLocked
   suffix: ResearchDirector, Locked
   components:
@@ -367,7 +399,7 @@
       board: [ DoorElectronicsResearchDirector ]
 
 - type: entity
-  parent: AirlockCommand
+  parent: AirlockHeadOfPersonnel # The Den - airlock resprite
   id: AirlockHeadOfPersonnelLocked
   suffix: HeadOfPersonnel, Locked
   components:
@@ -376,7 +408,7 @@
       board: [ DoorElectronicsHeadOfPersonnel ]
 
 - type: entity
-  parent: AirlockCommand
+  parent: AirlockQuartermaster # The Den - airlock resprite
   id: AirlockQuartermasterLocked
   suffix: Logistics Officer, Locked # DeltaV - Logistics Department replacing Cargo
   components:
@@ -421,7 +453,7 @@
       board: [ DoorElectronicsSecurityLawyer ]
 
 - type: entity
-  parent: AirlockSecurity
+  parent: AirlockArmory # The Den airlock resprite
   id: AirlockArmoryLocked
   suffix: Armory, Locked
   components:
@@ -480,6 +512,7 @@
       board: [ DoorElectronicsTheatre ]
 
 - type: entity
+<<<<<<< HEAD
   parent: AirlockServiceGlassLocked
   id: AirlockServiceTheatreGlassLocked
   suffix: Service, Theatre, Locked
@@ -490,6 +523,11 @@
 
 - type: entity
   parent: AirlockServiceGlassLocked
+||||||| parent of 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
+  parent: AirlockGlass
+=======
+  parent: AirlockBartenderGlass # The Den - airlock resprite
+>>>>>>> 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
   id: AirlockBarGlassLocked
   suffix: Bar, Locked
   components:
@@ -572,7 +610,7 @@
     layoutId: AirlockEngineering
 
 - type: entity
-  parent: AirlockServiceGlassLocked
+  parent: AirlockKitchenGlass # The Den - airlock resprite
   id: AirlockKitchenGlassLocked
   suffix: Kitchen, Locked
   components:
@@ -581,7 +619,7 @@
       board: [ DoorElectronicsKitchen ]
 
 - type: entity
-  parent: AirlockServiceGlassLocked
+  parent: AirlockJanitorGlass # The Den - airlock resprite
   id: AirlockJanitorGlassLocked
   suffix: Janitor, Locked
   components:
@@ -590,7 +628,13 @@
       board: [ DoorElectronicsJanitor ]
 
 - type: entity
+<<<<<<< HEAD
   parent: AirlockHydroponicsGlass
+||||||| parent of 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
+  parent: AirlockServiceGlassLocked
+=======
+  parent: AirlockHydroponicsGlass # The Den - airlocks resprite
+>>>>>>> 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
   id: AirlockHydroGlassLocked
   suffix: Hydroponics, Locked
   components:
@@ -646,7 +690,13 @@
       board: [ DoorElectronicsCargo ]
 
 - type: entity
+<<<<<<< HEAD
   parent: AirlockSalvageGlass
+||||||| parent of 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
+  parent: AirlockCargoGlass
+=======
+  parent: AirlockSalvageGlass # The Den - airlock resprite
+>>>>>>> 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
   id: AirlockSalvageGlassLocked
   suffix: Salvage, Locked
   components:
@@ -689,6 +739,26 @@
   - type: ContainerFill
     containers:
       board: [ DoorElectronicsMedical ]
+<<<<<<< HEAD
+||||||| parent of 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
+
+- type: entity
+  parent: AirlockMedicalGlass
+  id: AirlockParamedicGlassLocked
+  suffix: Paramedic, Locked
+  components:
+  - type: AccessReader
+    access: [["Paramedic"]]
+=======
+
+- type: entity
+  parent: AirlockParamedicGlass # The Den - airlock resprite
+  id: AirlockParamedicGlassLocked
+  suffix: Paramedic, Locked
+  components:
+  - type: AccessReader
+    access: [["Paramedic"]]
+>>>>>>> 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
 
 - type: entity
   parent: AirlockVirologyGlass
@@ -709,7 +779,7 @@
       board: [ DoorElectronicsResearch ]
 
 - type: entity
-  parent: AirlockScienceGlass
+  parent: AirlockMedicalScienceGlass # The Den - airlock resprite
   id: AirlockMedicalScienceGlassLocked
   suffix: Medical/Science, Locked
   components:
@@ -745,7 +815,7 @@
       board: [ DoorElectronicsCaptain ]
 
 - type: entity
-  parent: AirlockCommandGlass
+  parent: AirlockChiefMedicalOfficerGlass # The Den - airlock resprite
   id: AirlockChiefMedicalOfficerGlassLocked
   suffix: ChiefMedicalOfficer, Locked
   components:
@@ -754,7 +824,7 @@
       board: [ DoorElectronicsChiefMedicalOfficer ]
 
 - type: entity
-  parent: AirlockCommandGlass
+  parent: AirlockChiefEngineerGlass # The Den - airlock resprite
   id: AirlockChiefEngineerGlassLocked
   suffix: ChiefEngineer, Locked
   components:
@@ -763,7 +833,7 @@
       board: [ DoorElectronicsChiefEngineer ]
 
 - type: entity
-  parent: AirlockCommandGlass
+  parent: AirlockHeadOfSecurityGlass # The Den - airlock resprite
   id: AirlockHeadOfSecurityGlassLocked
   suffix: HeadOfSecurity, Locked
   components:
@@ -772,7 +842,7 @@
       board: [ DoorElectronicsHeadOfSecurity ]
 
 - type: entity
-  parent: AirlockCommandGlass
+  parent: AirlockResearchDirectorGlass # The Den - airlock resprite
   id: AirlockResearchDirectorGlassLocked
   suffix: ResearchDirector, Locked
   components:
@@ -781,7 +851,7 @@
       board: [ DoorElectronicsResearchDirector ]
 
 - type: entity
-  parent: AirlockCommandGlass
+  parent: AirlockHeadOfPersonnelGlass # The Den - airlock resprite
   id: AirlockHeadOfPersonnelGlassLocked
   suffix: HeadOfPersonnel, Locked
   components:
@@ -790,7 +860,7 @@
       board: [ DoorElectronicsHeadOfPersonnel ]
 
 - type: entity
-  parent: AirlockCommandGlass
+  parent: AirlockQuartermasterGlass
   id: AirlockQuartermasterGlassLocked
   suffix: Logistics Officer, Locked # DeltaV - Logistics Department replacing Cargo
   components:
@@ -835,7 +905,7 @@
       board: [ DoorElectronicsSecurityLawyer ]
 
 - type: entity
-  parent: AirlockSecurityGlass
+  parent: AirlockArmoryGlass # The Den airlock resprite
   id: AirlockArmoryGlassLocked
   suffix: Armory, Locked
   components:
@@ -899,14 +969,26 @@
       board: [ DoorElectronicsMaintenance ]
 
 - type: entity
+<<<<<<< HEAD
   parent: AirlockSalvageLocked
+||||||| parent of 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
+  parent: AirlockMaint
+=======
+  parent: AirlockMaintCargo # The Den airlock resprite
+>>>>>>> 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
   id: AirlockMaintSalvageLocked
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/maint.rsi
 
 - type: entity
+<<<<<<< HEAD
   parent: AirlockCargoLocked
+||||||| parent of 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
+  parent: AirlockMaint
+=======
+  parent: AirlockMaintCargo # The Den airlock resprite
+>>>>>>> 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
   id: AirlockMaintCargoLocked
   suffix: Logistics, Locked # DeltaV - Logistics Department replacing Cargo
   components:
@@ -914,34 +996,77 @@
     sprite: Structures/Doors/Airlocks/Standard/maint.rsi
 
 - type: entity
+<<<<<<< HEAD
   parent: AirlockCommandLocked
+||||||| parent of 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
+  parent: AirlockMaint
+=======
+  parent: AirlockMaintCommand # The Den airlock resprite
+>>>>>>> 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
   id: AirlockMaintCommandLocked
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/maint.rsi
 
 - type: entity
+<<<<<<< HEAD
   parent: AirlockEngineeringLocked
+||||||| parent of 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
+  parent: AirlockMaint
+  id: AirlockMaintCommonLocked
+  suffix: Common, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsMaintenance ]
+
+- type: entity
+  parent: AirlockMaint
+=======
+  parent: AirlockMaint
+  id: AirlockMaintCommonLocked
+  suffix: Common, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsMaintenance ]
+
+- type: entity
+  parent: AirlockMaintEngineering # The Den - airlock resprite
+>>>>>>> 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
   id: AirlockMaintEngiLocked
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/maint.rsi
 
 - type: entity
+<<<<<<< HEAD
   parent: AirlockAtmosphericsLocked
+||||||| parent of 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
+  parent: AirlockMaint
+=======
+  parent: AirlockMaintEngineering # The Den - airlock resprite
+>>>>>>> 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
   id: AirlockMaintAtmoLocked
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/maint.rsi
 
 - type: entity
+<<<<<<< HEAD
   parent: AirlockBarLocked
+||||||| parent of 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
+  parent: AirlockMaintServiceLocked
+=======
+  parent: AirlockMaintService # The Den - airlock resprite
+>>>>>>> 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
   id: AirlockMaintBarLocked
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/maint.rsi
 
 - type: entity
+<<<<<<< HEAD
   parent: AirlockBarKitchenLocked
   id: AirlockMaintBarKitchenLocked
   components:
@@ -950,47 +1075,83 @@
 
 - type: entity
   parent: AirlockChapelLocked
+||||||| parent of 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
+  parent: AirlockMaintServiceLocked
+=======
+  parent: AirlockMaintScience # The Den - airlock resprite
+>>>>>>> 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
   id: AirlockMaintChapelLocked
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/maint.rsi
 
 - type: entity
+<<<<<<< HEAD
   parent: AirlockHydroponicsLocked
+||||||| parent of 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
+  parent: AirlockMaintServiceLocked
+=======
+  parent: AirlockMaintService # The Den - airlock resprite
+>>>>>>> 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
   id: AirlockMaintHydroLocked
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/maint.rsi
 
 - type: entity
+<<<<<<< HEAD
   parent: AirlockJanitorLocked
+||||||| parent of 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
+  parent: AirlockMaintServiceLocked
+=======
+  parent: AirlockMaintService # The Den - airlock resprite
+>>>>>>> 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
   id: AirlockMaintJanitorLocked
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/maint.rsi
 
 - type: entity
+<<<<<<< HEAD
   parent: AirlockLawyerLocked
+||||||| parent of 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
+  parent: AirlockMaintServiceLocked
+=======
+  parent: AirlockMaintJustice # The Den - airlock resprite
+>>>>>>> 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
   id: AirlockMaintLawyerLocked
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/maint.rsi
 
 - type: entity
+<<<<<<< HEAD
   parent: AirlockServiceLocked
+||||||| parent of 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
+  parent: AirlockMaint
+=======
+  parent: AirlockMaintService # The Den - airlock resprite
+>>>>>>> 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
   id: AirlockMaintServiceLocked
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/maint.rsi
 
 - type: entity
+<<<<<<< HEAD
   parent: AirlockTheatreLocked
+||||||| parent of 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
+  parent: AirlockMaintServiceLocked
+=======
+  parent: AirlockMaintService # The Den - airlock resprite
+>>>>>>> 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
   id: AirlockMaintTheatreLocked
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/maint.rsi
 
 - type: entity
+<<<<<<< HEAD
   parent: AirlockServiceTheatreLocked
   id: AirlockMaintServiceTheatreLocked
   components:
@@ -999,6 +1160,11 @@
 
 - type: entity
   parent: AirlockKitchenLocked
+||||||| parent of 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
+  parent: AirlockMaintServiceLocked
+=======
+  parent: AirlockMaintService # The Den - airlock resprite
+>>>>>>> 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
   id: AirlockMaintKitchenLocked
   components:
   - type: Sprite
@@ -1012,7 +1178,13 @@
     sprite: Structures/Doors/Airlocks/Standard/maint.rsi
 
 - type: entity
+<<<<<<< HEAD
   parent: AirlockMedicalLocked
+||||||| parent of 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
+  parent: AirlockMaint
+=======
+  parent: AirlockMaintMedical # The Den - airlock resprite
+>>>>>>> 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
   id: AirlockMaintMedLocked
   components:
   - type: Sprite
@@ -1033,21 +1205,39 @@
     sprite: Structures/Doors/Airlocks/Standard/maint.rsi
 
 - type: entity
+<<<<<<< HEAD
   parent: AirlockScienceLocked
+||||||| parent of 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
+  parent: AirlockMaint
+=======
+  parent: AirlockMaintScience # The Den - airlock resprite
+>>>>>>> 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
   id: AirlockMaintRnDLocked
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/maint.rsi
 
 - type: entity
+<<<<<<< HEAD
   parent: AirlockMedicalScienceLocked
+||||||| parent of 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
+  parent: AirlockMaintRnDLocked
+=======
+  parent: AirlockMaintRnDMed # The Den - airlock resprite
+>>>>>>> 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
   id: AirlockMaintRnDMedLocked
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/maint.rsi
 
 - type: entity
+<<<<<<< HEAD
   parent: AirlockSecurityLocked
+||||||| parent of 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
+  parent: AirlockMaint
+=======
+  parent: AirlockMaintSecurity # The Den - airlock resprite
+>>>>>>> 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
   id: AirlockMaintSecLocked
   components:
   - type: Sprite
@@ -1110,14 +1300,20 @@
     sprite: Structures/Doors/Airlocks/Standard/maint.rsi
 
 - type: entity
+<<<<<<< HEAD
   parent: AirlockArmoryLocked
+||||||| parent of 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
+  parent: AirlockMaint
+=======
+  parent: AirlockMaintSecurity
+>>>>>>> 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
   id: AirlockMaintArmoryLocked
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/maint.rsi
 
 - type: entity
-  parent: AirlockSyndicate
+  parent: AirlockMaintSyndicate # The Den - airlock resprite
   id: AirlockSyndicateLocked
   suffix: Syndicate, Locked
   components:

@@ -4,7 +4,7 @@
   suffix: Freezer
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/freezer.rsi
+    sprite: _DEN/Structures/Doors/Airlocks/Standard/freezer.rsi # The Den - airlock resprite
   - type: Wires
     layoutId: AirlockService
 
@@ -14,7 +14,7 @@
   suffix: Engineering
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/engineering.rsi
+    sprite: _DEN/Structures/Doors/Airlocks/Standard/engineering.rsi # The Den - airlock resprite
   - type: Wires
     layoutId: AirlockEngineering
 
@@ -24,7 +24,7 @@
   suffix: Atmospherics
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/atmospherics.rsi
+    sprite: _DEN/Structures/Doors/Airlocks/Standard/atmospherics.rsi # The Den - airlock resprite
 
 - type: entity
   parent: Airlock
@@ -32,7 +32,7 @@
   suffix: Logistics # DeltaV - Logistics Department replacing Cargo
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/cargo.rsi
+    sprite: _DEN/Structures/Doors/Airlocks/Standard/cargo.rsi # The Den - airlock resprite
   - type: Wires
     layoutId: AirlockCargo
 
@@ -62,7 +62,7 @@
   suffix: Medical
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/medical.rsi
+    sprite: _DEN/Structures/Doors/Airlocks/Standard/medical.rsi # The Den - airlock resprite
   - type: Wires
     layoutId: AirlockMedical
 
@@ -72,8 +72,9 @@
   suffix: Virology
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/virology.rsi
+    sprite: _DEN/Structures/Doors/Airlocks/Standard/virology.rsi # The Den - airlock resprite
 
+<<<<<<< HEAD
 - type: entity
   parent: AirlockMedical
   id: AirlockChemistry
@@ -81,6 +82,20 @@
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/chemistry.rsi
+||||||| parent of 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
+- type: entity
+  parent: AirlockMedical
+  id: AirlockChemistry
+  suffix: Chemistry
+=======
+- type: entity
+  parent: AirlockMedical
+  id: AirlockChemistry
+  suffix: Chemistry
+  components:
+    - type: Sprite
+      sprite: _DEN/Structures/Doors/Airlocks/Standard/chemistry.rsi # The Den - airlock resprite electrified
+>>>>>>> 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
 
 - type: entity
   parent: Airlock
@@ -88,7 +103,7 @@
   suffix: Science
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/science.rsi
+    sprite: _DEN/Structures/Doors/Airlocks/Standard/science.rsi # The Den - airlock resprite
   - type: Wires
     layoutId: AirlockScience
 
@@ -98,7 +113,7 @@
   suffix: Command
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/command.rsi
+    sprite: _DEN/Structures/Doors/Airlocks/Standard/command.rsi # The Den - airlock resprite
   - type: WiresPanelSecurity
     securityLevel: medSecurity
   - type: Wires
@@ -110,7 +125,7 @@
   suffix: Security
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/security.rsi
+    sprite: _DEN/Structures/Doors/Airlocks/Standard/security.rsi # The Den - airlock resprite
   - type: Wires
     layoutId: AirlockSecurity
 
@@ -120,7 +135,7 @@
   name: maintenance access
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/maint.rsi
+    sprite: _DEN/Structures/Doors/Airlocks/Standard/maint.rsi # The Den - airlock resprite
 
 - type: entity
   parent: AirlockSecurity # if you get syndie door somehow it counts as sec
@@ -128,7 +143,7 @@
   suffix: Syndicate
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/syndicate.rsi
+    sprite: _DEN/Structures/Doors/Airlocks/Standard/syndicate.rsi # The Den - airlock resprite
 
 - type: entity
   parent: AirlockCargo
@@ -148,7 +163,7 @@
   suffix: Central Command
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/centcomm.rsi
+    sprite: _DEN/Structures/Doors/Airlocks/Standard/centcomm.rsi # The Den - airlock resprite
 
 - type: entity
   parent: Airlock
@@ -166,7 +181,17 @@
   name: maintenance hatch
   components:
   - type: Sprite
+<<<<<<< HEAD
     sprite: Structures/Doors/Airlocks/Standard/hatch_maint.rsi
+||||||| parent of 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
+    sprite: Structures/Doors/Airlocks/Standard/hatch_maint.rsi
+
+  # Glass
+=======
+    sprite: _DEN/Structures/Doors/Airlocks/Standard/hatch_maint.rsi # The Den - airlock resprite
+
+  # Glass
+>>>>>>> 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
   - type: Paintable
     group: null
 
@@ -177,7 +202,7 @@
   suffix: Engineering
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Glass/engineering.rsi
+    sprite: _DEN/Structures/Doors/Airlocks/Glass/engineering.rsi # The Den - airlock resprite
   - type: Wires
     layoutId: AirlockEngineering
 
@@ -187,7 +212,7 @@
   suffix: Maintenance
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Glass/maint.rsi
+    sprite: _DEN/Structures/Doors/Airlocks/Glass/maint.rsi # The Den - airlock resprite
 
 - type: entity
   parent: AirlockEngineeringGlass
@@ -195,7 +220,7 @@
   suffix: Atmospherics
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Glass/atmospherics.rsi
+    sprite: _DEN/Structures/Doors/Airlocks/Glass/atmospherics.rsi # The Den - airlock resprite
 
 - type: entity
   parent: AirlockGlass
@@ -203,7 +228,7 @@
   suffix: Logistics # DeltaV - Logistics Department replacing Cargo
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Glass/cargo.rsi
+    sprite: _DEN/Structures/Doors/Airlocks/Glass/cargo.rsi # The Den - airlock resprite
   - type: Wires
     layoutId: AirlockCargo
 
@@ -233,10 +258,11 @@
   suffix: Medical
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Glass/medical.rsi
+    sprite: _DEN/Structures/Doors/Airlocks/Glass/medical.rsi # The Den - airlock resprite
   - type: Wires
     layoutId: AirlockMedical
 
+<<<<<<< HEAD
 - type: entity
   parent: AirlockMedicalGlass
   id: AirlockChemistryGlass
@@ -244,6 +270,20 @@
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Glass/chemistry.rsi
+||||||| parent of 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
+- type: entity
+  parent: AirlockMedicalGlass
+  id: AirlockChemistryGlass
+  suffix: Chemistry
+=======
+- type: entity
+  parent: AirlockMedicalGlass
+  id: AirlockChemistryGlass
+  suffix: Chemistry
+  components:
+    - type: Sprite
+      sprite: _DEN/Structures/Doors/Airlocks/Glass/chemistry.rsi # The Den - airlock resprite
+>>>>>>> 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
 
 - type: entity
   parent: AirlockMedicalGlass
@@ -251,7 +291,7 @@
   suffix: Virology
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Glass/virology.rsi
+    sprite: _DEN/Structures/Doors/Airlocks/Glass/virology.rsi # The Den - airlock resprite
 
 - type: entity
   parent: AirlockGlass
@@ -259,7 +299,7 @@
   suffix: Science
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Glass/science.rsi
+    sprite: _DEN/Structures/Doors/Airlocks/Glass/science.rsi # The Den - airlock resprite
   - type: Wires
     layoutId: AirlockScience
 
@@ -269,7 +309,7 @@
   suffix: Command
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Glass/command.rsi
+    sprite: _DEN/Structures/Doors/Airlocks/Glass/command.rsi # The Den - airlock resprite
   - type: WiresPanelSecurity
     securityLevel: medSecurity
   - type: Wires
@@ -281,7 +321,7 @@
   suffix: Security
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Glass/security.rsi
+    sprite: _DEN/Structures/Doors/Airlocks/Glass/security.rsi # The Den - airlock resprite
   - type: Wires
     layoutId: AirlockSecurity
 
@@ -291,7 +331,7 @@
   suffix: Syndicate
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Glass/syndicate.rsi
+    sprite: _DEN/Structures/Doors/Airlocks/Glass/syndicate.rsi
 
 - type: entity
   parent: AirlockCargoGlass
@@ -299,7 +339,7 @@
   suffix: Mining(Salvage)
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Glass/mining.rsi
+    sprite: Structures/Doors/Airlocks/Glass/mining.rsi # The Den - airlock resprite
   - type: Paintable
     group: null
 
@@ -309,7 +349,7 @@
   suffix: Central Command
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Glass/centcomm.rsi
+    sprite: _DEN/Structures/Doors/Airlocks/Glass/centcomm.rsi # The Den - airlock resprite
 
 - type: entity
   parent: AirlockGlass

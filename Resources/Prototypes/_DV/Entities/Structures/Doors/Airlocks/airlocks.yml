@@ -1,12 +1,62 @@
+
+
 - type: entity
+<<<<<<< HEAD
+||||||| parent of 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
+  parent: Airlock
+  id: AirlockJustice
+  suffix: Justice
+  components:
+  - type: Sprite
+    sprite: _DV/Structures/Doors/Airlocks/Standard/justice.rsi
+  - type: PaintableAirlock
+    department: Justice
+
+- type: entity
+=======
+  parent: Airlock
+  id: AirlockJustice
+  suffix: Justice
+  components:
+  - type: Sprite
+    sprite: _DEN/Structures/Doors/Airlocks/Standard/justice.rsi # The Den - airlock resprite
+  - type: PaintableAirlock
+    department: Justice
+
+- type: entity
+>>>>>>> 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
   parent: AirlockScience
   id: AirlockRobotics
   suffix: Robotics
   components:
   - type: Sprite
-    sprite: _DV/Structures/Doors/Airlocks/Standard/roboticist.rsi
+    sprite: _DEN/Structures/Doors/Airlocks/Standard/roboticist.rsi # The Den - airlock resprite
 
 # Glass
+<<<<<<< HEAD
+||||||| parent of 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
+
+- type: entity
+  parent: AirlockGlass
+  id: AirlockJusticeGlass
+  suffix: Justice
+  components:
+  - type: Sprite
+    sprite: _DV/Structures/Doors/Airlocks/Glass/justice.rsi
+  - type: PaintableAirlock
+    department: Justice
+=======
+
+- type: entity
+  parent: AirlockGlass
+  id: AirlockJusticeGlass
+  suffix: Justice
+  components:
+  - type: Sprite
+    sprite: _DEN/Structures/Doors/Airlocks/Glass/justice.rsi # The Den - airlock resprite
+  - type: PaintableAirlock
+    department: Justice
+>>>>>>> 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
 
 - type: entity
   parent: AirlockScienceGlass
@@ -14,4 +64,4 @@
   suffix: Robotics
   components:
   - type: Sprite
-    sprite: _DV/Structures/Doors/Airlocks/Glass/roboticist.rsi
+    sprite: _DEN/Structures/Doors/Airlocks/Glass/roboticist.rsi # The Den - airlock resprite

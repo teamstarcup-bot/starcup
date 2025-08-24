@@ -552,6 +552,18 @@
   startNode: start
   targetNode: Firelock
   category: construction-category-structures
+<<<<<<< HEAD
+||||||| parent of 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
+  description: This is a firelock - it locks an area when a fire alarm in the area is triggered. Don't get squished!
+  icon:
+    sprite: Structures/Doors/Airlocks/Standard/firelock.rsi
+    state: closed
+=======
+  description: This is a firelock - it locks an area when a fire alarm in the area is triggered. Don't get squished!
+  icon:
+    sprite: _DEN/Structures/Doors/Airlocks/Standard/firelock.rsi # The Den - airlock resprite
+    state: closed
+>>>>>>> 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
   objectType: Structure
   placementMode: SnapgridCenter
   canRotate: false
@@ -565,6 +577,18 @@
   startNode: start
   targetNode: FirelockGlass
   category: construction-category-structures
+<<<<<<< HEAD
+||||||| parent of 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
+  description: This is a firelock - it locks an area when a fire alarm in the area is triggered. Don't get squished!
+  icon:
+    sprite: Structures/Doors/Airlocks/Glass/firelock.rsi
+    state: closed
+=======
+  description: This is a firelock - it locks an area when a fire alarm in the area is triggered. Don't get squished!
+  icon:
+    sprite: _DEN/Structures/Doors/Airlocks/Glass/firelock.rsi # The Den - airlock resprite
+    state: closed
+>>>>>>> 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
   objectType: Structure
   placementMode: SnapgridCenter
   canRotate: false
@@ -934,6 +958,18 @@
   startNode: start
   targetNode: airlock
   category: construction-category-structures
+<<<<<<< HEAD
+||||||| parent of 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
+  description: It opens, it closes, and maybe crushes you.
+  icon:
+    sprite: Structures/Doors/Airlocks/Standard/basic.rsi
+    state: assembly
+=======
+  description: It opens, it closes, and maybe crushes you.
+  icon:
+    sprite: _DEN/Structures/Doors/Airlocks/Standard/basic.rsi # The Den - airlock resprite
+    state: assembly
+>>>>>>> 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -946,6 +982,18 @@
   startNode: start
   targetNode: glassAirlock
   category: construction-category-structures
+<<<<<<< HEAD
+||||||| parent of 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
+  description: It opens, it closes, and maybe crushes you.
+  icon:
+    sprite: Structures/Doors/Airlocks/Glass/glass.rsi
+    state: assembly
+=======
+  description: It opens, it closes, and maybe crushes you.
+  icon:
+    sprite: _DEN/Structures/Doors/Airlocks/Glass/glass.rsi # The Den - airlock resprite
+    state: assembly
+>>>>>>> 5eb8a3cc3dd (The Great Airlock Resprite. (Nearly Every Single One, Also New Ones Too because Scope Creep Is Made up and Not Real) (#1540))
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false

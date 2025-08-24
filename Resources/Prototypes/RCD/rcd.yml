@@ -7,7 +7,7 @@
   id: Deconstruct
   name: rcd-component-deconstruct
   category: Main
-  sprite: /Textures/Interface/Radial/RCD/deconstruct.png
+  sprite: /Textures/_DEN/Interface/Radial/RCD/deconstruct.png # The Den - airlock resprite
   mode: Deconstruct
   prototype: EffectRCDDeconstructPreview
   rotation: Camera
@@ -162,7 +162,7 @@
 - type: rcd
   id: Airlock
   category: Airlocks
-  sprite: /Textures/Interface/Radial/RCD/airlock.png
+  sprite: /Textures/_DEN/Interface/Radial/RCD/airlock.png # The Den - airlock resprite
   mode: ConstructObject
   prototype: Airlock
   cost: 4
@@ -174,7 +174,7 @@
 - type: rcd
   id: AirlockGlass
   category: Airlocks
-  sprite: /Textures/Interface/Radial/RCD/glass_airlock.png
+  sprite: /Textures/_DEN/Interface/Radial/RCD/glass_airlock.png # The Den - airlock resprite
   mode: ConstructObject
   prototype: AirlockGlass
   cost: 4
@@ -186,7 +186,7 @@
 - type: rcd
   id: Firelock
   category: Airlocks
-  sprite: /Textures/Interface/Radial/RCD/firelock.png
+  sprite: /Textures/_DEN/Interface/Radial/RCD/firelock.png # The Den - airlock resprite
   mode: ConstructObject
   prototype: Firelock
   cost: 4
