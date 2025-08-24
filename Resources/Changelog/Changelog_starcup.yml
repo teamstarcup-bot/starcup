@@ -581,3 +581,14 @@
   id: 8130
   time: '2025-08-23T01:09:33.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/335
+- author: asterism-etc
+  changes:
+  - message: space dust deals significantly less damage
+    type: Tweak
+  - message: space dust events will not occur earlier than 10 minutes
+    type: Tweak
+  - message: disabled some meteor events to preserve tone
+    type: Remove
+  id: 8131
+  time: '2025-08-24T08:23:34.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/338
