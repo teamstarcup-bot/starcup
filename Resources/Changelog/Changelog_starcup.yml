@@ -592,3 +592,10 @@
   id: 8131
   time: '2025-08-24T08:23:34.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/338
+- author: asterism-etc
+  changes:
+  - message: space dust explodes on contact
+    type: Fix
+  id: 8132
+  time: '2025-08-24T21:04:04.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/340
