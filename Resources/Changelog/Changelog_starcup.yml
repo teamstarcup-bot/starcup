@@ -607,3 +607,18 @@
   id: 8133
   time: '2025-08-25T05:53:40.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/341
+- author: foxcurl
+  changes:
+  - message: Singulo/tesla generator numbers have been tweaked to give engineers more
+      time between repairs and refills.
+    type: Tweak
+  id: 8134
+  time: '2025-08-25T06:00:32.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/343
+- author: foxcurl
+  changes:
+  - message: AME fuel jars have received a resprite.
+    type: Tweak
+  id: 8135
+  time: '2025-08-25T06:00:32.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/342
