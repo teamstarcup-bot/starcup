@@ -636,3 +636,13 @@
   id: 8137
   time: '2025-08-25T23:22:20.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/339
+- author: princesspengy
+  changes:
+  - message: absinthe has been adjusted to no longer kill species with non-standard
+      metabolisms extremely dead
+    type: Fix
+  - message: the arnold palmer's new reagent description now displays correctly
+    type: Fix
+  id: 8138
+  time: '2025-08-26T05:26:17.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/347
