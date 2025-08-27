@@ -670,3 +670,12 @@
   id: 8140
   time: '2025-08-27T04:42:54.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/345
+- author: princesspengy
+  changes:
+  - message: added a secure insulated gloves cabinet, meant to be mapped to tools
+      rooms to ensure the crew is never without access to key areas on the station
+      in emergencies!
+    type: Add
+  id: 8141
+  time: '2025-08-27T06:50:43.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/337
