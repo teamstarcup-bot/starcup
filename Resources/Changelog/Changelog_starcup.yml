@@ -689,3 +689,10 @@
   id: 8142
   time: '2025-08-27T10:11:31.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/346
+- author: little-meow-meow
+  changes:
+  - message: Fixed memory leaking triggered by camera monitors and admin cameras.
+    type: Fix
+  id: 8143
+  time: '2025-08-27T10:47:03.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/349
