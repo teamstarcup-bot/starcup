@@ -679,3 +679,13 @@
   id: 8141
   time: '2025-08-27T06:50:43.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/337
+- author: princesspengy
+  changes:
+  - message: 'new job: the combat medic, a member of security with medical training
+      for assisting their department and the station! currently only available on
+      glacier, shoko, and byoin, but will be available in all maps once their workspaces
+      are mapped'
+    type: Add
+  id: 8142
+  time: '2025-08-27T10:11:31.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/346
