@@ -646,3 +646,13 @@
   id: 8138
   time: '2025-08-26T05:26:17.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/347
+- author: princesspengy
+  changes:
+  - message: cartons (most notably fruit juices and dairy products) can now be inserted
+      into drink dispensers
+    type: Tweak
+  - message: large sol dry bottle, one of which comes stocked in the soda dispenser
+    type: Add
+  id: 8139
+  time: '2025-08-27T04:07:50.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/348
