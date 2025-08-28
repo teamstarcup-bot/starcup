@@ -12,4 +12,6 @@ unoffer-target = {$user} is no longer offering {THE($item)} to you
 offer = Offer {THE($item)}
 
 alerts-offer-name = Offer
-alerts-offer-desc = you are being offered an item
+# begin starcup: formatting
+alerts-offer-desc = You are being offered an item.
+# end starcup
