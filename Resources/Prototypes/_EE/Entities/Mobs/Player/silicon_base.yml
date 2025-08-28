@@ -198,6 +198,7 @@
         - DoorBumpOpener
         - SiliconEmotes # DeltaV
     - type: Hands
+    - type: ItemOffer # starcup: item offering
     - type: Inventory
       templateId: human
     - type: InventorySlots
