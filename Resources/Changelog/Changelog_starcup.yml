@@ -696,3 +696,12 @@
   id: 8143
   time: '2025-08-27T10:47:03.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/349
+- author: jtfg-dev normalgirl2171
+  changes:
+  - message: "The novice's mark pin \U0001F530 has been added! For trainees and anyone\
+      \ (as a trinket) who might feel a little unskilled, and need patience from their\
+      \ fellows!"
+    type: Add
+  id: 8144
+  time: '2025-08-28T03:08:41.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/351
