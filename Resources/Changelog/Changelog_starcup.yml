@@ -730,3 +730,11 @@
   id: 8147
   time: '2025-08-28T07:01:17.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/359
+- author: DinnerCalzone
+  changes:
+  - message: News manager console plays an alert upon attempting to publish a news
+      report without the correct access.
+    type: Fix
+  id: 8148
+  time: '2025-08-28T07:06:41.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/356
