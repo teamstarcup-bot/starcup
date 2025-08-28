@@ -1,4 +1,5 @@
-using Content.Shared.Alert; // Starlight
+using Content.Shared._starcup.Hands;
+using Content.Shared.Alert;
 using Content.Shared.DisplacementMap;
 using Content.Shared.Hands.EntitySystems;
 using Robust.Shared.GameStates;
@@ -7,7 +8,7 @@ using Robust.Shared.Serialization;
 namespace Content.Shared.Hands.Components;
 
 [RegisterComponent, NetworkedComponent, AutoGenerateComponentPause]
-[Access(typeof(SharedHandsSystem))]
+[Access(typeof(SharedHandsSystem), typeof(OfferItemSystem))]
 public sealed partial class HandsComponent : Component
 {
     /// <summary>
@@ -100,20 +101,6 @@ public sealed partial class HandsComponent : Component
     /// </summary>
     [DataField]
     public bool CanBeStripped = true;
-
-    // Starlight - OfferSystem - Start
-    [DataField, ViewVariables(VVAccess.ReadOnly)]
-    public bool Offering;
-
-    [DataField, ViewVariables(VVAccess.ReadOnly)]
-    public bool ReceivingOffer;
-
-    [DataField, ViewVariables(VVAccess.ReadOnly)]
-    public EntityUid? OfferItem;
-
-    [DataField, ViewVariables(VVAccess.ReadOnly)]
-    public EntityUid? OfferTarget;
-    // Starlight - OfferSystem - End
 }
 
 public sealed partial class OfferItemAlertEvent : BaseAlertEvent; // Starlight
