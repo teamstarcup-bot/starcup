@@ -759,3 +759,11 @@
   id: 8151
   time: '2025-08-28T08:13:12.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/361
+- author: princesspengy
+  changes:
+  - message: the faster rate at which slime metabolisms process ethanol has been noted
+      in their species guidebook entry
+    type: Tweak
+  id: 8152
+  time: '2025-08-28T08:20:06.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/362
