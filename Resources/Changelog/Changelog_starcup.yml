@@ -738,3 +738,17 @@
   id: 8148
   time: '2025-08-28T07:06:41.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/356
+- author: little-meow-meow
+  changes:
+  - message: Multitools will no longer break saved maps by referencing invalid entities.
+    type: Fix
+  id: 8149
+  time: '2025-08-28T07:19:07.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/360
+- author: FoxxoTrystan
+  changes:
+  - message: You can now offer items in your hands to others.
+    type: Add
+  id: 8150
+  time: '2025-08-28T07:18:11.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/358
