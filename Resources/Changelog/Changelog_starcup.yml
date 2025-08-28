@@ -719,3 +719,14 @@
   id: 8146
   time: '2025-08-28T03:19:44.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/333
+- author: perryprog
+  changes:
+  - message: Absinthe and bacchus's blessing are no longer unreasonably toxic to dionae
+      and slimes
+    type: Fix
+  - message: Iron and copper are now digested at 0.5 u/s instead of 0.1 u/s for non-Arachnids,
+      as the guidebook implies.
+    type: Fix
+  id: 8147
+  time: '2025-08-28T07:01:17.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/359
