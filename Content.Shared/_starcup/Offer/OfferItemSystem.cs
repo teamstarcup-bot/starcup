@@ -233,3 +233,5 @@ public sealed class OfferItemSystem : EntitySystem
         EndOffer((entity.Owner, entity.Comp));
     }
 }
+
+public sealed partial class OfferItemAlertEvent : BaseAlertEvent; // Starlight

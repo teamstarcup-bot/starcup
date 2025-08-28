@@ -1,4 +1,3 @@
-using Content.Shared._starcup.Hands;
 using Content.Shared.Alert;
 using Content.Shared.DisplacementMap;
 using Content.Shared.Hands.EntitySystems;
@@ -8,7 +7,7 @@ using Robust.Shared.Serialization;
 namespace Content.Shared.Hands.Components;
 
 [RegisterComponent, NetworkedComponent, AutoGenerateComponentPause]
-[Access(typeof(SharedHandsSystem), typeof(OfferItemSystem))]
+[Access(typeof(SharedHandsSystem))]
 public sealed partial class HandsComponent : Component
 {
     /// <summary>
@@ -102,8 +101,6 @@ public sealed partial class HandsComponent : Component
     [DataField]
     public bool CanBeStripped = true;
 }
-
-public sealed partial class OfferItemAlertEvent : BaseAlertEvent; // Starlight
 
 [DataDefinition]
 [Serializable, NetSerializable]
