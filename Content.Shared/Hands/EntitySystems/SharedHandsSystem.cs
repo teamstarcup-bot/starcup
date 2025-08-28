@@ -36,12 +36,7 @@ public abstract partial class SharedHandsSystem
         InitializeDrop();
         InitializePickup();
         InitializeRelay();
-<<<<<<< HEAD
-        InitializeEventListeners();
-=======
-        InitializeEventListeners(); //Starlight
         InitializeOffer(); // Starlight
->>>>>>> 560c65aa435 (Merge pull request #1086 from FoxxoTrystan/offer-item)
 
         SubscribeLocalEvent<HandsComponent, ComponentInit>(OnInit);
         SubscribeLocalEvent<HandsComponent, MapInitEvent>(OnMapInit);
