@@ -774,3 +774,11 @@
   id: 8153
   time: '2025-08-28T21:04:59.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/364
+- author: Oxdeception
+  changes:
+  - message: Option to change whether you walk or sprint by default, when the walk
+      button is not pressed
+    type: Add
+  id: 8154
+  time: '2025-09-02T03:12:09.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/367
