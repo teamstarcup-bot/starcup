@@ -820,3 +820,10 @@
   id: 8157
   time: '2025-09-06T09:15:04.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/372
+- author: sev7ves
+  changes:
+  - message: You may now teleport to artifacts and anomalies as a ghost.
+    type: Tweak
+  id: 8158
+  time: '2025-09-07T10:35:26.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/374
