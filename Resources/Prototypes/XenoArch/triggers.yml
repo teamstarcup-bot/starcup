@@ -148,15 +148,7 @@
   components:
   - type: XATDamageThresholdReached
     typesNeeded:
-      Radiation: 20
-  - type: XATReactive #IMP Allow radioactive reagents to trigger
-    reagents:
-    - Uranium
-    - Tritium
-    - Radium
-    - UnstableMutagen
-    - Phalanximine
-    - GrayBlood
+      Radiation: 5 # starcup: was 20, easier to time with radiation sources
   # TODO: legendary microwave trigger
 
 - type: xenoArchTrigger
