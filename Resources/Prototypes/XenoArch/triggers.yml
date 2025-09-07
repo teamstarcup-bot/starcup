@@ -252,12 +252,11 @@
   components:
   - type: XATItemLand
 
-# IMP: Comment out death trigger because it is exceedingly difficult to time things dying and if it fails you have to kill again
-# - type: xenoArchTrigger
-#   id: TriggerDeath
-#   tip: xenoarch-trigger-tip-death
-#   components:
-#   - type: XATDeath
+- type: xenoArchTrigger
+  id: TriggerDeath
+  tip: xenoarch-trigger-tip-death
+  components:
+  - type: XATDeath
 
 - type: xenoArchTrigger
   id: TriggerMagnet
