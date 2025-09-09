@@ -827,3 +827,12 @@
   id: 8158
   time: '2025-09-07T10:35:26.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/374
+- author: princesspengy
+  changes:
+  - message: the access configurator has had missing access levels added
+    type: Fix
+  - message: the combat medic's access level now displays its name properly
+    type: Fix
+  id: 8159
+  time: '2025-09-09T06:21:36.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/378
