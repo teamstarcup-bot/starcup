@@ -64,7 +64,7 @@
     - JuiceApple
     - JuiceBanana
     - JuiceBungo
-    - Lean
+    #- Lean # starcup
 
 - type: entity
   id: PuddleRandomChems
@@ -106,8 +106,8 @@
     - UnstableMutagen
     - MindbreakerToxin
     - Histamine
-    - Romerol
-    - SalicylicAcid
+    #- Romerol # starcup
+    #- SalicylicAcid # starcup
 
 - type: entity
   id: PuddleRandomKitchen
@@ -134,8 +134,8 @@
     - Syrup
     - Oil
     - Butter
-    - TomatoSauce
-    - CoffeeGrounds
+    #- TomatoSauce # starcup
+    #- CoffeeGrounds # starcup
     - Flour
     - Enzyme
     - TableSalt
@@ -174,8 +174,8 @@
     - UncookedAnimalProteins
     - Honk
     - ToxinTrash
-    - Nausium
-    - LotophagoiOil
+    #- Nausium # starcup
+    #- LotophagoiOil # starcup
 
 - type: entity
   parent: MarkerBase
