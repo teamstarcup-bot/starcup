@@ -865,3 +865,12 @@
   id: 8162
   time: '2025-09-10T09:45:11.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/383
+- author: foxcurl
+  changes:
+  - message: Banana has received many small improvements!
+    type: Tweak
+  - message: Banana now has a cargo shuttle that is able to dock with it.
+    type: Fix
+  id: 8163
+  time: '2025-09-10T11:37:45.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/380
