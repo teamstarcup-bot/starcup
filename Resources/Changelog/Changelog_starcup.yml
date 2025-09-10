@@ -854,3 +854,14 @@
   id: 8161
   time: '2025-09-09T21:12:45.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/379
+- author: princesspengy
+  changes:
+  - message: replaced the traitor's standard kill objective with delta's "teach a
+      lesson" variant, which only requires them to die once. heads may still be subject
+      to the original objective
+    type: Tweak
+  - message: traitors will no longer be asked to butcher the corgi
+    type: Remove
+  id: 8162
+  time: '2025-09-10T09:45:11.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/383
