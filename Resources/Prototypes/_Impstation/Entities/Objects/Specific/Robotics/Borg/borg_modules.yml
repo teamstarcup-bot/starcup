@@ -9,7 +9,7 @@
     - state: icon-pen
   - type: ItemBorgModule
     items:
-    - CrayonRainbowInfinite
+    - CrayonMagic # starcup: replace CrayonRainbowInfinite with magic crayon
     - SprayPainter
     - Pen
   - type: BorgModuleIcon

@@ -1,9 +1,0 @@
-- type: entity
-  parent: CrayonRainbow
-  id: CrayonRainbowInfinite
-  suffix: Infinite
-  components:
-  - type: Crayon
-    color: Red
-    selectableColor: true
-    infinite: true
