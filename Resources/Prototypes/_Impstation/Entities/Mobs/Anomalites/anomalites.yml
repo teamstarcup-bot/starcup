@@ -651,12 +651,14 @@
   - type: InnerBodyAnomaly
     injectionProto: AnomalyInjectionShadow
     skipStun: true
-  - type: NightVision
-    isActive: true
-    toggleAction: null
-    color: "#50595C"
-    activateSound: null
-    deactivateSound: null
+  # begin starcup: unused
+  # - type: NightVision
+  #   isActive: true
+  #   toggleAction: null
+  #   color: "#50595C"
+  #   activateSound: null
+  #   deactivateSound: null
+  # end starcup
 
 # Tech
 - type: entity
