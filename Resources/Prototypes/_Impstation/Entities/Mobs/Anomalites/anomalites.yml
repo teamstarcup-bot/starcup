@@ -83,7 +83,7 @@
   - type: Puller
     needsHands: false
   - type: ComplexInteraction
-  - type: VentCrawler
+  #- type: VentCrawler # starcup: currently unused
   - type: SSDIndicator
   - type: Speech
     speechVerb: Anomalite
