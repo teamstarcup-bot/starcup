@@ -15,7 +15,7 @@
         - !type:ModifyBloodLevel
           amount: 3
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/asterade.rsi
+    sprite: _Impstation/Objects/Consumable/Drinks/asterade.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 6
   metamorphicFillBaseName: fill-
