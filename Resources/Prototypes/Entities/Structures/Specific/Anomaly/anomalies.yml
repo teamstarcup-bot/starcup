@@ -275,7 +275,8 @@
       - MobFleshClamp
       - MobFleshLover
       - FleshKudzu
-  - type: WallSpawnAnomaly #imp
+  # begin imp changes
+  - type: WallSpawnAnomaly
     entries:
     - settings:
         spawnOnPulse: true
@@ -291,6 +292,7 @@
         maxAmount: 30
         maxRange: 10
       wall: WallMeat
+  # end imp changes
 
 - type: entity
   id: AnomalyBluespace
@@ -396,7 +398,8 @@
     damage:
       types:
         Cold: 10
-  - type: WallSpawnAnomaly #imp
+  # begin imp changes
+  - type: WallSpawnAnomaly
     entries:
     - settings:
         spawnOnPulse: true
@@ -412,6 +415,7 @@
         maxAmount: 30
         maxRange: 10
       wall: WallIce
+  # end imp changes
 
 - type: entity
   id: AnomalyRockBase
@@ -452,7 +456,8 @@
         maxAmount: 50
         maxRange: 12
       floor: FloorAsteroidTile
-  - type: WallSpawnAnomaly #imp
+  # begin imp changes
+  - type: WallSpawnAnomaly
     entries:
     - settings:
         spawnOnPulse: true
@@ -468,6 +473,7 @@
         maxAmount: 30
         maxRange: 10
       wall: AsteroidRock
+  # end imp changes
 
 - type: entity
   id: AnomalyRockUranium
@@ -1112,7 +1118,8 @@
         maxAmount: 30
         maxRange: 15
       floor: FloorChromite
-  - type: WallSpawnAnomaly #imp
+  # begin imp changes
+  - type: WallSpawnAnomaly
     entries:
     - settings:
         spawnOnPulse: true
@@ -1128,6 +1135,7 @@
         maxAmount: 30
         maxRange: 10
       wall: WallRockChromite
+  # end imp changes
 
 - type: entity
   id: AnomalyTech
