@@ -161,13 +161,6 @@
       steps:
       - remove: LightOld
         name: construction-graph-tag-light-tube
-  - node: floorLightUv
-    entity: PoweredFloorLightUv
-    edges:
-    - to: metamorphicLightHole
-      steps:
-      - remove: LightUv
-        name: construction-graph-tag-light-tube
   - node: floorLightCyan
     entity: PoweredFloorLightCyan
     edges:
