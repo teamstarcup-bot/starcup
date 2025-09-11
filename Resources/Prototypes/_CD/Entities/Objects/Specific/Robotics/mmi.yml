@@ -46,9 +46,11 @@
       whitelist:
         components:
         - SecretStash
+    # begin CD: AI shell system
     - type: GuideHelp
       guides:
         - AIShells
+    # end CD
 
 # Borgs
 - type: entity

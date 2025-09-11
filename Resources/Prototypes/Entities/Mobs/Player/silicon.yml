@@ -38,10 +38,11 @@
     - ActionJumpToCore
     - ActionSurvCameraLights
     - ActionAIViewLaws
-# CD-exclusive action
+  # begin CD: AI shell system
     - ActionEnterShell
-  - type: StationAiShellUser # CD-exclusive component
+  - type: StationAiShellUser
     actionPrototype: ActionExitShell
+  # end CD
   - type: UserInterface
     interfaces:
       enum.RadarConsoleUiKey.Key:
@@ -54,8 +55,10 @@
         type: SiliconLawBoundUserInterface
       enum.CommunicationsConsoleUiKey.Key:
         type: CommunicationsConsoleBoundUserInterface
-      enum.ShellUiKey.Key: # CD-exclusive interface
+      # begin CD: AI shell system
+      enum.ShellUiKey.Key:
         type: AiShellSelectionBoundUserInterface
+      # end CD
   - type: IntrinsicUI
     uis:
       enum.RadarConsoleUiKey.Key:

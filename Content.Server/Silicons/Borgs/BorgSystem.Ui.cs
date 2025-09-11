@@ -1,5 +1,5 @@
 using System.Linq;
-using Content.Shared._CD.Silicons.StationAi;
+using Content.Shared._CD.Silicons.StationAi; // CD
 using Content.Shared.UserInterface;
 using Content.Shared.CCVar;
 using Content.Shared.Database;

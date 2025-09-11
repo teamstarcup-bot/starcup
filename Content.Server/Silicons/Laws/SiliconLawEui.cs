@@ -1,6 +1,6 @@
 using Content.Server.Administration.Managers;
 using Content.Server.EUI;
-using Content.Shared._CD.Silicons.StationAi;
+using Content.Shared._CD.Silicons.StationAi; // CD
 using Content.Shared.Administration;
 using Content.Shared.Eui;
 using Content.Shared.Silicons.Laws;

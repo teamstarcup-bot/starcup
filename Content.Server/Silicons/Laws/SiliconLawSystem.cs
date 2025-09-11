@@ -4,7 +4,7 @@ using Content.Server.Chat.Managers;
 using Content.Server.Radio.Components;
 using Content.Server.Roles;
 using Content.Server.Station.Systems;
-using Content.Shared._CD.Silicons.StationAi;
+using Content.Shared._CD.Silicons.StationAi; // CD
 using Content.Shared.Administration;
 using Content.Shared.Chat;
 using Content.Shared.Emag.Systems;
