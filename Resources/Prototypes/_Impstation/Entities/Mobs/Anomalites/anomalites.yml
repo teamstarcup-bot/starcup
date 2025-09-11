@@ -55,7 +55,7 @@
         - MobLayer
   - type: Bloodstream
     bloodMaxVolume: 75
-    bloodReagent: Anomalium
+    bloodReagent: Plasma # starcup: replaced anomalium since we don't have that
   - type: InteractionPopup
     successChance: 0.1
     interactSuccessString: petting-success-anomalite

@@ -30,7 +30,7 @@
     - ChlorineTrifluoride
     - FoamingAgent
     - BuzzochloricBees
-    - BrosochloricBros
+    #- BrosochloricBros # starcup: unused
     - RobustHarvest
     usefulChemicals:
     - Cryptobiolin
@@ -65,11 +65,13 @@
     - Honk
     - Carpetium
     - JuiceThatMakesYouWeh
-    - ForeverWeed
-    - Testosterone
-    - Estradiol
-    - Genderfluid
-    - JuiceThatMakesYouUngh
+    # begin starcup: unused
+    #- ForeverWeed
+    # - Testosterone
+    # - Estradiol
+    # - Genderfluid
+    # - JuiceThatMakesYouUngh
+    # end starcup
   - type: Drink
     solution: anomaly
   - type: DrainableSolution
