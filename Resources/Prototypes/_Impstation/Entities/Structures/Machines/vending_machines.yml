@@ -14,7 +14,6 @@
     ejectState: eject-unshaded
     denyState: deny-unshaded
     initialStockQuality: 0.33
-    soundVend: /Audio/_Impstation/Machines/vending_drop.ogg
   - type: DatasetVocalizer
     dataset: ArticSeltzAds
   - type: SpeakOnUIClosed
