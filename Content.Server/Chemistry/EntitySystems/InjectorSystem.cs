@@ -1,10 +1,4 @@
-<<<<<<< HEAD
-||||||| parent of 5acbab1b421 (Add chemical skimmer (#3496))
-using Content.Server.Body.Components;
-=======
 using System.Linq; // DeltaV
-using Content.Server.Body.Components;
->>>>>>> 5acbab1b421 (Add chemical skimmer (#3496))
 using Content.Server.Body.Systems;
 using Content.Shared.Chemistry;
 using Content.Shared.Chemistry.Components;
@@ -384,13 +378,7 @@ public sealed class InjectorSystem : SharedInjectorSystem
         var removedSolution = SolutionContainers.Draw(target.Owner, targetSolution, realTransferAmount);
 
         // Add back non-whitelisted reagents to the target solution
-<<<<<<< HEAD
         SolutionContainers.TryAddSolution(targetSolution, temporarilyRemovedSolution);
-||||||| parent of 5acbab1b421 (Add chemical skimmer (#3496))
-        applicableTargetSolution.AddSolution(temporarilyRemovedSolution, null);
-=======
-        SolutionContainers.TryAddSolution(targetSolution, temporarilyRemovedSolution); // DeltaV - fix bug with visualization for skimmers
->>>>>>> 5acbab1b421 (Add chemical skimmer (#3496))
 
         if (!SolutionContainers.TryAddSolution(soln.Value, removedSolution))
         {

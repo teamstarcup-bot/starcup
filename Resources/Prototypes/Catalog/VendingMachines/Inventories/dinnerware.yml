@@ -27,13 +27,7 @@
     DrinkMugOne: 1
     DrinkMugRainbow: 2
     DrinkMugRed: 2
-<<<<<<< HEAD
-||||||| parent of 5acbab1b421 (Add chemical skimmer (#3496))
-    LunchboxGeneric: 10 # DeltaV - Adds Lunchbox
-=======
-    LunchboxGeneric: 10 # DeltaV - Adds Lunchbox
     Skimmer: 2 # DeltaV - Adds skimmer
->>>>>>> 5acbab1b421 (Add chemical skimmer (#3496))
   contrabandInventory:
     CandyBowl: 1
     BarSpoon: 2
