@@ -96,19 +96,11 @@ public sealed class InnerBodyAnomalySystem : SharedInnerBodyAnomalySystem
 
         EntityManager.AddComponents(ent, injectedAnom.Components);
 
-<<<<<<< HEAD
-        _stun.TryUpdateParalyzeDuration(ent, TimeSpan.FromSeconds(ent.Comp.StunDuration));
-        _jitter.DoJitter(ent, TimeSpan.FromSeconds(ent.Comp.StunDuration), true);
-||||||| parent of 95993c2496c (Anomalites (anomaly core ghostroles) (#2313))
-        _stun.TryParalyze(ent, TimeSpan.FromSeconds(ent.Comp.StunDuration), true);
-        _jitter.DoJitter(ent, TimeSpan.FromSeconds(ent.Comp.StunDuration), true);
-=======
         if (!ent.Comp.SkipStun) // imp. added this check for anomalites
         {
-            _stun.TryParalyze(ent, TimeSpan.FromSeconds(ent.Comp.StunDuration), true);
+            _stun.TryUpdateParalyzeDuration(ent, TimeSpan.FromSeconds(ent.Comp.StunDuration));
             _jitter.DoJitter(ent, TimeSpan.FromSeconds(ent.Comp.StunDuration), true);
         }
->>>>>>> 95993c2496c (Anomalites (anomaly core ghostroles) (#2313))
 
         if (ent.Comp.StartSound is not null)
             _audio.PlayPvs(ent.Comp.StartSound, ent);
@@ -136,14 +128,8 @@ public sealed class InnerBodyAnomalySystem : SharedInnerBodyAnomalySystem
 
     private void OnAnomalyPulse(Entity<InnerBodyAnomalyComponent> ent, ref AnomalyPulseEvent args)
     {
-<<<<<<< HEAD
-        _stun.TryUpdateParalyzeDuration(ent, TimeSpan.FromSeconds(ent.Comp.StunDuration / 2 * args.Severity));
-||||||| parent of 95993c2496c (Anomalites (anomaly core ghostroles) (#2313))
-        _stun.TryParalyze(ent, TimeSpan.FromSeconds(ent.Comp.StunDuration / 2 * args.Severity), true);
-=======
         if (!ent.Comp.SkipStun) // imp. added this check for anomalites
-            _stun.TryParalyze(ent, TimeSpan.FromSeconds(ent.Comp.StunDuration / 2 * args.Severity), true);
->>>>>>> 95993c2496c (Anomalites (anomaly core ghostroles) (#2313))
+            _stun.TryUpdateParalyzeDuration(ent, TimeSpan.FromSeconds(ent.Comp.StunDuration / 2 * args.Severity));
         _jitter.DoJitter(ent, TimeSpan.FromSeconds(ent.Comp.StunDuration / 2 * args.Severity), true);
     }
 
@@ -231,14 +217,8 @@ public sealed class InnerBodyAnomalySystem : SharedInnerBodyAnomalySystem
         if (_proto.TryIndex(ent.Comp.InjectionProto, out var injectedAnom))
             EntityManager.RemoveComponents(ent, injectedAnom.Components);
 
-<<<<<<< HEAD
-        _stun.TryUpdateParalyzeDuration(ent, TimeSpan.FromSeconds(ent.Comp.StunDuration));
-||||||| parent of 95993c2496c (Anomalites (anomaly core ghostroles) (#2313))
-        _stun.TryParalyze(ent, TimeSpan.FromSeconds(ent.Comp.StunDuration), true);
-=======
         if (!ent.Comp.SkipStun) // imp. added this check for anomalites
-            _stun.TryParalyze(ent, TimeSpan.FromSeconds(ent.Comp.StunDuration), true);
->>>>>>> 95993c2496c (Anomalites (anomaly core ghostroles) (#2313))
+            _stun.TryUpdateParalyzeDuration(ent, TimeSpan.FromSeconds(ent.Comp.StunDuration));
 
         if (ent.Comp.EndMessage is not null &&
             _mind.TryGetMind(ent, out _, out var mindComponent) &&
