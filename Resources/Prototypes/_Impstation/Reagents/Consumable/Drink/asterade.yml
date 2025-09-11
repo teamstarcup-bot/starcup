@@ -13,7 +13,7 @@
         - !type:SatiateThirst
           factor: 6
         - !type:ModifyBloodLevel
-          amount: 3
+          amount: 1 # starcup: was 3
   metamorphicSprite:
     sprite: _Impstation/Objects/Consumable/Drinks/asterade.rsi
     state: icon_empty
