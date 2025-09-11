@@ -47,10 +47,12 @@ namespace Content.Shared.Construction.Steps
                 return typeof(PartAssemblyConstructionGraphStep);
             }
 
-            if (node.Has("remove")) // imp
+            // begin imp changes
+            if (node.Has("remove"))
             {
                 return typeof(EntityRemoveConstructionGraphStep);
             }
+            // end imp changes
 
             return null;
         }

@@ -427,7 +427,8 @@ namespace Content.Server.Construction
                     return HandleResult.False;
                 }
 
-                case EntityRemoveConstructionGraphStep removeStep: //imp
+                // begin imp changes: remove step
+                case EntityRemoveConstructionGraphStep removeStep:
                 {
                     if (ev is not EntRemovedFromContainerMessage entRemoved)
                         break;
@@ -438,6 +439,7 @@ namespace Content.Server.Construction
                         return HandleResult.True;
                     return HandleResult.False;
                 }
+                // end imp changes
 
                 #endregion
                 // --- CONSTRUCTION STEP EVENT HANDLING FINISH ---
