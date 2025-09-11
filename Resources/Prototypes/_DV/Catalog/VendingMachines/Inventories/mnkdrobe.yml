@@ -11,6 +11,7 @@
     ClothingOuterCoatMNKBlackJacket: 3
     ClothingOuterCoatMNKWhiteHoodie: 3
     ClothingOuterCoatMNKBlackTopCoat: 3
+    # begin starcup: add den stocking/heels
     ClothingShoesHeelsStockingsBlackBlack: 3
     ClothingShoesHeelsStockingsWhiteWhite: 3
     ClothingShoesHeelsStockingsWhiteBlack: 3
@@ -21,3 +22,4 @@
     ClothingShoesHeelsStockingsBlackBPlain: 3
     ClothingShoesHeelsStockingsWhiteWPlain: 3
     ClothingShoesHeelsStockingsWhiteBPlain: 3
+    # end starcup
