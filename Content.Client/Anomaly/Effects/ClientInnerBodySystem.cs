@@ -45,7 +45,7 @@ public sealed class ClientInnerBodyAnomalySystem : SharedInnerBodyAnomalySystem
         if (!TryComp<SpriteComponent>(ent, out var sprite))
             return;
 
-        if (_sprite.LayerMapTryGet((ent.Owner, sprite), ent.Comp.LayerMap, out var index)) // imp. added this check to prevent errors on anomalites - not having it was bad code on upstream's part
+        if (_sprite.LayerMapTryGet((ent.Owner, sprite), ent.Comp.LayerMap, out var index, false)) // imp. added this check to prevent errors on anomalites - not having it was bad code on upstream's part
             _sprite.LayerSetVisible((ent.Owner, sprite), index, false);
     }
 }
