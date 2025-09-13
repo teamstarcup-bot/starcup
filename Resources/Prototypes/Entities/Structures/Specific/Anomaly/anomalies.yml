@@ -1104,38 +1104,6 @@
     damage:
       types:
         Cold: 10
-  - type: TileSpawnAnomaly #imp
-    entries:
-    - settings:
-        spawnOnPulse: true
-        minAmount: 3
-        maxAmount: 7
-        maxRange: 5
-      floor: FloorChromite
-    - settings:
-        spawnOnSuperCritical: true
-        minAmount: 10
-        maxAmount: 30
-        maxRange: 15
-      floor: FloorChromite
-  # begin imp changes
-  - type: WallSpawnAnomaly
-    entries:
-    - settings:
-        spawnOnPulse: true
-        spawnOnStabilityChanged: true
-        spawnOnSeverityChanged: true
-        minAmount: 3
-        maxAmount: 7
-        maxRange: 4
-      wall: WallRockChromite
-    - settings:
-        spawnOnSuperCritical: true
-        minAmount: 10
-        maxAmount: 30
-        maxRange: 10
-      wall: WallRockChromite
-  # end imp changes
 
 - type: entity
   id: AnomalyTech
