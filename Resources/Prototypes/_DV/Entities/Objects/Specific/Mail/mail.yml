@@ -1558,6 +1558,8 @@
   - type: Mail
     contents:
     - id: CrayonBox
+    - id: CrayonMagic
+    - prob: .10
 # starcup - commented out for now
 #- type: entity
 #  parent: BaseMail
