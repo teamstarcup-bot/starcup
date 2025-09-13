@@ -967,3 +967,10 @@
   id: 8174
   time: '2025-09-13T19:45:39.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/392
+- author: Jellvisk
+  changes:
+  - message: New gradient and text decals from impstation
+    type: Add
+  id: 8175
+  time: '2025-09-13T19:52:35.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/385
