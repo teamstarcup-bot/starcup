@@ -34,7 +34,7 @@ public sealed class SiliconLawSystem : SharedSiliconLawSystem
     [Dependency] private readonly StationSystem _station = default!;
     [Dependency] private readonly UserInterfaceSystem _userInterface = default!;
     [Dependency] private readonly EmagSystem _emag = default!;
-    [Dependency] private readonly SharedStationAiShellUserSystem _shellUser = default!;
+    [Dependency] private readonly SharedStationAiShellUserSystem _shellUser = default!; // CD
 
     /// <inheritdoc/>
     public override void Initialize()
