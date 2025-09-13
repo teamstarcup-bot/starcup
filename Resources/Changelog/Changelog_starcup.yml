@@ -923,3 +923,12 @@
   id: 8169
   time: '2025-09-13T02:38:49.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/404
+- author: Stonylogray, mousesweater, LucasTheDrgn
+  changes:
+  - message: ported asterade, a sports drink for health-conscious crew members, from
+      impstation! you can find them in arctic seltzer vending machines, or make them
+      yourself out of saline and various fruit juices
+    type: Add
+  id: 8170
+  time: '2025-09-13T03:48:15.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/389
