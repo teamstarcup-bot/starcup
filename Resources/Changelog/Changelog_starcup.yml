@@ -915,3 +915,11 @@
   id: 8168
   time: '2025-09-13T01:30:22.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/403
+- author: princesspengy
+  changes:
+  - message: the interact range on wallmounts has been extended, and can now cross
+      single-tile gaps (tables, machines, etc)
+    type: Fix
+  id: 8169
+  time: '2025-09-13T02:38:49.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/404
