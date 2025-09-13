@@ -949,3 +949,11 @@
   id: 8172
   time: '2025-09-13T04:24:07.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/387
+- author: Lank, lunarcomets
+  changes:
+  - message: AIs can now control any cyborg shells with B.O.R.I.S. modules inside
+      them! Look at the guidebook entry for more details.
+    type: Add
+  id: 8173
+  time: '2025-09-13T19:38:43.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/395
