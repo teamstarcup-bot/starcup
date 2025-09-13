@@ -932,3 +932,20 @@
   id: 8170
   time: '2025-09-13T03:48:15.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/389
+- author: teamstarcup-bot
+  changes:
+  - message: Diagnostic HUDs now have the option to display the AI vision range.
+    type: Add
+  id: 8171
+  time: '2025-09-13T04:24:07.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/394
+- author: teamstarcup-bot
+  changes:
+  - message: the rare and powerful magic crayon (from frontier)
+    type: Add
+  - message: borgs can unleash their creativity with the new artistic borg module
+      (from impstation)
+    type: Add
+  id: 8172
+  time: '2025-09-13T04:24:07.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/387
