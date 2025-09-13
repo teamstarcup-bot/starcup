@@ -11,7 +11,7 @@
     Drink:
       effects:
         - !type:SatiateThirst
-          factor: 6
+          factor: 3 # starcup: was 6
         - !type:ModifyBloodLevel
           amount: 1 # starcup: was 3
   metamorphicSprite:
