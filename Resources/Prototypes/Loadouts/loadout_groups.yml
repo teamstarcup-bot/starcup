@@ -223,20 +223,8 @@
   - HoPJumpsuit
   - HoPJumpsuitTurtle # starcup
   - HoPJumpskirt
-<<<<<<< HEAD
   - HoPJumpskirtTurtle # starcup
-||||||| parent of 2c287b8be9d (Formal dresses for heads! (#2556))
-  - HoPFormal # DeltaV
-  - HoPMessSkirt # DeltaV
-  - HoPMessSuit # DeltaV
-  - HoPBoatswain # DeltaV
-=======
-  - HoPFormal # DeltaV
   - HoPFormalDress # DeltaV
-  - HoPMessSkirt # DeltaV
-  - HoPMessSuit # DeltaV
-  - HoPBoatswain # DeltaV
->>>>>>> 2c287b8be9d (Formal dresses for heads! (#2556))
 
 - type: loadoutGroup
   id: HoPNeck
