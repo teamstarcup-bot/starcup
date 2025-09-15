@@ -981,3 +981,20 @@
   id: 8176
   time: '2025-09-14T03:44:51.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/390
+- author: princesspengy
+  changes:
+  - message: delta-v's mining points system has been added, letting salvagers gather
+      points by processing ores
+    type: Add
+  - message: ported bluespace shelter capsules from delta-v, to help salvagers protect
+      themselves and each other against harsh environmental conditions!
+    type: Add
+  - message: the salvage vendor now utilizes mining points to offer a variety of salvage
+      gear
+    type: Tweak
+  - message: the salvage job board has been rendered obsolete with these changes and
+      has been removed
+    type: Remove
+  id: 8177
+  time: '2025-09-15T06:49:00.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/409
