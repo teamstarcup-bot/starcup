@@ -9,17 +9,19 @@
   - ServiceWorkerCapFlip
   - ServiceWorkerBandana
 
-- type: loadoutGroup
-  id: ServiceWorkerJumpsuit
-  name: loadout-group-serviceworker-jumpsuit
-  loadouts:
-  - GreenJumpsuit
-  - GreenJumpskirt
-  - DarkGreenJumpsuit
-  - DarkGreenJumpskirt
-  - BartenderJumpsuit
-  - BartenderJumpskirt
-  - BartenderJumpsuitPurple
+# begin starcup
+#- type: loadoutGroup
+#  id: ServiceWorkerJumpsuit
+#  name: loadout-group-serviceworker-jumpsuit
+#  loadouts:
+#  - GreenJumpsuit
+#  - GreenJumpskirt
+#  - DarkGreenJumpsuit
+#  - DarkGreenJumpskirt
+#  - BartenderJumpsuit
+#  - BartenderJumpskirt
+#  - BartenderJumpsuitPurple
+# end starcup
 
 ## Bartender
 - type: loadoutGroup
