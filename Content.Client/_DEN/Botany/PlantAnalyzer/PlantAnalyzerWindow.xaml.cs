@@ -8,7 +8,7 @@ using Robust.Client.UserInterface.XAML;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Timing;
 
-namespace Content.Client._Den.Botany.PlantAnalyzer;
+namespace Content.Client._DEN.Botany.PlantAnalyzer;
 
 [GenerateTypedNameReferences]
 public sealed partial class PlantAnalyzerWindow : FancyWindow

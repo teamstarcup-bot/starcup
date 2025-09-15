@@ -1,5 +1,5 @@
 using System.Diagnostics.CodeAnalysis;
-using Content.Server._Den.AbstractAnalyzer;
+using Content.Server._DEN.AbstractAnalyzer;
 using Content.Server.PowerCell;
 using Content.Shared.DoAfter;
 using Content.Shared.Interaction;
@@ -12,7 +12,7 @@ using Robust.Shared.Audio.Systems;
 using Robust.Shared.Containers;
 using Robust.Shared.Timing;
 
-namespace Content.Server._Den.AbstractAnalyzer;
+namespace Content.Server._DEN.AbstractAnalyzer;
 
 public abstract class AbstractAnalyzerSystem<TAnalyzerComponent, TAnalyzerDoAfterEvent> : EntitySystem
     where TAnalyzerComponent : AbstractAnalyzerComponent

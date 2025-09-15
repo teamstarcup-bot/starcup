@@ -1,7 +1,7 @@
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
-using Content.Server._Den.AbstractAnalyzer;
-using Content.Server._Den.Botany.Components;
+using Content.Server._DEN.AbstractAnalyzer;
+using Content.Server._DEN.Botany.Components;
 using Content.Server.Botany.Components;
 using Content.Server.Botany.Systems;
 using Content.Server.Popups;
@@ -16,7 +16,7 @@ using Robust.Shared.Audio.Systems;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Timing;
 
-namespace Content.Server._Den.Botany;
+namespace Content.Server._DEN.Botany;
 
 public sealed class PlantAnalyzerSystem : AbstractAnalyzerSystem<PlantAnalyzerComponent, PlantAnalyzerDoAfterEvent>
 {
