@@ -1019,3 +1019,12 @@
   id: 8180
   time: '2025-09-15T22:56:48.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/423
+- author: teamstarcup-bot
+  changes:
+  - message: removed the T3 Lockout on research techs
+    type: Remove
+  - message: all techs in a tier must now be researched before the next tier is unlocked
+    type: Tweak
+  id: 8181
+  time: '2025-09-15T23:24:26.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/415
