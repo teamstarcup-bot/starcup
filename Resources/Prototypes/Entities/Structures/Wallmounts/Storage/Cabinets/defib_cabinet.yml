@@ -24,9 +24,6 @@
         whitelist:
           components:
           - Defibrillator
-  - type: Damageable
-    damageContainer: StructuralInorganic
-    damageModifierSet: Metallic
   # Begin DeltaV additions
   - type: Charger
     slotId: ItemCabinet
