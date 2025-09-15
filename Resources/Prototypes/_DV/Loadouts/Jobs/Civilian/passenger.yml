@@ -682,11 +682,11 @@
   equipment:
     shoes: ClothingShoesColorOrange
 
-## Red Shoes
-- type: loadout
-  id: RedShoes
-  equipment:
-    shoes: ClothingShoesColorRed
+### Red Shoes  # starcup
+#- type: loadout
+#  id: RedShoes
+#  equipment:
+#    shoes: ClothingShoesColorRed
 
 ## Yellow Shoes
 - type: loadout
