@@ -6,12 +6,6 @@ namespace Content.Shared._L5.CCVar;
 public sealed partial class L5CCVars
 {
     /// <summary>
-    /// The cost in research points for generating a bluespace crystal
-    /// </summary>
-    public static readonly CVarDef<int> BluespaceCrystalPointCost =
-        CVarDef.Create("l5.research.bluespace_crystal_cost", 20_000, CVar.REPLICATED);
-
-    /// <summary>
     /// How far speech travels in space — defaults to approximately touch
     /// </summary>
     public static readonly CVarDef<float> InSpaceRange =
