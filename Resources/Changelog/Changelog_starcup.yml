@@ -998,3 +998,10 @@
   id: 8177
   time: '2025-09-15T06:49:00.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/409
+- author: teamstarcup-bot
+  changes:
+  - message: You can unanchor unwhitelisted smart fridges now.
+    type: Fix
+  id: 8178
+  time: '2025-09-15T09:24:10.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/412
