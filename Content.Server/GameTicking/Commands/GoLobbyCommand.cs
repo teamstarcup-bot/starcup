@@ -20,7 +20,7 @@ namespace Content.Server.GameTicking.Commands
         // L5 - add confirm
         public string Help => $"Usage: {Command} [confirm] / {Command} <preset> [confirm]";
 
-        public void Execute(IConsoleShell shell, string argStr, string[] args)
+        public override void Execute(IConsoleShell shell, string argStr, string[] args)
         {
             GamePresetPrototype? preset = null;
             var presetName = string.Join(" ", args);
