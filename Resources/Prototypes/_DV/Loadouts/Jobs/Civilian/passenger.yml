@@ -89,23 +89,25 @@
   equipment:
     head: ClothingHeadHatFedoraGrey
 
-## Black Fedora
-- type: loadout
-  id: BlackFedora
-  equipment:
-    head: ClothingHeadHatFedoraBlack
-
-## Chocolate Fedora
-- type: loadout
-  id: ChocFedora
-  equipment:
-    head: ClothingHeadHatFedoraChoc
-
-## White Fedora
-- type: loadout
-  id: WhiteFedora
-  equipment:
-    head: ClothingHeadHatFedoraWhite
+# begin starcup
+### Black Fedora
+#- type: loadout
+#  id: BlackFedora
+#  equipment:
+#    head: ClothingHeadHatFedoraBlack
+#
+### Chocolate Fedora
+#- type: loadout
+#  id: ChocFedora
+#  equipment:
+#    head: ClothingHeadHatFedoraChoc
+#
+### White Fedora
+#- type: loadout
+#  id: WhiteFedora
+#  equipment:
+#    head: ClothingHeadHatFedoraWhite
+# end starcup
 
 ## Grey Flat Cap
 - type: loadout
@@ -113,17 +115,19 @@
   equipment:
     head: ClothingHeadHatGreyFlatcap
 
-## Black Flat Cap
-- type: loadout
-  id: BlackFlatCap
-  equipment:
-    head: ClothingHeadHatFlatBlack
-
-## Brown Flat Cap
-- type: loadout
-  id: BrownFlatCap
-  equipment:
-    head: ClothingHeadHatFlatBrown
+# begin starcup
+### Black Flat Cap
+#- type: loadout
+#  id: BlackFlatCap
+#  equipment:
+#    head: ClothingHeadHatFlatBlack
+#
+### Brown Flat Cap
+#- type: loadout
+#  id: BrownFlatCap
+#  equipment:
+#    head: ClothingHeadHatFlatBrown
+# end starcup
 
 ## Brown Cowboy Hat
 - type: loadout
@@ -373,17 +377,19 @@
   equipment:
     jumpsuit: ClothingUniformJumpskirtColorMaroon
 
-## Rose Hoodie w/ Skirt
-- type: loadout
-  id: MioSkirt
-  equipment:
-    jumpsuit: ClothingCostumeMioSkirt
-
-## Turqoise Hoodie w/ Shorts
-- type: loadout
-  id: NaotaHoodie
-  equipment:
-    jumpsuit: ClothingCostumeNaota
+# begin starcup
+### Rose Hoodie w/ Skirt
+#- type: loadout
+#  id: MioSkirt
+#  equipment:
+#    jumpsuit: ClothingCostumeMioSkirt
+#
+### Turqoise Hoodie w/ Shorts
+#- type: loadout
+#  id: NaotaHoodie
+#  equipment:
+#    jumpsuit: ClothingCostumeNaota
+# end starcup
 
 ## Casual Red
 - type: loadout
