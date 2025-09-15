@@ -35,14 +35,7 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using Robust.Shared.Replays;
 using Robust.Shared.Utility;
-using Content.Server.Shuttles.Components;
-using Content.Shared.Actions;
-using Robust.Shared.Map;
-using Robust.Shared.Physics.Components;
-using Robust.Shared.Physics.Dynamics.Joints;
-using Content.Server.Effects;
 using Content.Shared._L5.CCVar;
-using Content.Shared.Coordinates;
 
 namespace Content.Server.Chat.Systems;
 
@@ -70,27 +63,7 @@ public sealed partial class ChatSystem : SharedChatSystem
     [Dependency] private readonly ReplacementAccentSystem _wordreplacement = default!;
     [Dependency] private readonly EntityWhitelistSystem _whitelistSystem = default!;
     [Dependency] private readonly ExamineSystemShared _examineSystem = default!;
-<<<<<<< HEAD
-||||||| parent of 967e6d93c72 (Limit chat by occlusion and pressure (#213))
-
-    //Nyano - Summary: pulls in the nyano chat system for psionics.
-    [Dependency] private readonly NyanoChatSystem _nyanoChatSystem = default!;
-
-    public const int VoiceRange = 10; // how far voice goes in world units
-    public const int WhisperClearRange = 2; // how far whisper goes while still being understandable, in world units
-    public const int WhisperMuffledRange = 5; // how far whisper goes at all, in world units
-    public const string DefaultAnnouncementSound = "/Audio/Announcements/announce.ogg";
-=======
     [Dependency] private readonly SharedMapSystem _mapSystem = default!;
-
-    //Nyano - Summary: pulls in the nyano chat system for psionics.
-    [Dependency] private readonly NyanoChatSystem _nyanoChatSystem = default!;
-
-    public const int VoiceRange = 10; // how far voice goes in world units
-    public const int WhisperClearRange = 2; // how far whisper goes while still being understandable, in world units
-    public const int WhisperMuffledRange = 5; // how far whisper goes at all, in world units
-    public const string DefaultAnnouncementSound = "/Audio/Announcements/announce.ogg";
->>>>>>> 967e6d93c72 (Limit chat by occlusion and pressure (#213))
 
     private bool _loocEnabled = true;
     private bool _deadLoocEnabled;
@@ -303,60 +276,7 @@ public sealed partial class ChatSystem : SharedChatSystem
                     );
                 break;
             case InGameICChatType.Emote:
-<<<<<<< HEAD
                 SendEntityEmote(source, message, range, nameOverride, hideLog: hideLog, ignoreActionBlocker: ignoreActionBlocker);
-||||||| parent of 967e6d93c72 (Limit chat by occlusion and pressure (#213))
-                SendEntityEmote(source, message, range, nameOverride, hideLog: hideLog, ignoreActionBlocker: ignoreActionBlocker);
-                break;
-            case InGameICChatType.Subtle:
-                SendEntitySubtle(source, message, range, nameOverride, hideLog: hideLog, ignoreActionBlocker: ignoreActionBlocker, color: color);
-                break;
-            case InGameICChatType.SubtleOOC:
-                SendEntitySubtle(source, $"ooc: {message}", range, nameOverride, hideLog: hideLog, ignoreActionBlocker: ignoreActionBlocker, color: color);
-                break;
-            //Nyano - Summary: case adds the telepathic chat sending ability.
-            case InGameICChatType.Telepathic:
-                _nyanoChatSystem.SendTelepathicChat(source, message, range == ChatTransmitRange.HideChat);
-=======
-                SendEntityEmote(
-                    source,
-                    message,
-                    range,
-                    nameOverride,
-                    hideLog: hideLog,
-                    ignoreActionBlocker: ignoreActionBlocker
-                    );
-                break;
-            case InGameICChatType.Subtle:
-                SendEntitySubtle(
-                    source,
-                    message,
-                    range,
-                    nameOverride,
-                    hideLog: hideLog,
-                    ignoreActionBlocker: ignoreActionBlocker,
-                    color: color
-                    );
-                break;
-            case InGameICChatType.SubtleOOC:
-                SendEntitySubtle(
-                    source,
-                    $"ooc: {message}",
-                    range,
-                    nameOverride,
-                    hideLog: hideLog,
-                    ignoreActionBlocker: ignoreActionBlocker,
-                    color: color
-                    );
-                break;
-            //Nyano - Summary: case adds the telepathic chat sending ability.
-            case InGameICChatType.Telepathic:
-                _nyanoChatSystem.SendTelepathicChat(
-                    source,
-                    message,
-                    range == ChatTransmitRange.HideChat
-                    );
->>>>>>> 967e6d93c72 (Limit chat by occlusion and pressure (#213))
                 break;
         }
     }
@@ -720,19 +640,10 @@ public sealed partial class ChatSystem : SharedChatSystem
             ("message", formattedMessage),  // starcup: possessive case emotes
             ("space", space));  // starcup: possessive case emotes
 
-<<<<<<< HEAD
         if (checkEmote &&
             !TryEmoteChatInput(source, action))
             return;
 
-        SendInVoiceRange(ChatChannel.Emotes, action, wrappedMessage, source, range, author);
-||||||| parent of 967e6d93c72 (Limit chat by occlusion and pressure (#213))
-        if (checkEmote)
-            TryEmoteChatInput(source, action);
-        SendInVoiceRange(ChatChannel.Emotes, action, wrappedMessage, source, range, author);
-=======
-        if (checkEmote)
-            TryEmoteChatInput(source, action);
         SendInVoiceRange(
             ChatChannel.Emotes,
             name,
@@ -745,7 +656,6 @@ public sealed partial class ChatSystem : SharedChatSystem
             author,
             checkLOS: _configurationManager.GetCVar(L5CCVars.EmoteRespectsLOS) // Floofstation: some things don't go through walls (but they go through windows!)
             );
->>>>>>> 967e6d93c72 (Limit chat by occlusion and pressure (#213))
         if (!hideLog)
             if (name != Name(source))
                 _adminLogger.Add(LogType.Chat, LogImpact.Low, $"Emote from {ToPrettyString(source):user} as {name}: {action}");
