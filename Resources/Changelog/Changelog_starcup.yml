@@ -1012,3 +1012,10 @@
   id: 8179
   time: '2025-09-15T22:48:06.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/416
+- author: teamstarcup-bot
+  changes:
+  - message: You can now engrave rings.
+    type: Add
+  id: 8180
+  time: '2025-09-15T22:56:48.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/423
