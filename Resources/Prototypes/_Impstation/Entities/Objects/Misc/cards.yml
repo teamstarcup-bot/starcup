@@ -27,7 +27,7 @@
     sprite: _EstacaoPirata/Objects/Misc/cards.rsi
     state: deck_tarot_full
   - type: CardStack
-    contents:  # starcup: content -> contents
+    initialContent:  # starcup: content -> initialContent
     # Cups
     - CardScAceOfCups
     - CardScTwoOfCups
