@@ -13,7 +13,6 @@ namespace Content.Server.GameTicking.Commands
     {
         [Dependency] private readonly IConfigurationManager _configManager = default!;
         [Dependency] private readonly GameTicker _gameTicker = default!;
-        [Dependency] private readonly IEntityManager _e = default!;
         [Dependency] private readonly IGameTiming _time = default!; // L5
 
         public override string Command => "golobby";
@@ -29,14 +28,12 @@ namespace Content.Server.GameTicking.Commands
             var confirm = presetName.EndsWith("confirm");
             if (confirm)
                 presetName = presetName[..^"confirm".Length].TrimEnd();
-            else if (_time.RealTime > TimeSpan.FromHours(1))
+            else if (_time.RealTime > TimeSpan.FromMinutes(30))  // starcup: FromHours(1) -> FromMinutes(30)
             {
                 shell.WriteLine($"Add 'confirm' to the command to really end the round and go back to the lobby.");
                 return;
             }
             // End L5 changes
-
-            var ticker = _e.System<GameTicker>();
 
             if (presetName.Length > 0) // L5 - was args.Length
             {
