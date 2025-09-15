@@ -108,35 +108,9 @@
   - TowelColorRed
   - TowelColorSilver
   - TowelColorYellow
-<<<<<<< HEAD
   # Misc Cosmetics
   - GoldRing # Delta-V
   - SilverRing # Delta-V
-||||||| parent of f12b84e7d18 (Mega assistant loadout update (#3554))
-  # Begin DeltaV Additions
-  - AACTablet
-  - GoldRing
-  - SilverRing
-  - Cane
-  - WhiteCane
-  - CDDogtags # taken from Cosmatic Drift
-  - TapeRecorder
-  - ClothingHeadHatUshanka
-  - Wristwatch
-  # End DeltaV Additions
-=======
-  # Begin DeltaV Additions
-  - AACTablet
-  - GoldRing
-  - SilverRing
-  - Cane
-  - WhiteCane
-  - CDDogtags # taken from Cosmatic Drift
-  - TapeRecorder
-  - ClothingHeadHatUshanka
-  - Eyepatch
-  # End DeltaV Additions
->>>>>>> f12b84e7d18 (Mega assistant loadout update (#3554))
 
 - type: loadoutGroup
   id: Glasses
@@ -282,7 +256,6 @@
   loadouts:
   - GreyJumpsuit
   - GreyJumpskirt
-<<<<<<< HEAD
   # begin starcup additions
   - ElegantDressBlack
   - ElegantDressRed
@@ -290,18 +263,6 @@
   - ElegantDressBlue
   - ElegantDressPurple
   # end starcup
-||||||| parent of f12b84e7d18 (Mega assistant loadout update (#3554))
-  # Begin DeltaV additions
-  - MioSkirt
-  - NaotaHoodie
-  - CasualBlueSkirt
-  - CasualBlueSuit
-  - CasualRedSkirt
-  - CasualRedSuit
-  - CasualPurpleSkirt
-  - CasualPurpleSuit
-  # Begin DeltaV additions
-=======
   # Begin DeltaV additions
   - WhiteJumpsuit
   - WhiteJumpskirt
@@ -333,8 +294,8 @@
   - BrownJumpskirt
   - MaroonJumpsuit
   - MaroonJumpskirt
-  - MioSkirt
-  - NaotaHoodie
+#  - MioSkirt  # starcup
+#  - NaotaHoodie  # starcup
   - CasualBlueSkirt
   - CasualBlueSuit
   - CasualRedSkirt
@@ -358,7 +319,6 @@
   - YellowTurtleneckDress
   - OldYellowDress
   # End DeltaV additions
->>>>>>> f12b84e7d18 (Mega assistant loadout update (#3554))
   - AncientJumpsuit
   - RainbowJumpsuit
   - RainbowJumpskirt

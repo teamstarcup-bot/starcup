@@ -28,7 +28,8 @@ loadout-group-admin-assistant-outerclothing = Administrative Assistant outer clo
 loadout-group-admin-assistant-shoes = Administrative Assistant shoes
 loadout-group-admin-assistant-gloves = Administrative Assistant gloves
 
-loadout-group-assistant-head = Assistant head
+# starcup: assistant -> passenger
+loadout-group-assistant-head = Passenger head
 
 # Logistics
 loadout-group-courier-head = Courier head

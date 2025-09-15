@@ -1,32 +1,6 @@
-
-
-## Bartender
+# Civilian (actually Service but hey, that's what they called it :shrug:)
+## Service Worker
 - type: loadoutGroup
-<<<<<<< HEAD
-||||||| parent of f12b84e7d18 (Mega assistant loadout update (#3554))
-  id: ServiceWorkerHead
-  name: loadout-group-serviceworker-head
-  minLimit: 0
-  loadouts:
-  - ServiceWorkerCap
-  - ServiceWorkerCapFlip
-  - ServiceWorkerBandana
-
-- type: loadoutGroup
-  id: ServiceWorkerJumpsuit
-  name: loadout-group-serviceworker-jumpsuit
-  loadouts:
-  - ServiceWorkerJumpsuit
-  - ServiceWorkerJumpskirt
-  - ServiceWorkerJumpsuitDark
-  - ServiceWorkerJumpskirtDark
-  - BartenderJumpsuit
-  - BartenderJumpskirt
-  - BartenderJumpsuitPurple
-
-## Bartender
-- type: loadoutGroup
-=======
   id: ServiceWorkerHead
   name: loadout-group-serviceworker-head
   minLimit: 0
@@ -49,7 +23,6 @@
 
 ## Bartender
 - type: loadoutGroup
->>>>>>> f12b84e7d18 (Mega assistant loadout update (#3554))
   id: BartenderNeck
   name: loadout-group-bartender-neck
   minLimit: 0
@@ -102,10 +75,7 @@
   - ScarfBlack
   - ScarfPurple
   - ScarfZebra
-<<<<<<< HEAD
   - ScarfRainbow #starcup
-||||||| parent of f12b84e7d18 (Mega assistant loadout update (#3554))
-=======
 
 ## Assistants
 - type: loadoutGroup
@@ -126,12 +96,12 @@
   - RedBeret
   - BrownFedora
   - GreyFedora
-  - BlackFedora
-  - ChocFedora
-  - WhiteFedora
+#  - BlackFedora # starcup
+#  - ChocFedora # starcup
+#  - WhiteFedora # starcup
   - GreyFlatCap
-  - BlackFlatCap
-  - BrownFlatCap
+#  - BlackFlatCap # starcup
+#  - BrownFlatCap # starcup
   - BrownCowboyHat
   - BlackCowboyHat
   - GreyCowboyHat
@@ -143,7 +113,6 @@
   - OutlawHat
   - WitchHat
   - PirateHat
->>>>>>> f12b84e7d18 (Mega assistant loadout update (#3554))
 
 # Logistics
 ## Courier
