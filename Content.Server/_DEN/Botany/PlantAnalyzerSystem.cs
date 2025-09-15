@@ -5,7 +5,7 @@ using Content.Server._DEN.Botany.Components;
 using Content.Server.Botany.Components;
 using Content.Server.Botany.Systems;
 using Content.Server.Popups;
-using Content.Shared._Den.Botany.PlantAnalyzer;
+using Content.Shared._DEN.Botany.PlantAnalyzer;
 using Content.Shared.Hands.EntitySystems;
 using Content.Shared.Interaction;
 using Content.Shared.Labels.EntitySystems;
