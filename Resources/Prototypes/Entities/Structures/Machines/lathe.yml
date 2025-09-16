@@ -712,121 +712,27 @@
     producingSound: /Audio/Machines/cutter.ogg
     idleState: icon
     runningState: building
-<<<<<<< HEAD
     staticPacks:
     - FloorTilesStatic
     - NFFloorTiles # Frontier
-||||||| parent of 4cd34860f8d (Add Service/decorative floors to the Cutter Machine (#1673))
-    staticRecipes:
-      - FloorTileItemDark
-      - FloorTileItemDarkDiagonalMini
-      - FloorTileItemDarkDiagonal
-      - FloorTileItemDarkHerringbone
-      - FloorTileItemDarkMini
-      - FloorTileItemDarkMono
-      - FloorTileItemDarkPavement
-      - FloorTileItemDarkPavementVertical
-      - FloorTileItemDarkOffset
-      - FloorTileItemSteelCheckerDark
-      - FloorTileItemSteel
-      - FloorTileItemSteelOffset
-      - FloorTileItemSteelDiagonalMini
-      - FloorTileItemSteelDiagonal
-      - FloorTileItemSteelHerringbone
-      - FloorTileItemSteelMini
-      - FloorTileItemSteelMono
-      - FloorTileItemSteelPavement
-      - FloorTileItemSteelPavementVertical
-      - FloorTileItemWhite
-      - FloorTileItemWhiteOffset
-      - FloorTileItemWhiteDiagonalMini
-      - FloorTileItemWhiteDiagonal
-      - FloorTileItemWhiteHerringbone
-      - FloorTileItemWhiteMini
-      - FloorTileItemWhiteMono
-      - FloorTileItemWhitePavement
-      - FloorTileItemWhitePavementVertical
-      - FloorTileItemSteelCheckerLight
-      - FloorTileItemGratingMaint
-      - FloorTileItemTechmaint
-      - FloorTileItemSteelMaint
-      - FloorTileItemWood
-      - FloorTileItemWoodLarge
-      - FloorTileItemWoodPattern
-      - FloorTileItemConcrete
-      - FloorTileItemConcreteMono
-      - FloorTileItemConcreteSmooth
-      - FloorTileItemGrayConcrete
-      - FloorTileItemGrayConcreteMono
-      - FloorTileItemGrayConcreteSmooth
-      - FloorTileItemOldConcrete
-      - FloorTileItemOldConcreteMono
-      - FloorTileItemOldConcreteSmooth
-=======
-    staticRecipes:
-      - FloorTileItemDark
-      - FloorTileItemDarkDiagonalMini
-      - FloorTileItemDarkDiagonal
-      - FloorTileItemDarkHerringbone
-      - FloorTileItemDarkMini
-      - FloorTileItemDarkMono
-      - FloorTileItemDarkPavement
-      - FloorTileItemDarkPavementVertical
-      - FloorTileItemDarkOffset
-      - FloorTileItemSteelCheckerDark
-      - FloorTileItemSteel
-      - FloorTileItemSteelOffset
-      - FloorTileItemSteelDiagonalMini
-      - FloorTileItemSteelDiagonal
-      - FloorTileItemSteelHerringbone
-      - FloorTileItemSteelMini
-      - FloorTileItemSteelMono
-      - FloorTileItemSteelPavement
-      - FloorTileItemSteelPavementVertical
-      - FloorTileItemWhite
-      - FloorTileItemWhiteOffset
-      - FloorTileItemWhiteDiagonalMini
-      - FloorTileItemWhiteDiagonal
-      - FloorTileItemWhiteHerringbone
-      - FloorTileItemWhiteMini
-      - FloorTileItemWhiteMono
-      - FloorTileItemWhitePavement
-      - FloorTileItemWhitePavementVertical
-      - FloorTileItemSteelCheckerLight
-      - FloorTileItemGratingMaint
-      - FloorTileItemTechmaint
-      - FloorTileItemSteelMaint
-      - FloorTileItemWood
-      - FloorTileItemWoodLarge
-      - FloorTileItemWoodPattern
-      - FloorTileItemConcrete
-      - FloorTileItemConcreteMono
-      - FloorTileItemConcreteSmooth
-      - FloorTileItemGrayConcrete
-      - FloorTileItemGrayConcreteMono
-      - FloorTileItemGrayConcreteSmooth
-      - FloorTileItemOldConcrete
-      - FloorTileItemOldConcreteMono
-      - FloorTileItemOldConcreteSmooth
-      # DeltaV: Add "recreational" / service dept. tiles
-      - FloorTileItemBar
-      - FloorTileItemFreezer
-      - FloorTileItemHydro
-      - FloorTileItemKitchen
-      - FloorTileItemLaundry
-      - FloorTileItemShowroom
-      - FloorTileItemClown
-      - FloorTileItemMime
-      - FloorTileItemArcadeBlue
-      - FloorTileItemArcadeBlue2
-      - FloorTileItemArcadeRed
-      - FloorTileItemEighties
-      - FloorTileItemBoxing
-      - FloorTileItemGym
-      - FloorTileItemCarpetClown
-      - FloorTileItemCarpetOffice
-      # End DeltaV
->>>>>>> 4cd34860f8d (Add Service/decorative floors to the Cutter Machine (#1673))
+    # DeltaV: Add "recreational" / service dept. tiles
+    - FloorTileItemBar
+    - FloorTileItemFreezer
+    - FloorTileItemHydro
+    - FloorTileItemKitchen
+    - FloorTileItemLaundry
+    - FloorTileItemShowroom
+    - FloorTileItemClown
+    - FloorTileItemMime
+    - FloorTileItemArcadeBlue
+    - FloorTileItemArcadeBlue2
+    - FloorTileItemArcadeRed
+    - FloorTileItemEighties
+    - FloorTileItemBoxing
+    - FloorTileItemGym
+    - FloorTileItemCarpetClown
+    - FloorTileItemCarpetOffice
+    # End DeltaV
   - type: MaterialStorage
     whitelist:
       tags:
