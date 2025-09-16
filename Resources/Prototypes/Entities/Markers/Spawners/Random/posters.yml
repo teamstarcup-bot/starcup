@@ -92,20 +92,7 @@
       - PosterContrabandInterdyne
       - PosterContrabandWaffleCorp
       - PosterContrabandMissingSpacepen
-<<<<<<< HEAD
-      - PosterContrabandExoAcid
-      - PosterContrabandExoRun
-      - PosterContrabandExoChomp
-||||||| parent of 7f70d1e6695 (Ported Starlight Signs (#2741))
-      - PosterContrabandWork # DeltaV Poster, see Resources/Prototypes/_DV/Entities/Structures/Wallmount/Signs/posters.yml
-      - PosterContrabandL6 # DeltaV Poster, see Resources/Prototypes/_DV/Entities/Structures/Wallmount/Signs/posters.yml
-      - PosterContrabandRoid # DeltaV Poster, see Resources/Prototypes/_DV/Entities/Structures/Wallmount/Signs/posters.yml
-=======
-      - PosterContrabandWork # DeltaV Poster, see Resources/Prototypes/_DV/Entities/Structures/Wallmount/Signs/posters.yml
-      - PosterContrabandL6 # DeltaV Poster, see Resources/Prototypes/_DV/Entities/Structures/Wallmount/Signs/posters.yml
-      - PosterContrabandRoid # DeltaV Poster, see Resources/Prototypes/_DV/Entities/Structures/Wallmount/Signs/posters.yml
       - PosterContrabandYoutoolpia # Starlight Poster, see Resources/Prototypes/_Starlight/Entities/Structures/Wallmount/Signs/signs.yml
->>>>>>> 7f70d1e6695 (Ported Starlight Signs (#2741))
     chance: 1
 
 - type: entity
