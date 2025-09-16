@@ -2,7 +2,7 @@
   id: SpaceDisposalUnit
   parent: DisposalUnit
   name: space disposal unit
-  description: A pneumatic waste disposal unit with warning signs telling you that it leads to space and that NT is not responsible for any injury.
+  description: A pneumatic waste disposal unit with warning signs telling you that it leads to space and that your employer is not responsible for any injury.
   components:
   - type: Sprite
     sprite: DeltaV/Structures/Piping/disposal.rsi
