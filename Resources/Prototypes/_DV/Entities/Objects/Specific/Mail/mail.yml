@@ -698,30 +698,14 @@
     - id: PlushieMoth
       prob: 0.5
       orGroup: Plushie
-<<<<<<< HEAD
 #    - id: PlushieMothMusician # starcup - commented out for now
 #      prob: 0.5
 #      orGroup: Plushie
 #    - id: PlushieMothBartender # starcup - commented out for now
 #      prob: 0.5
 #      orGroup: Plushie
-||||||| parent of 743cdbb606c (added ipc plushie (batteries not included) (#3023))
-    - id: PlushieMothMusician
-      prob: 0.5
-      orGroup: Plushie
-    - id: PlushieMothBartender
-      prob: 0.5
-      orGroup: Plushie
-=======
-    - id: PlushieMothMusician
-      prob: 0.5
-      orGroup: Plushie
-    - id: PlushieMothBartender
-      prob: 0.5
-      orGroup: Plushie
     - id: PlushieIPC
       orGroup: Plushie
->>>>>>> 743cdbb606c (added ipc plushie (batteries not included) (#3023))
 
 # Random snacks, replaces MailChocolate (lousy animal organs)
 - type: entity
