@@ -19,6 +19,10 @@
     ClothingHeadHatCanadaBeanie: 4
     ClothingHeadHatSantahat: 2
     ClothingHeadHatXmasCrown: 2
+    # begin starcup
+    ClothingRandomSpawnerTurtleneckJumpsuit: 10
+    ClothingRandomSpawnerTurtleneckJumpskirt: 10
+    # end starcup
     # Begin DeltaV additions
     ClothingOuterWinterColorRed: 2
     ClothingOuterWinterColorOrange: 2
