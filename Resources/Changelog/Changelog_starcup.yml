@@ -1117,3 +1117,10 @@
   id: 8191
   time: '2025-09-17T04:04:43.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/450
+- author: teamstarcup-bot
+  changes:
+  - message: Resprited EE sprites for corpse dragging.
+    type: Tweak
+  id: 8192
+  time: '2025-09-17T04:11:46.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/437
