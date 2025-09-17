@@ -1102,3 +1102,11 @@
   id: 8189
   time: '2025-09-17T03:48:38.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/425
+- author: portfiend
+  changes:
+  - message: More floor tiles have been added to the cutter machine, namely Service
+      department tiles such as bar, kitchen, clown, mime, laundry, and arcade tiles.
+    type: Add
+  id: 8190
+  time: '2025-09-17T03:55:28.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/440
