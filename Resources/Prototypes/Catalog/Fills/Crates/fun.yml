@@ -47,6 +47,7 @@
     - id: PlushieEikse
     - id: PlushieMort
     # end starcup
+    - id: PlushieIPC # DeltaV Toy, see Resources/Prototypes/_DV/Entities/Objects/Fun/toys.yml
 
 - type: entityTable
   id: AllPottedPlantsTable
