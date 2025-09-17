@@ -1131,3 +1131,11 @@
   id: 8193
   time: '2025-09-17T04:18:50.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/441
+- author: Velcroboy
+  changes:
+  - message: Hospital curtains now take up less space when open and have interaction
+      outlines. This should make treating patients under them a little better.
+    type: Tweak
+  id: 8194
+  time: '2025-09-17T04:37:08.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/444
