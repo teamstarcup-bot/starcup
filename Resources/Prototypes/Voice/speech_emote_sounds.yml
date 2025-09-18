@@ -502,6 +502,7 @@
       collection: Blinks
       params:
         volume: -3
+        variation: 0.1 # DEN
 
 - type: emoteSounds
   id: DionaBodyEmotes
@@ -523,6 +524,7 @@
       collection: Blinks
       params:
         volume: -3
+        variation: 0.1 # DEN
 
 - type: emoteSounds
   id: ReptilianBodyEmotes
@@ -547,6 +549,7 @@
       collection: Blinks
       params:
         volume: -3
+        variation: 0.1 # DEN
 
 # mobs
 - type: emoteSounds
