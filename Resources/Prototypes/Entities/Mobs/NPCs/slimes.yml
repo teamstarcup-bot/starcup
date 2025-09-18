@@ -134,8 +134,8 @@
     allowedEmotes: ['Squish', 'Bubble', 'Pop'] # imp: added bubble and pop
   - type: TypingIndicator
     proto: slime
-  - type: Vocal # starcup
-    sounds:
+  - type: Vocal
+    sounds: # starcup
       Male: AnimalSlime
       Female: AnimalSlime
       Unsexed: AnimalSlime
