@@ -131,10 +131,10 @@
   - type: Speech
     speechVerb: Slime
     speechSounds: Slime
-    allowedEmotes: ['Squish', 'Bubble', 'Pop']
+    allowedEmotes: ['Squish', 'Bubble', 'Pop'] # imp: added bubble and pop
   - type: TypingIndicator
     proto: slime
-  - type: Vocal
+  - type: Vocal # starcup
     sounds:
       Male: AnimalSlime
       Female: AnimalSlime

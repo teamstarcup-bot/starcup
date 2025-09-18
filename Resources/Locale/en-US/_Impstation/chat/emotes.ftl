@@ -1,5 +1,5 @@
 # Names
-chat-emote-name-ungh = Ungh
+#chat-emote-name-ungh = Ungh # starcup
 chat-emote-name-bubble = Bubble
 chat-emote-name-pop = Pop
 chat-emote-name-crack = Crack Knuckles

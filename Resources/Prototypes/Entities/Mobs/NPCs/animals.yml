@@ -2034,8 +2034,6 @@
   id: MobLizard
   description: A harmless dragon.
   components:
-  - type: ReplacementAccent
-    accent: kobold
   - type: Speech # Imp edit
     speechSounds: Lizard
     speechVerb: Reptilian

@@ -310,6 +310,7 @@
     - salute
     - salutes
 
+# begin imp
 - type: emote
   id: Crack
   name: chat-emote-name-crack
@@ -331,6 +332,7 @@
     - cracks her knuckles
     - cracks his knuckles
     - cracks its knuckles
+# end imp
 
 - type: emote
   id: Gasp
