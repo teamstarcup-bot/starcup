@@ -16,6 +16,7 @@ public sealed class AlarmAutoLinkSystem : EntitySystem
     [Dependency] private readonly DeviceListSystem _deviceListSystem = default!;
     [Dependency] private readonly MapSystem _mapSystem = default!;
     [Dependency] private readonly EntityLookupSystem _entityLookupSystem = default!;
+    [Dependency] private readonly TurfSystem _turf = default!;
 
     /// <inheritdoc/>
     public override void Initialize()
@@ -92,7 +93,7 @@ public sealed class AlarmAutoLinkSystem : EntitySystem
                     continue;
 
                 var nextTile = _mapSystem.GetTileRef(grid, tileRef.GridIndices + offset);
-                if (!nextTile.IsSpace())
+                if (!_turf.IsSpace(nextTile))
                     queue.Enqueue((nextTile, offsetDir));
             }
         }
