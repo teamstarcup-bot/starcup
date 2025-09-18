@@ -27,17 +27,3 @@
   components:
   - type: AirAlarm
     autoMode: false
-
-- type: entity
-  id: AirAlarmFreezerAutoLink
-  parent: AirAlarmFreezer
-  suffix: Autolink, Freezer Atmosphere, auto mode disabled
-  components:
-  - type: AlarmAutoLink
-    autoLinkPrototypes:
-    - GasVentScrubberFreezer
-    - GasVentPumpFreezer
-    - AirSensorFreezer
-    - Firelock
-    - FirelockGlass
-    - FirelockEdge

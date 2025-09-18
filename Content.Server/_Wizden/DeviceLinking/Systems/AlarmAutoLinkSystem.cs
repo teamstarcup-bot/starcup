@@ -9,7 +9,12 @@ using Robust.Server.GameObjects;
 using Robust.Shared.Map;
 using Robust.Shared.Map.Components;
 
-namespace Content.Server.DeviceLinking.Systems;
+namespace Content.Server._Wizden.DeviceLinking.Systems;
+
+/**
+ * Authored by poemota (GitHub) for space-wizards/space-station-14#35617
+ * This file is obsolete if that PR has been merged.
+ */
 
 public sealed class AlarmAutoLinkSystem : EntitySystem
 {

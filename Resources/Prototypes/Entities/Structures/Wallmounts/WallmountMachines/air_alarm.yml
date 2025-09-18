@@ -111,21 +111,6 @@
     - DeviceMonitoringAndControl
 
 - type: entity
-  id: AirAlarmAutoLink
-  parent: AirAlarm
-  suffix: Autolink
-  components:
-  - type: AlarmAutoLink
-    autoLinkPrototypes:
-    - GasVentScrubber
-    - GasVentPump
-    - GasDualPortVentPump
-    - AirSensor
-    - Firelock
-    - FirelockGlass
-    - FirelockEdge
-
-- type: entity
   parent: BaseWallmountMetallic
   id: AirAlarmAssembly
   name: air alarm assembly
