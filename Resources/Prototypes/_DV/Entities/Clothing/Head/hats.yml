@@ -32,3 +32,180 @@
   - type: Clothing
     sprite: _DV/Clothing/Head/Soft/couriersoft.rsi
     equippedPrefix: flipped
+<<<<<<< HEAD
+||||||| constructed fake ancestor
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatDirCap
+  name: director's cap
+  description: A green cap with a director's rank emblem, belonging to a high-ranking member of Central Command. Whoever it is, they mean business.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Head/Hats/dircap.rsi
+  - type: Clothing
+    sprite: _DV/Clothing/Head/Hats/dircap.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBeretLogi
+  name: logistics beret
+  description: For the intellectual and studious accountant. Definitely not a revolutionary symbol.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Head/Hats/beret_lo.rsi
+  - type: Clothing
+    sprite: _DV/Clothing/Head/Hats/beret_lo.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBeretCorpsman
+  name: corpsman beret
+  description: For style-conscious combat lifesavers and medical specialists alike.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Head/Hats/beret_corpsman.rsi
+  - type: Clothing
+    sprite: _DV/Clothing/Head/Hats/beret_corpsman.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBeretDet
+  name: detective's beret
+  description: For forensic specialists and dogged investigators.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Head/Hats/beret_det.rsi
+  - type: Clothing
+    sprite: _DV/Clothing/Head/Hats/beret_det.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatCJToque
+  name: chief justice's toque
+  description: A standard-issue judicial hat. Wigs are old-fashioned anyway.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Head/Hats/cj_toque.rsi
+  - type: Clothing
+    sprite: _DV/Clothing/Head/Hats/cj_toque.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadMailCarrier
+  name: mail carrier's hat
+  description: Smells like a good pension.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Head/Hats/mailman.rsi
+  - type: Clothing
+    sprite: _DV/Clothing/Head/Hats/mailman.rsi
+  - type: CatWearable # Frontier/Delta V
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadPropellerHat
+  name: propeller hat
+  description: A colorful propeller hat made for those that wish to have some whimsy in their life. Fly away now, fly away now, fly away!
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Head/Hats/propellerhat.rsi
+  - type: Clothing
+    sprite: _DV/Clothing/Head/Hats/propellerhat.rsi
+=======
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatDirCap
+  name: director's cap
+  description: A green cap with a director's rank emblem, belonging to a high-ranking member of Central Command. Whoever it is, they mean business.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Head/Hats/dircap.rsi
+  - type: Clothing
+    sprite: _DV/Clothing/Head/Hats/dircap.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBeretLogi
+  name: logistics beret
+  description: For the intellectual and studious accountant. Definitely not a revolutionary symbol.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Head/Hats/beret_lo.rsi
+  - type: Clothing
+    sprite: _DV/Clothing/Head/Hats/beret_lo.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBeretCorpsman
+  name: corpsman beret
+  description: For style-conscious combat lifesavers and medical specialists alike.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Head/Hats/beret_corpsman.rsi
+  - type: Clothing
+    sprite: _DV/Clothing/Head/Hats/beret_corpsman.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBeretDet
+  name: detective's beret
+  description: For forensic specialists and dogged investigators.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Head/Hats/beret_det.rsi
+  - type: Clothing
+    sprite: _DV/Clothing/Head/Hats/beret_det.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatCJToque
+  name: chief justice's toque
+  description: A standard-issue judicial hat. Wigs are old-fashioned anyway.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Head/Hats/cj_toque.rsi
+  - type: Clothing
+    sprite: _DV/Clothing/Head/Hats/cj_toque.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadMailCarrier
+  name: mail carrier's hat
+  description: Smells like a good pension.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Head/Hats/mailman.rsi
+  - type: Clothing
+    sprite: _DV/Clothing/Head/Hats/mailman.rsi
+  - type: CatWearable # Frontier/Delta V
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadPropellerHat
+  name: propeller hat
+  description: A colorful propeller hat made for those that wish to have some whimsy in their life. Fly away now, fly away now, fly away!
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Head/Hats/propellerhat.rsi
+  - type: Clothing
+    sprite: _DV/Clothing/Head/Hats/propellerhat.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBeretAtmospherics
+  name: atmospherics beret
+  description: Yellow beret that entices you to make canister bombs. Don't.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Head/Hats/beret_atmospherics.rsi
+  - type: Clothing
+    sprite: _DV/Clothing/Head/Hats/beret_atmospherics.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - Recyclable
+    - HamsterWearable
+    - WhitelistChameleon
+>>>>>>> Added atmospherics beret to atmos tech loadouts.

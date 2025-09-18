@@ -497,6 +497,337 @@
   - ScarfLightBlue
   - ScarfOrange
 
+<<<<<<< HEAD
+||||||| constructed fake ancestor
+- type: loadoutGroup
+  id: AtmosphericTechnicianHead
+  name: loadout-group-atmospheric-technician-head
+  minLimit: 0
+  loadouts:
+  - StationEngineerHardhatYellow
+  - StationEngineerHardhatOrange
+  - StationEngineerHardhatRed
+  - AtmosHardHatBlue
+
+## Clerk
+- type: loadoutGroup
+  id: ClerkJumpsuit
+  name: loadout-group-clerk-jumpsuit
+  loadouts:
+  - ClerkJumpsuit
+  - ClerkJumpskirt
+
+- type: loadoutGroup
+  id: ClerkNeck
+  name: loadout-group-clerk-neck
+  minLimit: 0
+  loadouts:
+  - BlackTie
+  - BlueTie
+  - BrownTie
+  - GreenTie
+  - RedTie
+  - WhiteTie
+
+- type: loadoutGroup
+  id: ClerkOuterClothing
+  name: loadout-group-clerk-outerclothing
+  minLimit: 0
+  loadouts:
+  - ClerkVest
+
+- type: loadoutGroup
+  id: ClerkShoes
+  name: loadout-group-clerk-shoes
+  loadouts:
+  - LaceupShoes
+  - LeatherShoes
+
+## Prosecutor
+- type: loadoutGroup
+  id: ProsecutorJumpsuit
+  name: loadout-group-prosecutor-jumpsuit
+  loadouts:
+  - ProsecutorJumpsuit
+  - ProsecutorJumpskirt
+  - LawyerJumpsuit
+  - LawyerJumpskirt
+  - LawyerJumpsuitBlue
+  - LawyerJumpskirtBlue
+  - LawyerJumpsuitPurple
+  - LawyerJumpskirtPurple
+  - LawyerJumpsuitRed
+  - LawyerJumpskirtRed
+  - LawyerJumpsuitGood
+  - LawyerJumpskirtGood
+
+- type: loadoutGroup
+  id: ProsecutorNeck
+  name: loadout-group-prosecutor-neck
+  minLimit: 0
+  loadouts:
+  - ProsecutorNeck
+
+- type: loadoutGroup
+  id: ProsecutorOuterClothing
+  name: loadout-group-prosecutor-outer-clothing
+  minLimit: 0
+  loadouts:
+  - ProsecutorOvercoat
+
+# Epistemics
+## Roboticist
+- type: loadoutGroup
+  id: RoboticistHead
+  name: loadout-group-roboticist-head
+  minLimit: 0
+  loadouts:
+  - RoboticistCap
+  - SkullBandana
+  - ScientificBeret
+  - CardborgHelmet
+
+- type: loadoutGroup
+  id: RoboticistJumpsuit
+  name: loadout-group-roboticist-jumpsuit
+  loadouts:
+  - RoboticistJumpsuit
+  - RoboticistJumpskirt
+  - ScientistJumpsuit
+  - ScientistJumpskirt
+
+- type: loadoutGroup
+  id: RoboticistOuterClothing
+  name: loadout-group-roboticist-outerclothing
+  minLimit: 0
+  loadouts:
+  - RoboticistLabCoat
+  - RoboticistWintercoat
+  - RegularLabCoat
+  - ScienceLabCoat
+  - CardborgCostume
+
+- type: loadoutGroup
+  id: RoboticistGloves
+  name: loadout-group-roboticist-gloves
+  minLimit: 0
+  loadouts:
+  - LatexGloves
+  - PurpleGloves
+  - RobohandsGloves
+
+- type: loadoutGroup
+  id: RoboticistShoes
+  name: loadout-group-roboticist-shoes
+  loadouts:
+  - BlackShoes
+  - RoboticsWinterBoots
+  - WhiteShoes
+  - ScienceWinterBoots
+
+# Command
+## Captain
+- type: loadoutGroup
+  id: CaptainGloves
+  name: loadout-group-captain-gloves
+  minLimit: 0
+  loadouts:
+  - CaptainGloves
+  - InspectionGloves
+
+- type: loadoutGroup
+  id: CaptainShoes
+  name: loadout-group-captain-shoes
+  loadouts:
+  - BrownLeatherShoes
+  - WhiteLeatherShoes
+  - LaceupShoes
+  - CaptainWinterBoots
+
+## Head of Personnel
+- type: loadoutGroup
+  id: HoPGloves
+  name: loadout-group-hop-gloves
+  minLimit: 0
+  loadouts:
+  - HoPGloves
+  - InspectionGloves
+
+- type: loadoutGroup
+  id: HoPShoes
+  name: loadout-group-hop-shoes
+  loadouts:
+  - BrownLeatherShoes
+  - WhiteLeatherShoes
+  - LaceupShoes
+  - HoPWinterBoots
+
+=======
+- type: loadoutGroup
+  id: AtmosphericTechnicianHead
+  name: loadout-group-atmospheric-technician-head
+  minLimit: 0
+  loadouts:
+  - StationEngineerHardhatYellow
+  - StationEngineerHardhatOrange
+  - StationEngineerHardhatRed
+  - AtmosHardHatBlue
+  - AtmosBeret
+
+## Clerk
+- type: loadoutGroup
+  id: ClerkJumpsuit
+  name: loadout-group-clerk-jumpsuit
+  loadouts:
+  - ClerkJumpsuit
+  - ClerkJumpskirt
+
+- type: loadoutGroup
+  id: ClerkNeck
+  name: loadout-group-clerk-neck
+  minLimit: 0
+  loadouts:
+  - BlackTie
+  - BlueTie
+  - BrownTie
+  - GreenTie
+  - RedTie
+  - WhiteTie
+
+- type: loadoutGroup
+  id: ClerkOuterClothing
+  name: loadout-group-clerk-outerclothing
+  minLimit: 0
+  loadouts:
+  - ClerkVest
+
+- type: loadoutGroup
+  id: ClerkShoes
+  name: loadout-group-clerk-shoes
+  loadouts:
+  - LaceupShoes
+  - LeatherShoes
+
+## Prosecutor
+- type: loadoutGroup
+  id: ProsecutorJumpsuit
+  name: loadout-group-prosecutor-jumpsuit
+  loadouts:
+  - ProsecutorJumpsuit
+  - ProsecutorJumpskirt
+  - LawyerJumpsuit
+  - LawyerJumpskirt
+  - LawyerJumpsuitBlue
+  - LawyerJumpskirtBlue
+  - LawyerJumpsuitPurple
+  - LawyerJumpskirtPurple
+  - LawyerJumpsuitRed
+  - LawyerJumpskirtRed
+  - LawyerJumpsuitGood
+  - LawyerJumpskirtGood
+
+- type: loadoutGroup
+  id: ProsecutorNeck
+  name: loadout-group-prosecutor-neck
+  minLimit: 0
+  loadouts:
+  - ProsecutorNeck
+
+- type: loadoutGroup
+  id: ProsecutorOuterClothing
+  name: loadout-group-prosecutor-outer-clothing
+  minLimit: 0
+  loadouts:
+  - ProsecutorOvercoat
+
+# Epistemics
+## Roboticist
+- type: loadoutGroup
+  id: RoboticistHead
+  name: loadout-group-roboticist-head
+  minLimit: 0
+  loadouts:
+  - RoboticistCap
+  - SkullBandana
+  - ScientificBeret
+  - CardborgHelmet
+
+- type: loadoutGroup
+  id: RoboticistJumpsuit
+  name: loadout-group-roboticist-jumpsuit
+  loadouts:
+  - RoboticistJumpsuit
+  - RoboticistJumpskirt
+  - ScientistJumpsuit
+  - ScientistJumpskirt
+
+- type: loadoutGroup
+  id: RoboticistOuterClothing
+  name: loadout-group-roboticist-outerclothing
+  minLimit: 0
+  loadouts:
+  - RoboticistLabCoat
+  - RoboticistWintercoat
+  - RegularLabCoat
+  - ScienceLabCoat
+  - CardborgCostume
+
+- type: loadoutGroup
+  id: RoboticistGloves
+  name: loadout-group-roboticist-gloves
+  minLimit: 0
+  loadouts:
+  - LatexGloves
+  - PurpleGloves
+  - RobohandsGloves
+
+- type: loadoutGroup
+  id: RoboticistShoes
+  name: loadout-group-roboticist-shoes
+  loadouts:
+  - BlackShoes
+  - RoboticsWinterBoots
+  - WhiteShoes
+  - ScienceWinterBoots
+
+# Command
+## Captain
+- type: loadoutGroup
+  id: CaptainGloves
+  name: loadout-group-captain-gloves
+  minLimit: 0
+  loadouts:
+  - CaptainGloves
+  - InspectionGloves
+
+- type: loadoutGroup
+  id: CaptainShoes
+  name: loadout-group-captain-shoes
+  loadouts:
+  - BrownLeatherShoes
+  - WhiteLeatherShoes
+  - LaceupShoes
+  - CaptainWinterBoots
+
+## Head of Personnel
+- type: loadoutGroup
+  id: HoPGloves
+  name: loadout-group-hop-gloves
+  minLimit: 0
+  loadouts:
+  - HoPGloves
+  - InspectionGloves
+
+- type: loadoutGroup
+  id: HoPShoes
+  name: loadout-group-hop-shoes
+  loadouts:
+  - BrownLeatherShoes
+  - WhiteLeatherShoes
+  - LaceupShoes
+  - HoPWinterBoots
+
+>>>>>>> Added atmospherics beret to atmos tech loadouts.
 # PDAs
 - type: loadoutGroup
   id: PassengerPDADelta
