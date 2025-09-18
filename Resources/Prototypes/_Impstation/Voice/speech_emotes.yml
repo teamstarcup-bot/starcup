@@ -36,7 +36,7 @@
     - popping
 
 - type: emote
-  id: Hiss
+  id: LizardHiss # starcup: Hiss -> LizardHiss
   name: chat-emote-name-hiss
   category: Vocal
   available: false

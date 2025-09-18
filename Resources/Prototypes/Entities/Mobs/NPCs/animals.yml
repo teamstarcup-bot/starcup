@@ -1558,7 +1558,7 @@
 #  - type: Speech
 #    speechSounds: Lizard
 #    speechVerb: Reptilian
-#    allowedEmotes: ['Thump', 'Hiss'] # impstation: added hiss
+#    allowedEmotes: ['Thump', 'LizardHiss'] # impstation: added hiss # starcup: Hiss -> LizardHiss
 #  - type: Vocal
 #    sounds:
 #      Male: MaleReptilian
@@ -2037,7 +2037,7 @@
   - type: Speech # Imp edit
     speechSounds: Lizard
     speechVerb: Reptilian
-    allowedEmotes: ['Hiss'] # Can't thump tail because no body component
+    allowedEmotes: ['LizardHiss'] # Can't thump tail because no body component  # starcup: Hiss -> LizardHiss
   - type: Vocal # Imp edit
     sounds:
       Male: MaleReptilian

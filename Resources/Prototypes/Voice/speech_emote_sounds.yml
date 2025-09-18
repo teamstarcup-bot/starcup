@@ -92,7 +92,7 @@
       path: /Audio/Voice/Reptilian/reptilian_scream.ogg
     Laugh:
       path: /Audio/Animals/lizard_happy.ogg
-    Hiss: # Imp edit
+    LizardHiss: # Imp edit
       collection: ReptilianHiss
     Honk:
       collection: BikeHorn
@@ -128,7 +128,7 @@
       path: /Audio/Voice/Reptilian/reptilian_scream.ogg
     Laugh:
       path: /Audio/Animals/lizard_happy.ogg
-    Hiss: # Imp edit
+    LizardHiss: # Imp edit
       collection: ReptilianHiss
     Honk:
       collection: BikeHorn
