@@ -56,18 +56,20 @@
     - hisses.
     - hisses!
 
-- type: emote
-  id: Wuhey
-  name: chat-emote-name-wuhey
-  category: Vocal
-  icon: _Impstation/Interface/Emotes/wuhey.png
-  chatMessages: ["chat-emote-msg-wuhey"]
-
-- type: emote
-  id: Ungh
-  name: chat-emote-name-weh
-  category: Vocal
-  chatMessages: [UNGHs!]
+# begin starcup: removed
+#- type: emote
+#  id: Wuhey
+#  name: chat-emote-name-wuhey
+#  category: Vocal
+#  icon: _Impstation/Interface/Emotes/wuhey.png
+#  chatMessages: ["chat-emote-msg-wuhey"]
+#
+#- type: emote
+#  id: Ungh
+#  name: chat-emote-name-weh
+#  category: Vocal
+#  chatMessages: [UNGHs!]
+# end starcup
 
 - type: emote
   id: Blink
