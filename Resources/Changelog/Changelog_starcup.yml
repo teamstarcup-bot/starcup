@@ -1206,3 +1206,13 @@
   id: 8201
   time: '2025-09-20T15:35:39.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/397
+- author: KoboldCatgirl
+  changes:
+  - message: Saltern has been massively redesigned with new job areas and updated
+      equipment.
+    type: Add
+  - message: Saltern Evac will no longer randomly get spaced.
+    type: Fix
+  id: 8202
+  time: '2025-09-20T21:28:54.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/447
