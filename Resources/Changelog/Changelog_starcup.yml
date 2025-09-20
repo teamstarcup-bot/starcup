@@ -1186,3 +1186,23 @@
   id: 8200
   time: '2025-09-20T02:44:54.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/459
+- author: princesspengy
+  changes:
+  - message: monkeys and humanoids can no longer be butchered
+    type: Remove
+  - message: the meat spike is no longer standard kitchen equipment and has been unmapped.
+      it can still be constructed for getting meat from xenos, dragons, etc
+    type: Remove
+  - message: to compensate, the chef's closet has been provided with a chef cube box,
+      which contains a random selection of various animal cubes (ported from impstation!)
+    type: Add
+  - message: monkey's delight now uses normal meat instead of a monkey cube
+    type: Tweak
+  - message: increased the amount of meat that the chefvend starts with
+    type: Tweak
+  - message: food made of people parts (human burger, eyeball soup, etc) has been
+      removed from random spawners
+    type: Remove
+  id: 8201
+  time: '2025-09-20T15:35:39.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/397
