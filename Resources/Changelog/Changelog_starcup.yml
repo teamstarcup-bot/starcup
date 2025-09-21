@@ -1223,3 +1223,11 @@
   id: 8203
   time: '2025-09-21T00:38:03.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/464
+- author: princesspengy
+  changes:
+  - message: the bioluminescent botany trait has been removed again after it was revealed
+      to still cause lighting errors
+    type: Remove
+  id: 8204
+  time: '2025-09-21T03:54:46.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/465
