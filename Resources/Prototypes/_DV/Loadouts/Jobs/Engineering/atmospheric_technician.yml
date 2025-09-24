@@ -13,34 +13,8 @@
   id: PlasmaScientistPDA
   equipment:
     id: PlasmaScientistPDA
-<<<<<<< HEAD
-||||||| constructed fake ancestor
 
 # Head
-- type: loadout
-  id: AtmosHardHatBlue
-  equipment:
-    head: ClothingHeadHatHardhatBlue
-
-#Jumpsuits
-- type: loadout
-  id: AtmosphericTechnicianJumpskirtCasual
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtAtmosCasual
-
-# Shoes
-- type: loadout
-  id: AtmosWinterBoots
-  equipment:
-    shoes: ClothingShoesBootsWinterAtmos
-=======
-
-# Head
-- type: loadout
-  id: AtmosHardHatBlue
-  equipment:
-    head: ClothingHeadHatHardhatBlue
-
 - type: loadout
   id: AtmosBeret
   effects:
@@ -48,19 +22,7 @@
     requirement:
       !type:RoleTimeRequirement
       role: JobAtmosphericTechnician
-      time: 216000 # 60hr
+      time: 72000 # 60hr # starcup: 216000 (60hr) -> 72000 (20hr)
   equipment:
     head: ClothingHeadHatBeretAtmospherics
 
-#Jumpsuits
-- type: loadout
-  id: AtmosphericTechnicianJumpskirtCasual
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtAtmosCasual
-
-# Shoes
-- type: loadout
-  id: AtmosWinterBoots
-  equipment:
-    shoes: ClothingShoesBootsWinterAtmos
->>>>>>> Added atmospherics beret to atmos tech loadouts.
