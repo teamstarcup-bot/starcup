@@ -107,7 +107,7 @@
   description: A pneumatic mail delivery unit.
   components:
   - type: Sprite
-    sprite: _DV/Structures/Piping/disposal.rsi # DeltaV - Use old sprites
+    sprite: Structures/Piping/disposal.rsi
     snapCardinals: true
     layers:
       - state: conmailing
