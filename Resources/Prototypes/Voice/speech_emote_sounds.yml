@@ -92,6 +92,8 @@
       path: /Audio/Voice/Reptilian/reptilian_scream.ogg
     Laugh:
       path: /Audio/Animals/lizard_happy.ogg
+    LizardHiss: # Imp edit
+      collection: ReptilianHiss
     Honk:
       collection: BikeHorn
     Whistle:
@@ -126,6 +128,8 @@
       path: /Audio/Voice/Reptilian/reptilian_scream.ogg
     Laugh:
       path: /Audio/Animals/lizard_happy.ogg
+    LizardHiss: # Imp edit
+      collection: ReptilianHiss
     Honk:
       collection: BikeHorn
     Whistle:
@@ -156,6 +160,10 @@
   sounds:
     Squish:
       collection: Squishes
+    Bubble:
+      collection: Bubbles # Imp addition
+    Pop:
+      collection: Pops # Imp addition
     Scream:
       collection: MaleScreams
     Laugh:
@@ -200,6 +208,10 @@
   sounds:
     Squish:
       collection: Squishes
+    Bubble:
+      collection: Bubbles # Imp addition
+    Pop:
+        collection: Pops # Imp addition
     Scream:
       collection: FemaleScreams
     Laugh:
@@ -503,6 +515,8 @@
       params:
         volume: -3
         variation: 0.1 # DEN
+    Crack: # Imp addition
+      collection: Cracks
 
 - type: emoteSounds
   id: DionaBodyEmotes
@@ -525,6 +539,8 @@
       params:
         volume: -3
         variation: 0.1 # DEN
+    Crack: # Imp addition
+      collection: Cracks
 
 - type: emoteSounds
   id: ReptilianBodyEmotes
@@ -543,6 +559,8 @@
         volume: -6
     Salute:
       collection: Salutes
+    Crack: # Imp addition
+      collection: Cracks
 
 # mobs
     Blink: # Imp addition
