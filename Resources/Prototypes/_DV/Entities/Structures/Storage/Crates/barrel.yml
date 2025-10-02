@@ -5,14 +5,14 @@
   description: A musty old wooden barrel.
   components:
   - type: Sprite
-    sprite: DeltaV/Objects/Storage/barrel.rsi
+    sprite: _DV/Objects/Storage/barrel.rsi
     layers:
     - state: base
       map: ["enum.StorageVisualLayers.Base"]
     - state: closed
       map: ["enum.StorageVisualLayers.Door"]
   - type: Icon
-    sprite: DeltaV/Objects/Storage/barrel.rsi
+    sprite: _DV/Objects/Storage/barrel.rsi
     state: base
   - type: Damageable
     damageContainer: StructuralInorganic
@@ -80,7 +80,7 @@
   - type: DumpableSolution
     solution: tank
   - type: Sprite
-    sprite: DeltaV/Objects/Storage/keg.rsi
+    sprite: _DV/Objects/Storage/keg.rsi
     layers:
     - state: base
       map: ["enum.StorageVisualLayers.Base"]
