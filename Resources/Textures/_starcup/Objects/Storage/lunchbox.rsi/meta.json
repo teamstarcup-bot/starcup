@@ -1,38 +1,38 @@
 {
-    "version":1,
-    "license":"CC-BY-SA-3.0",
-    "copyright":"made by noctyrnal (github) from the honkbox sprite made by brainfood1183 (github), syndicate command and syndcomm resprites by little_meow_meow",
-    "size":{
-        "x":32,
-        "y":32
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "made by noctyrnal (github) from the honkbox sprite made by brainfood1183 (github), syndicate command and syndcomm resprites by little_meow_meow",
+    "size": {
+        "x": 32,
+        "y": 32
     },
-    "states":[
+    "states": [
         {
-            "name":"command-syndie"
+            "name": "command-syndie"
         },
         {
-            "name":"command-syndie-open"
+            "name": "command-syndie-open"
         },
         {
-            "name":"command-syndie-inhand-left",
+            "name": "command-syndie-inhand-left",
             "directions": 4
         },
         {
-            "name":"command-syndie-inhand-right",
+            "name": "command-syndie-inhand-right",
             "directions": 4
         },
         {
-            "name":"syndcomm"
+            "name": "syndcomm"
         },
         {
-            "name":"syndcomm-open"
+            "name": "syndcomm-open"
         },
         {
-            "name":"syndcomm-inhand-left",
+            "name": "syndcomm-inhand-left",
             "directions": 4
         },
         {
-            "name":"syndcomm-inhand-right",
+            "name": "syndcomm-inhand-right",
             "directions": 4
         }
     ]
