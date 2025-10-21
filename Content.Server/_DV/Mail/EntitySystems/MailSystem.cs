@@ -541,7 +541,7 @@ namespace Content.Server._DV.Mail.EntitySystems
             var accessReader = EnsureComp<AccessReaderComponent>(uid);
             foreach (var access in recipient.AccessTags)
             {
-                _accessSystem.AddAccess(new Entity<AccessReaderComponent>(uid, accessReader), access); // starcup: rewritten for access reader refactor
+                _accessSystem.TryAddAccess(new Entity<AccessReaderComponent>(uid, accessReader), access);
             }
         }
 
@@ -660,7 +660,7 @@ namespace Content.Server._DV.Mail.EntitySystems
 
             if (candidateList.Count <= 0)
             {
-                _sawmill.Error("List of mail candidates was empty!");
+                // _sawmill.Error("List of mail candidates was empty!"); // starcup
                 return;
             }
 
