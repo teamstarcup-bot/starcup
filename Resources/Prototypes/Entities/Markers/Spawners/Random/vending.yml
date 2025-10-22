@@ -50,6 +50,8 @@
       weight: 10
     - id: VendingMachineMNKDrobe # starcup
       weight: 20
+    - id: VendingMachineCrescentMoon # DeltaV
+      weight: 30
 
 - type: entity
   id: RandomVendingClothing

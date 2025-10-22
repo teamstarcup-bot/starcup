@@ -82,6 +82,127 @@
     FoodPoppy: 1
     ClothingHeadHatGladiator: 1
     ClothingUniformJumpsuitGladiator: 1
+<<<<<<< HEAD
+||||||| constructed fake ancestor
+    # Begin DeltaV Additions
+    ClothingUniformSkirtTurtle: 2
+    ClothingUniformSwimsuitBlue: 2
+    ClothingCostumeBunnySuit: 2
+    ClothingHeadHatBunny: 2
+    ClothingUniformDressRed: 1
+    ClothingHeadHatCake: 2
+    ClothingUniformSchoolGakuranBlack: 2
+    UniformSchoolgirlBlack: 1
+    UniformSchoolgirlBlue: 1
+    UniformSchoolgirlCyan: 1
+    UniformSchoolgirlGreen: 1
+    UniformSchoolgirlOrange: 1
+    UniformSchoolgirlPink: 1
+    UniformSchoolgirlPurple: 1
+    UniformSchoolgirlRed: 1
+    UniformSchoolgirlDusk: 1
+    UniformSchoolgirlBlazerTan: 1
+    UniformGeisha: 1
+    ClothingKimonoBlue: 2
+    ClothingKimonoPink: 2
+    ClothingKimonoPurple: 2
+    ClothingKimonoSky: 2
+    ClothingKimonoGreen: 2
+    ClothingMaskOniBlue: 1
+    ClothingMaskOniRed: 1
+    ClothingCostumeArcDress: 1
+    ClothingCostumeMioSkirt: 1
+    ClothingCostumeNaota: 1
+    ClothingUniformJumpsuitSober: 1
+    ClothingOuterSuitCarp: 2 # moved out of syndicate uplink
+    ClothingShoesBootsWinterClown: 2
+    ClothingShoesBootsWinterMime: 2
+    ClothingUniformJumpsuitDetective: 1
+    ClothingUniformJumpskirtDetective: 1
+    ClothingUniformJumpsuitDetectiveGrey: 1
+    ClothingUniformJumpskirtDetectiveGrey: 1
+    ClothingOuterCoatDetectiveLoadout: 1
+    ClothingNeckTieDet: 1
+    ClothingHeadHatFedoraBrown: 1
+    ClothingHeadHatFedoraGrey: 1
+    ClothingHeadHatFedoraChoc: 1
+    ClothingHeadHatFedoraWhite: 1
+    ClothingHeadHatFedoraBlack: 1
+    ClothingHeadHatBowlerHat: 1
+    ClothingUniformFuneralSuit: 1
+    ClothingUniformFuneralSuitSkirt: 1
+    ClothingHeadTechPriest: 2 # moved from robodrobe
+    ClothingOuterRobeTechPriest: 2
+    ClothingMaskBlushingClown: 1 # moved from emag inventory
+    ClothingMaskBlushingMime: 1
+    ClothingHeadPropellerHat: 2
+    ClothingUniformLittleGuyOveralls: 2
+    ClothingOuterWinterLongMime: 1
+    # End DeltaV Additions
+=======
+    # Begin DeltaV Additions
+    ClothingUniformSkirtTurtle: 2
+    ClothingUniformSwimsuitBlue: 2
+    ClothingCostumeBunnySuit: 2
+    ClothingHeadHatBunny: 2
+    ClothingUniformDressRed: 1
+    ClothingHeadHatCake: 2
+    ClothingUniformSchoolGakuranBlack: 2
+    ClothingUniformJumpskirtWaitstaffFormal: 2
+    ClothingUniformJumpsuitWaitstaffFormal: 2
+    ClothingUniformJumpsuitWorkvest: 2
+    ClothingOuterDusterCoat: 2
+    ClothingOuterCoatNavalCoat: 2
+    ClothingNeckCloakWitchCloak: 2
+    ClothingNeckCopperNecklace: 2
+    UniformSchoolgirlBlack: 1
+    UniformSchoolgirlBlue: 1
+    UniformSchoolgirlCyan: 1
+    UniformSchoolgirlGreen: 1
+    UniformSchoolgirlOrange: 1
+    UniformSchoolgirlPink: 1
+    UniformSchoolgirlPurple: 1
+    UniformSchoolgirlRed: 1
+    UniformSchoolgirlDusk: 1
+    UniformSchoolgirlBlazerTan: 1
+    UniformGeisha: 1
+    ClothingKimonoBlue: 2
+    ClothingKimonoPink: 2
+    ClothingKimonoPurple: 2
+    ClothingKimonoSky: 2
+    ClothingKimonoGreen: 2
+    ClothingMaskOniBlue: 1
+    ClothingMaskOniRed: 1
+    ClothingCostumeArcDress: 1
+    ClothingCostumeMioSkirt: 1
+    ClothingCostumeNaota: 1
+    ClothingUniformJumpsuitSober: 1
+    ClothingOuterSuitCarp: 2 # moved out of syndicate uplink
+    ClothingShoesBootsWinterClown: 2
+    ClothingShoesBootsWinterMime: 2
+    ClothingUniformJumpsuitDetective: 1
+    ClothingUniformJumpskirtDetective: 1
+    ClothingUniformJumpsuitDetectiveGrey: 1
+    ClothingUniformJumpskirtDetectiveGrey: 1
+    ClothingOuterCoatDetectiveLoadout: 1
+    ClothingNeckTieDet: 1
+    ClothingHeadHatFedoraBrown: 1
+    ClothingHeadHatFedoraGrey: 1
+    ClothingHeadHatFedoraChoc: 1
+    ClothingHeadHatFedoraWhite: 1
+    ClothingHeadHatFedoraBlack: 1
+    ClothingHeadHatBowlerHat: 1
+    ClothingUniformFuneralSuit: 1
+    ClothingUniformFuneralSuitSkirt: 1
+    ClothingHeadTechPriest: 2 # moved from robodrobe
+    ClothingOuterRobeTechPriest: 2
+    ClothingMaskBlushingClown: 1 # moved from emag inventory
+    ClothingMaskBlushingMime: 1
+    ClothingHeadPropellerHat: 2
+    ClothingUniformLittleGuyOveralls: 2
+    ClothingOuterWinterLongMime: 1
+    # End DeltaV Additions
+>>>>>>> please spare me nukeops
     ClothingHeadHatCowboyBrown: 1
     ClothingHeadHatCowboyBlack: 1
     ClothingHeadHatCowboyWhite: 1
