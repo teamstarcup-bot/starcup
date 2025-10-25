@@ -51,7 +51,6 @@
     children:
     - id: FoodBagelCotton
     - id: FoodBakedGrilledCheeseSandwichCotton
-      rolls: 2
     - id: FoodBreadCottonSlice
       rolls: 2
     - id: FoodBakedCroissantCotton
