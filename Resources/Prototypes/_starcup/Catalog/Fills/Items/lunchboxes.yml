@@ -52,11 +52,8 @@
     - id: FoodBagelCotton
     - id: FoodBakedGrilledCheeseSandwichCotton
     - id: FoodBreadCottonSlice
-      rolls: 2
     - id: FoodBakedCroissantCotton
-      rolls: 2
     - id: FoodPizzaCottonSlice
-      rolls: 2
 
 - type: entityTable
   id: LunchboxFillSnackHealthy
